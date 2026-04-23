@@ -1,121 +1,3 @@
-2025-11-18 14:55:32,265 - INFO - Fetching RSS feed: https://feeds.feedburner.com/TheHackersNews
-2025-11-18 14:55:32,666 - INFO - Found 50 entries in feed: The Hacker News
-2025-11-18 14:55:32,677 - INFO - SKIPPED (duplicate): Sneaky 2FA Phishing Kit Adds BitB Pop-ups Designed to Mimic the Browser Address Bar [The Hacker News]
-2025-11-18 14:55:32,679 - INFO - SKIPPED (duplicate): Meta Expands WhatsApp Security Research with New Proxy Tool and $4M in Bounties This Year [The Hacker News]
-2025-11-18 14:55:32,682 - INFO - SKIPPED (duplicate): Learn How Leading Companies Secure Cloud Workloads and Infrastructure at Scale [The Hacker News]
-2025-11-18 14:55:32,684 - INFO - SKIPPED (duplicate): Researchers Detail Tuoni C2's Role in an Attempted 2025 Real-Estate Cyber Intrusion [The Hacker News]
-2025-11-18 14:55:32,700 - INFO - SKIPPED (duplicate): Iranian Hackers Use DEEPROOT and TWOSTROKE Malware in Aerospace and Defense Attacks [The Hacker News]
-2025-11-18 14:55:32,702 - INFO - SKIPPED (duplicate): Beyond IAM Silos: Why the Identity Security Fabric is Essential for Securing AI and Non-Human Identities [The Hacker News]
-2025-11-18 14:55:32,704 - INFO - SKIPPED (duplicate): Seven npm Packages Use Adspect Cloaking to Trick Victims Into Crypto Scam Pages [The Hacker News]
-2025-11-18 14:55:32,707 - INFO - SKIPPED (duplicate): Microsoft Mitigates Record 15.72 Tbps DDoS Attack Driven by AISURU Botnet [The Hacker News]
-2025-11-18 14:55:32,709 - INFO - SKIPPED (duplicate): Google Issues Security Fix for Actively Exploited Chrome V8 Zero-Day Vulnerability [The Hacker News]
-2025-11-18 14:55:32,711 - INFO - SKIPPED (duplicate): New EVALUSION ClickFix Campaign Delivers Amatera Stealer and NetSupport RAT [The Hacker News]
-2025-11-18 14:55:32,713 - INFO - SKIPPED (duplicate): \u26a1 Weekly Recap: Fortinet Exploited, China's AI Hacks, PhaaS Empire Falls & More [The Hacker News]
-2025-11-18 14:55:32,714 - INFO - SKIPPED (duplicate): 5 Reasons Why Attackers Are Phishing Over LinkedIn [The Hacker News]
-2025-11-18 14:55:32,716 - INFO - SKIPPED (duplicate): Dragon Breath Uses RONINGLOADER to Disable Security Tools and Deploy Gh0st RAT [The Hacker News]
-2025-11-18 14:55:32,717 - INFO - SKIPPED (duplicate): Rust Adoption Drives Android Memory Safety Bugs Below 20% for First Time [The Hacker News]
-2025-11-18 14:55:32,719 - INFO - SKIPPED (duplicate): RondoDox Exploits Unpatched XWiki Servers to Pull More Devices Into Its Botnet [The Hacker News]
-2025-11-18 14:55:32,721 - INFO - SKIPPED (duplicate): Five Plead Guilty in U.S. for Helping North Korean IT Workers Infiltrate 136 Companies [The Hacker News]
-2025-11-18 14:55:32,727 - INFO - SKIPPED (duplicate): North Korean Hackers Turn JSON Services into Covert Malware Delivery Channels [The Hacker News]
-2025-11-18 14:55:32,730 - INFO - SKIPPED (duplicate): Researchers Find Serious AI Bugs Exposing Meta, Nvidia, and Microsoft Inference Frameworks [The Hacker News]
-2025-11-18 14:55:32,732 - INFO - SKIPPED (duplicate): Iranian Hackers Launch ëSpearSpecterí Spy Operation on Defense & Government Targets [The Hacker News]
-2025-11-18 14:55:32,735 - INFO - SKIPPED (duplicate): Ransomware's Fragmentation Reaches a Breaking Point While LockBit Returns [The Hacker News]
-2025-11-18 14:55:32,735 - INFO - Fetching RSS feed: https://www.csoonline.com/index.rss
-2025-11-18 14:55:33,287 - INFO - Found 0 entries in feed: CSO Online
-2025-11-18 14:55:33,296 - INFO - Fetching RSS feed: https://threatpost.com/feed/
-2025-11-18 14:55:34,013 - INFO - Found 10 entries in feed: ThreatPost
-2025-11-18 14:55:34,017 - INFO - SKIPPED (duplicate): Student Loan Breach Exposes 2.5M Records [ThreatPost]
-2025-11-18 14:55:34,020 - INFO - SKIPPED (duplicate): Watering Hole Attacks Push ScanBox Keylogger [ThreatPost]
-2025-11-18 14:55:34,025 - INFO - SKIPPED (duplicate): Tentacles of ë0ktapusí Threat Group Victimize 130 Firms [ThreatPost]
-2025-11-18 14:55:34,028 - INFO - SKIPPED (duplicate): Ransomware Attacks are on the Rise [ThreatPost]
-2025-11-18 14:55:34,031 - INFO - SKIPPED (duplicate): Cybercriminals Are Selling Access to Chinese Surveillance Cameras [ThreatPost]
-2025-11-18 14:55:34,034 - INFO - SKIPPED (duplicate): Twitter Whistleblower Complaint: The TL;DR Version [ThreatPost]
-2025-11-18 14:55:34,037 - INFO - SKIPPED (duplicate): Firewall Bug Under Active Attack Triggers CISA Warning [ThreatPost]
-2025-11-18 14:55:34,040 - INFO - SKIPPED (duplicate): Fake Reservation Links Prey on Weary Travelers [ThreatPost]
-2025-11-18 14:55:34,043 - INFO - SKIPPED (duplicate): iPhone Users Urged to Update to Patch 2 Zero-Days [ThreatPost]
-2025-11-18 14:55:34,050 - INFO - SKIPPED (duplicate): Google Patches Chromeís Fifth Zero-Day of the Year [ThreatPost]
-2025-11-18 14:55:34,050 - INFO - Fetching RSS feed: https://www.darkreading.com/rss.xml
-2025-11-18 14:55:34,733 - INFO - Found 50 entries in feed: Dark Reading
-2025-11-18 14:55:34,738 - INFO - SKIPPED (duplicate): Malicious Npm Packages Abuse Adspect Cloaking in Crypto Scam [Dark Reading]
-2025-11-18 14:55:34,744 - INFO - SKIPPED (duplicate): Bug Bounty Programs Rise as Key Strategic Security Solutions [Dark Reading]
-2025-11-18 14:55:34,747 - INFO - SKIPPED (duplicate): Critical Fortinet FortiWeb WAF Bug Exploited in the Wild [Dark Reading]
-2025-11-18 14:55:34,749 - INFO - SKIPPED (duplicate): US Citizens Plead Guilty to Aiding North Korean IT Worker Campaigns [Dark Reading]
-2025-11-18 14:55:34,751 - INFO - SKIPPED (duplicate): Cursor Issue Paves Way for Credential-Stealing Attacks [Dark Reading]
-2025-11-18 14:55:34,754 - INFO - SKIPPED (duplicate): Akira RaaS Targets Nutanix VMs, Threatens Critical Orgs [Dark Reading]
-2025-11-18 14:55:34,757 - INFO - SKIPPED (duplicate): New Security Tools Target Growing macOS Threats [Dark Reading]
-2025-11-18 14:55:34,760 - INFO - SKIPPED (duplicate): Hardened Containers Look to Eliminate Common Source of Vulnerabilities [Dark Reading]
-2025-11-18 14:55:34,762 - INFO - SKIPPED (duplicate): 150,000 Packages Flood NPM Registry in Token Farming Campaign [Dark Reading]
-2025-11-18 14:55:34,764 - INFO - SKIPPED (duplicate): Learning Sales Skills Can Make Security Professionals More Effective [Dark Reading]
-2025-11-18 14:55:34,767 - INFO - SKIPPED (duplicate): Identity Governance and Administration, App Proliferation, and the App Integration Chasm [Dark Reading]
-2025-11-18 14:55:34,770 - INFO - SKIPPED (duplicate): How CISOs Can Best Work With CEOs and the Board: Lessons From the Field [Dark Reading]
-2025-11-18 14:55:34,773 - INFO - SKIPPED (duplicate): [Dark Reading Virtual Event] Cybersecurity Outlook 2026 [Dark Reading]
-2025-11-18 14:55:34,775 - INFO - SKIPPED (duplicate): Orgs Move to SSO, Passkeys to Solve Bad Password Habits [Dark Reading]
-2025-11-18 14:55:34,777 - INFO - SKIPPED (duplicate): Coyote, Maverick Banking Trojans Run Rampant in Brazil [Dark Reading]
-2025-11-18 14:55:34,779 - INFO - SKIPPED (duplicate): Kenya Kicks Off 'Code Nation' With a Nod to Cybersecurity [Dark Reading]
-2025-11-18 14:55:34,781 - INFO - SKIPPED (duplicate): 'CitrixBleed 2' Wreaks Havoc as Zero-Day Bug [Dark Reading]
-2025-11-18 14:55:34,784 - INFO - SKIPPED (duplicate): Google Looks to Dim 'Lighthouse' Phishing-as-a-Service Op [Dark Reading]
-2025-11-18 14:55:34,787 - INFO - SKIPPED (duplicate): Microsoft Exchange 'Under Imminent Threat,' Act Now [Dark Reading]
-2025-11-18 14:55:34,789 - INFO - SKIPPED (duplicate): Phishing Tool Uses Smart Redirects to Bypass Detection [Dark Reading]
-2025-11-18 14:55:34,790 - INFO - Scraping finished. Total saved: 0, Total skipped: 50
-2025-11-18 15:51:07,595 - INFO - Fetching RSS feed: https://feeds.feedburner.com/TheHackersNews
-2025-11-18 15:51:08,025 - INFO - Found 50 entries in feed: The Hacker News
-2025-11-18 15:51:08,156 - INFO - SKIPPED (duplicate): Sneaky 2FA Phishing Kit Adds BitB Pop-ups Designed to Mimic the Browser Address Bar [The Hacker News]
-2025-11-18 15:51:08,179 - INFO - SKIPPED (duplicate): Meta Expands WhatsApp Security Research with New Proxy Tool and $4M in Bounties This Year [The Hacker News]
-2025-11-18 15:51:08,200 - INFO - SKIPPED (duplicate): Learn How Leading Companies Secure Cloud Workloads and Infrastructure at Scale [The Hacker News]
-2025-11-18 15:51:08,220 - INFO - SKIPPED (duplicate): Researchers Detail Tuoni C2's Role in an Attempted 2025 Real-Estate Cyber Intrusion [The Hacker News]
-2025-11-18 15:51:08,243 - INFO - SKIPPED (duplicate): Iranian Hackers Use DEEPROOT and TWOSTROKE Malware in Aerospace and Defense Attacks [The Hacker News]
-2025-11-18 15:51:08,265 - INFO - SKIPPED (duplicate): Beyond IAM Silos: Why the Identity Security Fabric is Essential for Securing AI and Non-Human Identities [The Hacker News]
-2025-11-18 15:51:08,282 - INFO - SKIPPED (duplicate): Seven npm Packages Use Adspect Cloaking to Trick Victims Into Crypto Scam Pages [The Hacker News]
-2025-11-18 15:51:08,300 - INFO - SKIPPED (duplicate): Microsoft Mitigates Record 15.72 Tbps DDoS Attack Driven by AISURU Botnet [The Hacker News]
-2025-11-18 15:51:08,318 - INFO - SKIPPED (duplicate): Google Issues Security Fix for Actively Exploited Chrome V8 Zero-Day Vulnerability [The Hacker News]
-2025-11-18 15:51:08,337 - INFO - SKIPPED (duplicate): New EVALUSION ClickFix Campaign Delivers Amatera Stealer and NetSupport RAT [The Hacker News]
-2025-11-18 15:51:08,357 - INFO - SKIPPED (duplicate): \u26a1 Weekly Recap: Fortinet Exploited, China's AI Hacks, PhaaS Empire Falls & More [The Hacker News]
-2025-11-18 15:51:08,374 - INFO - SKIPPED (duplicate): 5 Reasons Why Attackers Are Phishing Over LinkedIn [The Hacker News]
-2025-11-18 15:51:08,393 - INFO - SKIPPED (duplicate): Dragon Breath Uses RONINGLOADER to Disable Security Tools and Deploy Gh0st RAT [The Hacker News]
-2025-11-18 15:51:08,413 - INFO - SKIPPED (duplicate): Rust Adoption Drives Android Memory Safety Bugs Below 20% for First Time [The Hacker News]
-2025-11-18 15:51:08,444 - INFO - SKIPPED (duplicate): RondoDox Exploits Unpatched XWiki Servers to Pull More Devices Into Its Botnet [The Hacker News]
-2025-11-18 15:51:08,470 - INFO - SKIPPED (duplicate): Five Plead Guilty in U.S. for Helping North Korean IT Workers Infiltrate 136 Companies [The Hacker News]
-2025-11-18 15:51:08,489 - INFO - SKIPPED (duplicate): North Korean Hackers Turn JSON Services into Covert Malware Delivery Channels [The Hacker News]
-2025-11-18 15:51:08,514 - INFO - SKIPPED (duplicate): Researchers Find Serious AI Bugs Exposing Meta, Nvidia, and Microsoft Inference Frameworks [The Hacker News]
-2025-11-18 15:51:08,539 - INFO - SKIPPED (duplicate): Iranian Hackers Launch ëSpearSpecterí Spy Operation on Defense & Government Targets [The Hacker News]
-2025-11-18 15:51:08,559 - INFO - SKIPPED (duplicate): Ransomware's Fragmentation Reaches a Breaking Point While LockBit Returns [The Hacker News]
-2025-11-18 15:51:08,559 - INFO - Fetching RSS feed: https://www.csoonline.com/index.rss
-2025-11-18 15:51:09,044 - INFO - Found 0 entries in feed: CSO Online
-2025-11-18 15:51:09,063 - INFO - Fetching RSS feed: https://threatpost.com/feed/
-2025-11-18 15:51:09,799 - INFO - Found 10 entries in feed: ThreatPost
-2025-11-18 15:51:10,039 - INFO - SKIPPED (duplicate): Student Loan Breach Exposes 2.5M Records [ThreatPost]
-2025-11-18 15:51:10,119 - INFO - SKIPPED (duplicate): Watering Hole Attacks Push ScanBox Keylogger [ThreatPost]
-2025-11-18 15:51:10,168 - INFO - SKIPPED (duplicate): Tentacles of ë0ktapusí Threat Group Victimize 130 Firms [ThreatPost]
-2025-11-18 15:51:10,198 - INFO - SKIPPED (duplicate): Ransomware Attacks are on the Rise [ThreatPost]
-2025-11-18 15:51:10,209 - INFO - SKIPPED (duplicate): Cybercriminals Are Selling Access to Chinese Surveillance Cameras [ThreatPost]
-2025-11-18 15:51:10,228 - INFO - SKIPPED (duplicate): Twitter Whistleblower Complaint: The TL;DR Version [ThreatPost]
-2025-11-18 15:51:10,239 - INFO - SKIPPED (duplicate): Firewall Bug Under Active Attack Triggers CISA Warning [ThreatPost]
-2025-11-18 15:51:10,261 - INFO - SKIPPED (duplicate): Fake Reservation Links Prey on Weary Travelers [ThreatPost]
-2025-11-18 15:51:10,274 - INFO - SKIPPED (duplicate): iPhone Users Urged to Update to Patch 2 Zero-Days [ThreatPost]
-2025-11-18 15:51:10,317 - INFO - SKIPPED (duplicate): Google Patches Chromeís Fifth Zero-Day of the Year [ThreatPost]
-2025-11-18 15:51:10,317 - INFO - Fetching RSS feed: https://www.darkreading.com/rss.xml
-2025-11-18 15:51:11,070 - INFO - Found 50 entries in feed: Dark Reading
-2025-11-18 15:51:11,367 - INFO - SAVED: Cloud Break: IoT Devices Open to Silent Takeover Via Firewalls [Dark Reading]
-2025-11-18 15:51:11,488 - INFO - SAVED: Can a Global, Decentralized System Save CVE Data? [Dark Reading]
-2025-11-18 15:51:11,502 - INFO - SKIPPED (duplicate): Malicious Npm Packages Abuse Adspect Cloaking in Crypto Scam [Dark Reading]
-2025-11-18 15:51:11,512 - INFO - SKIPPED (duplicate): Bug Bounty Programs Rise as Key Strategic Security Solutions [Dark Reading]
-2025-11-18 15:51:11,608 - INFO - SKIPPED (duplicate): Critical Fortinet FortiWeb WAF Bug Exploited in the Wild [Dark Reading]
-2025-11-18 15:51:11,627 - INFO - SKIPPED (duplicate): US Citizens Plead Guilty to Aiding North Korean IT Worker Campaigns [Dark Reading]
-2025-11-18 15:51:11,655 - INFO - SKIPPED (duplicate): Cursor Issue Paves Way for Credential-Stealing Attacks [Dark Reading]
-2025-11-18 15:51:11,665 - INFO - SKIPPED (duplicate): Akira RaaS Targets Nutanix VMs, Threatens Critical Orgs [Dark Reading]
-2025-11-18 15:51:11,676 - INFO - SKIPPED (duplicate): New Security Tools Target Growing macOS Threats [Dark Reading]
-2025-11-18 15:51:11,687 - INFO - SKIPPED (duplicate): Hardened Containers Look to Eliminate Common Source of Vulnerabilities [Dark Reading]
-2025-11-18 15:51:11,732 - INFO - SKIPPED (duplicate): 150,000 Packages Flood NPM Registry in Token Farming Campaign [Dark Reading]
-2025-11-18 15:51:11,742 - INFO - SKIPPED (duplicate): Learning Sales Skills Can Make Security Professionals More Effective [Dark Reading]
-2025-11-18 15:51:11,755 - INFO - SKIPPED (duplicate): Identity Governance and Administration, App Proliferation, and the App Integration Chasm [Dark Reading]
-2025-11-18 15:51:11,767 - INFO - SKIPPED (duplicate): How CISOs Can Best Work With CEOs and the Board: Lessons From the Field [Dark Reading]
-2025-11-18 15:51:11,781 - INFO - SKIPPED (duplicate): [Dark Reading Virtual Event] Cybersecurity Outlook 2026 [Dark Reading]
-2025-11-18 15:51:11,792 - INFO - SKIPPED (duplicate): Orgs Move to SSO, Passkeys to Solve Bad Password Habits [Dark Reading]
-2025-11-18 15:51:11,801 - INFO - SKIPPED (duplicate): Coyote, Maverick Banking Trojans Run Rampant in Brazil [Dark Reading]
-2025-11-18 15:51:11,812 - INFO - SKIPPED (duplicate): Kenya Kicks Off 'Code Nation' With a Nod to Cybersecurity [Dark Reading]
-2025-11-18 15:51:11,826 - INFO - SKIPPED (duplicate): 'CitrixBleed 2' Wreaks Havoc as Zero-Day Bug [Dark Reading]
-2025-11-18 15:51:11,838 - INFO - SKIPPED (duplicate): Google Looks to Dim 'Lighthouse' Phishing-as-a-Service Op [Dark Reading]
-2025-11-18 15:51:11,839 - INFO - Scraping finished. Total saved: 2, Total skipped: 48
 2026-03-24 02:16:19,072 - INFO - Loaded 473 existing titles into memory.
 2026-03-24 02:16:19,085 - INFO - Fetching RSS feed: https://feeds.feedburner.com/TheHackersNews
 2026-03-24 02:16:19,731 - INFO - Found 50 entries in feed: The Hacker News
@@ -172,7 +54,7 @@
 2026-03-24 02:16:21,343 - INFO - SKIPPED (already in DB): Why CISOs should embrace AI honeypots [CSO Online]
 2026-03-24 02:16:21,372 - INFO - SKIPPED (already in DB): ISO und ISMS: Darum gehen Security-Zertifizierungen schief [CSO Online]
 2026-03-24 02:16:21,381 - INFO - SKIPPED (already in DB): Palo Alto updates security platform to discover AI agents [CSO Online]
-2026-03-24 02:16:21,381 - INFO - SKIPPED (already in DB): Faster attacks and ërecovery denialí ransomware reshape threat landscape [CSO Online]
+2026-03-24 02:16:21,381 - INFO - SKIPPED (already in DB): Faster attacks and ‚Äòrecovery denial‚Äô ransomware reshape threat landscape [CSO Online]
 2026-03-24 02:16:21,382 - INFO - SKIPPED (already in DB): Chrome ABE bypass discovered: New VoidStealer malware steals passwords and cookies [CSO Online]
 2026-03-24 02:16:21,382 - INFO - SKIPPED (already in DB): Behavioral XDR and threat intel nab North Korean fake IT worker within 10 days of hire [CSO Online]
 2026-03-24 02:16:21,382 - INFO - SKIPPED (already in DB): Why US companies must be ready for quantum by 2030: A practical roadmap [CSO Online]
@@ -187,20 +69,20 @@
 2026-03-24 02:16:21,397 - INFO - SKIPPED (already in DB): CISA urges IT to harden endpoint management systems after cyberattack by pro-Iranian group [CSO Online]
 2026-03-24 02:16:21,429 - INFO - SKIPPED (already in DB): That cheap KVM device could expose your network to remote compromise [CSO Online]
 2026-03-24 02:16:21,445 - INFO - SKIPPED (already in DB): Ransomware group exploited Cisco firewall vulnerability as a zero day, weeks before a patch appeared [CSO Online]
-2026-03-24 02:16:21,452 - INFO - SKIPPED (already in DB): Beijing wants its own quantum-resistant encryption standards rather than adopt NISTís [CSO Online]
+2026-03-24 02:16:21,452 - INFO - SKIPPED (already in DB): Beijing wants its own quantum-resistant encryption standards rather than adopt NIST‚Äôs [CSO Online]
 2026-03-24 02:16:21,467 - INFO - SKIPPED (already in DB): Telnet vulnerability opens door to remote code execution as root [CSO Online]
 2026-03-24 02:16:21,480 - INFO - Fetching RSS feed: https://threatpost.com/feed/
 2026-03-24 02:16:22,389 - INFO - Found 10 entries in feed: ThreatPost
 2026-03-24 02:16:22,395 - INFO - SKIPPED (already in DB): Student Loan Breach Exposes 2.5M Records [ThreatPost]
 2026-03-24 02:16:22,396 - INFO - SKIPPED (already in DB): Watering Hole Attacks Push ScanBox Keylogger [ThreatPost]
-2026-03-24 02:16:22,396 - INFO - SKIPPED (already in DB): Tentacles of ë0ktapusí Threat Group Victimize 130 Firms [ThreatPost]
+2026-03-24 02:16:22,396 - INFO - SKIPPED (already in DB): Tentacles of ‚Äò0ktapus‚Äô Threat Group Victimize 130 Firms [ThreatPost]
 2026-03-24 02:16:22,397 - INFO - SKIPPED (already in DB): Ransomware Attacks are on the Rise [ThreatPost]
 2026-03-24 02:16:22,398 - INFO - SKIPPED (already in DB): Cybercriminals Are Selling Access to Chinese Surveillance Cameras [ThreatPost]
 2026-03-24 02:16:22,398 - INFO - SKIPPED (already in DB): Twitter Whistleblower Complaint: The TL;DR Version [ThreatPost]
 2026-03-24 02:16:22,399 - INFO - SKIPPED (already in DB): Firewall Bug Under Active Attack Triggers CISA Warning [ThreatPost]
 2026-03-24 02:16:22,400 - INFO - SKIPPED (already in DB): Fake Reservation Links Prey on Weary Travelers [ThreatPost]
 2026-03-24 02:16:22,400 - INFO - SKIPPED (already in DB): iPhone Users Urged to Update to Patch 2 Zero-Days [ThreatPost]
-2026-03-24 02:16:22,401 - INFO - SKIPPED (already in DB): Google Patches Chromeís Fifth Zero-Day of the Year [ThreatPost]
+2026-03-24 02:16:22,401 - INFO - SKIPPED (already in DB): Google Patches Chrome‚Äôs Fifth Zero-Day of the Year [ThreatPost]
 2026-03-24 02:16:22,401 - INFO - Fetching RSS feed: https://www.darkreading.com/rss.xml
 2026-03-24 02:16:23,006 - INFO - Found 50 entries in feed: Dark Reading
 2026-03-24 02:16:23,007 - INFO - SKIPPED (already in DB): AI in the SOC: What Could Go Wrong? [Dark Reading]
@@ -219,7 +101,7 @@
 2026-03-24 02:16:23,034 - INFO - SKIPPED (already in DB): EU Sanctions Companies in China, Iran for Cyberattacks [Dark Reading]
 2026-03-24 02:16:23,034 - INFO - SKIPPED (already in DB): C2 Implant 'SnappyClient' Targets Crypto Wallets [Dark Reading]
 2026-03-24 02:16:23,034 - INFO - SKIPPED (already in DB): DarkSword: iPhone Exploit Kit Serves Spies &amp; Thieves Alike [Dark Reading]
-2026-03-24 02:16:23,035 - INFO - SKIPPED (already in DB): 'Claudy Dayí Trio of Flaws Exposes Claude Users to Data Theft [Dark Reading]
+2026-03-24 02:16:23,035 - INFO - SKIPPED (already in DB): 'Claudy Day‚Äô Trio of Flaws Exposes Claude Users to Data Theft [Dark Reading]
 2026-03-24 02:16:23,041 - INFO - SKIPPED (already in DB): Researchers: Meta, TikTok Steal Personal &amp; Financial Info When Users Click Ads [Dark Reading]
 2026-03-24 02:16:23,041 - INFO - SKIPPED (already in DB): SideWinder Espionage Campaign Expands Across Southeast Asia [Dark Reading]
 2026-03-24 02:16:23,042 - INFO - SKIPPED (already in DB): More Attackers Are Logging In, Not Breaking In [Dark Reading]
@@ -255,16 +137,16 @@
 2026-03-24 02:16:23,046 - INFO - SKIPPED (already in DB): White House Cyber Strategy Prioritizes Offense [Dark Reading]
 2026-03-24 02:16:23,046 - INFO - Fetching RSS feed: https://krebsonsecurity.com/feed/
 2026-03-24 02:16:23,548 - INFO - Found 10 entries in feed: Krebs on Security
-2026-03-24 02:16:23,549 - INFO - SKIPPED (already in DB): ëCanisterWormí Springs Wiper Attack Targeting Iran [Krebs on Security]
+2026-03-24 02:16:23,549 - INFO - SKIPPED (already in DB): ‚ÄòCanisterWorm‚Äô Springs Wiper Attack Targeting Iran [Krebs on Security]
 2026-03-24 02:16:23,549 - INFO - SKIPPED (already in DB): Feds Disrupt IoT Botnets Behind Huge DDoS Attacks [Krebs on Security]
 2026-03-24 02:16:23,550 - INFO - SKIPPED (already in DB): Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker [Krebs on Security]
 2026-03-24 02:16:23,550 - INFO - SKIPPED (already in DB): Microsoft Patch Tuesday, March 2026 Edition [Krebs on Security]
 2026-03-24 02:16:23,550 - INFO - SKIPPED (already in DB): How AI Assistants are Moving the Security Goalposts [Krebs on Security]
-2026-03-24 02:16:23,551 - INFO - SKIPPED (already in DB): Who is the Kimwolf Botmaster ìDortî? [Krebs on Security]
-2026-03-24 02:16:23,552 - INFO - SKIPPED (already in DB): ëStarkillerí Phishing Service Proxies Real Login Pages, MFA [Krebs on Security]
+2026-03-24 02:16:23,551 - INFO - SKIPPED (already in DB): Who is the Kimwolf Botmaster ‚ÄúDort‚Äù? [Krebs on Security]
+2026-03-24 02:16:23,552 - INFO - SKIPPED (already in DB): ‚ÄòStarkiller‚Äô Phishing Service Proxies Real Login Pages, MFA [Krebs on Security]
 2026-03-24 02:16:23,552 - INFO - SKIPPED (already in DB): Kimwolf Botnet Swamps Anonymity Network I2P [Krebs on Security]
 2026-03-24 02:16:23,552 - INFO - SKIPPED (already in DB): Patch Tuesday, February 2026 Edition [Krebs on Security]
-2026-03-24 02:16:23,553 - INFO - SKIPPED (already in DB): Please Donít Feed the Scattered Lapsus ShinyHunters [Krebs on Security]
+2026-03-24 02:16:23,553 - INFO - SKIPPED (already in DB): Please Don‚Äôt Feed the Scattered Lapsus ShinyHunters [Krebs on Security]
 2026-03-24 02:16:23,553 - INFO - Fetching RSS feed: https://www.bleepingcomputer.com/feed/
 2026-03-24 02:16:24,044 - INFO - Found 15 entries in feed: BleepingComputer
 2026-03-24 02:16:24,583 - INFO - Spacy model 'en_core_web_sm' loaded successfully.
@@ -337,7 +219,7 @@
 2026-03-24 02:18:38,063 - INFO - SKIPPED (already in DB): Why CISOs should embrace AI honeypots [CSO Online]
 2026-03-24 02:18:38,064 - INFO - SKIPPED (already in DB): ISO und ISMS: Darum gehen Security-Zertifizierungen schief [CSO Online]
 2026-03-24 02:18:38,064 - INFO - SKIPPED (already in DB): Palo Alto updates security platform to discover AI agents [CSO Online]
-2026-03-24 02:18:38,064 - INFO - SKIPPED (already in DB): Faster attacks and ërecovery denialí ransomware reshape threat landscape [CSO Online]
+2026-03-24 02:18:38,064 - INFO - SKIPPED (already in DB): Faster attacks and ‚Äòrecovery denial‚Äô ransomware reshape threat landscape [CSO Online]
 2026-03-24 02:18:38,065 - INFO - SKIPPED (already in DB): Chrome ABE bypass discovered: New VoidStealer malware steals passwords and cookies [CSO Online]
 2026-03-24 02:18:38,065 - INFO - SKIPPED (already in DB): Behavioral XDR and threat intel nab North Korean fake IT worker within 10 days of hire [CSO Online]
 2026-03-24 02:18:38,066 - INFO - SKIPPED (already in DB): Why US companies must be ready for quantum by 2030: A practical roadmap [CSO Online]
@@ -352,20 +234,20 @@
 2026-03-24 02:18:38,068 - INFO - SKIPPED (already in DB): CISA urges IT to harden endpoint management systems after cyberattack by pro-Iranian group [CSO Online]
 2026-03-24 02:18:38,068 - INFO - SKIPPED (already in DB): That cheap KVM device could expose your network to remote compromise [CSO Online]
 2026-03-24 02:18:38,071 - INFO - SKIPPED (already in DB): Ransomware group exploited Cisco firewall vulnerability as a zero day, weeks before a patch appeared [CSO Online]
-2026-03-24 02:18:38,093 - INFO - SKIPPED (already in DB): Beijing wants its own quantum-resistant encryption standards rather than adopt NISTís [CSO Online]
+2026-03-24 02:18:38,093 - INFO - SKIPPED (already in DB): Beijing wants its own quantum-resistant encryption standards rather than adopt NIST‚Äôs [CSO Online]
 2026-03-24 02:18:38,105 - INFO - SKIPPED (already in DB): Telnet vulnerability opens door to remote code execution as root [CSO Online]
 2026-03-24 02:18:38,123 - INFO - Fetching RSS feed: https://threatpost.com/feed/
 2026-03-24 02:18:39,120 - INFO - Found 10 entries in feed: ThreatPost
 2026-03-24 02:18:39,120 - INFO - SKIPPED (already in DB): Student Loan Breach Exposes 2.5M Records [ThreatPost]
 2026-03-24 02:18:39,121 - INFO - SKIPPED (already in DB): Watering Hole Attacks Push ScanBox Keylogger [ThreatPost]
-2026-03-24 02:18:39,122 - INFO - SKIPPED (already in DB): Tentacles of ë0ktapusí Threat Group Victimize 130 Firms [ThreatPost]
+2026-03-24 02:18:39,122 - INFO - SKIPPED (already in DB): Tentacles of ‚Äò0ktapus‚Äô Threat Group Victimize 130 Firms [ThreatPost]
 2026-03-24 02:18:39,122 - INFO - SKIPPED (already in DB): Ransomware Attacks are on the Rise [ThreatPost]
 2026-03-24 02:18:39,122 - INFO - SKIPPED (already in DB): Cybercriminals Are Selling Access to Chinese Surveillance Cameras [ThreatPost]
 2026-03-24 02:18:39,123 - INFO - SKIPPED (already in DB): Twitter Whistleblower Complaint: The TL;DR Version [ThreatPost]
 2026-03-24 02:18:39,123 - INFO - SKIPPED (already in DB): Firewall Bug Under Active Attack Triggers CISA Warning [ThreatPost]
 2026-03-24 02:18:39,124 - INFO - SKIPPED (already in DB): Fake Reservation Links Prey on Weary Travelers [ThreatPost]
 2026-03-24 02:18:39,124 - INFO - SKIPPED (already in DB): iPhone Users Urged to Update to Patch 2 Zero-Days [ThreatPost]
-2026-03-24 02:18:39,124 - INFO - SKIPPED (already in DB): Google Patches Chromeís Fifth Zero-Day of the Year [ThreatPost]
+2026-03-24 02:18:39,124 - INFO - SKIPPED (already in DB): Google Patches Chrome‚Äôs Fifth Zero-Day of the Year [ThreatPost]
 2026-03-24 02:18:39,125 - INFO - Fetching RSS feed: https://www.darkreading.com/rss.xml
 2026-03-24 02:18:39,709 - INFO - Found 50 entries in feed: Dark Reading
 2026-03-24 02:18:39,710 - INFO - SKIPPED (already in DB): AI in the SOC: What Could Go Wrong? [Dark Reading]
@@ -384,7 +266,7 @@
 2026-03-24 02:18:39,716 - INFO - SKIPPED (already in DB): EU Sanctions Companies in China, Iran for Cyberattacks [Dark Reading]
 2026-03-24 02:18:39,718 - INFO - SKIPPED (already in DB): C2 Implant 'SnappyClient' Targets Crypto Wallets [Dark Reading]
 2026-03-24 02:18:39,720 - INFO - SKIPPED (already in DB): DarkSword: iPhone Exploit Kit Serves Spies &amp; Thieves Alike [Dark Reading]
-2026-03-24 02:18:39,724 - INFO - SKIPPED (already in DB): 'Claudy Dayí Trio of Flaws Exposes Claude Users to Data Theft [Dark Reading]
+2026-03-24 02:18:39,724 - INFO - SKIPPED (already in DB): 'Claudy Day‚Äô Trio of Flaws Exposes Claude Users to Data Theft [Dark Reading]
 2026-03-24 02:18:39,725 - INFO - SKIPPED (already in DB): Researchers: Meta, TikTok Steal Personal &amp; Financial Info When Users Click Ads [Dark Reading]
 2026-03-24 02:18:39,725 - INFO - SKIPPED (already in DB): SideWinder Espionage Campaign Expands Across Southeast Asia [Dark Reading]
 2026-03-24 02:18:39,725 - INFO - SKIPPED (already in DB): More Attackers Are Logging In, Not Breaking In [Dark Reading]
@@ -420,16 +302,16 @@
 2026-03-24 02:18:39,752 - INFO - SKIPPED (already in DB): White House Cyber Strategy Prioritizes Offense [Dark Reading]
 2026-03-24 02:18:39,754 - INFO - Fetching RSS feed: https://krebsonsecurity.com/feed/
 2026-03-24 02:18:40,312 - INFO - Found 10 entries in feed: Krebs on Security
-2026-03-24 02:18:40,313 - INFO - SKIPPED (already in DB): ëCanisterWormí Springs Wiper Attack Targeting Iran [Krebs on Security]
+2026-03-24 02:18:40,313 - INFO - SKIPPED (already in DB): ‚ÄòCanisterWorm‚Äô Springs Wiper Attack Targeting Iran [Krebs on Security]
 2026-03-24 02:18:40,314 - INFO - SKIPPED (already in DB): Feds Disrupt IoT Botnets Behind Huge DDoS Attacks [Krebs on Security]
 2026-03-24 02:18:40,314 - INFO - SKIPPED (already in DB): Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker [Krebs on Security]
 2026-03-24 02:18:40,315 - INFO - SKIPPED (already in DB): Microsoft Patch Tuesday, March 2026 Edition [Krebs on Security]
 2026-03-24 02:18:40,316 - INFO - SKIPPED (already in DB): How AI Assistants are Moving the Security Goalposts [Krebs on Security]
-2026-03-24 02:18:40,316 - INFO - SKIPPED (already in DB): Who is the Kimwolf Botmaster ìDortî? [Krebs on Security]
-2026-03-24 02:18:40,321 - INFO - SKIPPED (already in DB): ëStarkillerí Phishing Service Proxies Real Login Pages, MFA [Krebs on Security]
+2026-03-24 02:18:40,316 - INFO - SKIPPED (already in DB): Who is the Kimwolf Botmaster ‚ÄúDort‚Äù? [Krebs on Security]
+2026-03-24 02:18:40,321 - INFO - SKIPPED (already in DB): ‚ÄòStarkiller‚Äô Phishing Service Proxies Real Login Pages, MFA [Krebs on Security]
 2026-03-24 02:18:40,322 - INFO - SKIPPED (already in DB): Kimwolf Botnet Swamps Anonymity Network I2P [Krebs on Security]
 2026-03-24 02:18:40,324 - INFO - SKIPPED (already in DB): Patch Tuesday, February 2026 Edition [Krebs on Security]
-2026-03-24 02:18:40,327 - INFO - SKIPPED (already in DB): Please Donít Feed the Scattered Lapsus ShinyHunters [Krebs on Security]
+2026-03-24 02:18:40,327 - INFO - SKIPPED (already in DB): Please Don‚Äôt Feed the Scattered Lapsus ShinyHunters [Krebs on Security]
 2026-03-24 02:18:40,330 - INFO - Fetching RSS feed: https://www.bleepingcomputer.com/feed/
 2026-03-24 02:18:40,620 - INFO - Found 15 entries in feed: BleepingComputer
 2026-03-24 02:18:40,621 - INFO - SKIPPED (already in DB): OpenAI rolls out ChatGPT Library to store your personal files [BleepingComputer]
@@ -445,7 +327,7 @@
 2026-03-24 02:18:40,626 - INFO - SKIPPED (already in DB): New KB5085516 emergency update fixes Microsoft account sign-in [BleepingComputer]
 2026-03-24 02:18:40,628 - INFO - SKIPPED (already in DB): VoidStealer malware steals Chrome master key via debugger trick [BleepingComputer]
 2026-03-24 02:18:40,631 - INFO - SKIPPED (already in DB): Trivy vulnerability scanner breach pushed infostealer via GitHub Actions [BleepingComputer]
-2026-03-24 02:18:40,637 - INFO - SKIPPED (already in DB): Google adds ëAdvanced Flowí for safe APK sideloading on Android [BleepingComputer]
+2026-03-24 02:18:40,637 - INFO - SKIPPED (already in DB): Google adds ‚ÄòAdvanced Flow‚Äô for safe APK sideloading on Android [BleepingComputer]
 2026-03-24 02:18:40,639 - INFO - SKIPPED (already in DB): Microsoft Azure Monitor alerts abused for callback phishing attacks [BleepingComputer]
 2026-03-24 02:18:40,640 - INFO - Fetching RSS feed: https://www.schneier.com/blog/atom.xml
 2026-03-24 02:18:41,273 - INFO - Found 10 entries in feed: Schneier on Security
@@ -458,7 +340,7 @@
 2026-03-24 02:20:26,677 - INFO - Successfully generated AI summary.
 2026-03-24 02:20:26,717 - INFO - SAVED: Hacking a Robot Vacuum [Schneier on Security]
 2026-03-24 02:20:53,349 - INFO - Successfully generated AI summary.
-2026-03-24 02:20:53,386 - INFO - SAVED: Metaís AI Glasses and Privacy [Schneier on Security]
+2026-03-24 02:20:53,386 - INFO - SAVED: Meta‚Äôs AI Glasses and Privacy [Schneier on Security]
 2026-03-24 02:20:53,389 - INFO - Scraping finished. Total saved: 5, Total skipped: 155
 2026-03-24 02:23:14,984 - INFO - Loaded 483 existing titles into memory.
 2026-03-24 02:23:14,999 - INFO - Fetching RSS feed: https://feeds.feedburner.com/TheHackersNews
@@ -518,7 +400,7 @@
 2026-03-24 02:24:25,276 - INFO - SKIPPED (already in DB): Why CISOs should embrace AI honeypots [CSO Online]
 2026-03-24 02:24:25,279 - INFO - SKIPPED (already in DB): ISO und ISMS: Darum gehen Security-Zertifizierungen schief [CSO Online]
 2026-03-24 02:24:25,279 - INFO - SKIPPED (already in DB): Palo Alto updates security platform to discover AI agents [CSO Online]
-2026-03-24 02:24:25,280 - INFO - SKIPPED (already in DB): Faster attacks and ërecovery denialí ransomware reshape threat landscape [CSO Online]
+2026-03-24 02:24:25,280 - INFO - SKIPPED (already in DB): Faster attacks and ‚Äòrecovery denial‚Äô ransomware reshape threat landscape [CSO Online]
 2026-03-24 02:24:25,280 - INFO - SKIPPED (already in DB): Chrome ABE bypass discovered: New VoidStealer malware steals passwords and cookies [CSO Online]
 2026-03-24 02:24:25,290 - INFO - SKIPPED (already in DB): Behavioral XDR and threat intel nab North Korean fake IT worker within 10 days of hire [CSO Online]
 2026-03-24 02:24:25,291 - INFO - SKIPPED (already in DB): Why US companies must be ready for quantum by 2030: A practical roadmap [CSO Online]
@@ -533,20 +415,20 @@
 2026-03-24 02:24:25,326 - INFO - SKIPPED (already in DB): CISA urges IT to harden endpoint management systems after cyberattack by pro-Iranian group [CSO Online]
 2026-03-24 02:24:25,327 - INFO - SKIPPED (already in DB): That cheap KVM device could expose your network to remote compromise [CSO Online]
 2026-03-24 02:24:25,329 - INFO - SKIPPED (already in DB): Ransomware group exploited Cisco firewall vulnerability as a zero day, weeks before a patch appeared [CSO Online]
-2026-03-24 02:24:25,336 - INFO - SKIPPED (already in DB): Beijing wants its own quantum-resistant encryption standards rather than adopt NISTís [CSO Online]
+2026-03-24 02:24:25,336 - INFO - SKIPPED (already in DB): Beijing wants its own quantum-resistant encryption standards rather than adopt NIST‚Äôs [CSO Online]
 2026-03-24 02:24:25,338 - INFO - SKIPPED (already in DB): Telnet vulnerability opens door to remote code execution as root [CSO Online]
 2026-03-24 02:24:25,339 - INFO - Fetching RSS feed: https://threatpost.com/feed/
 2026-03-24 02:24:26,465 - INFO - Found 10 entries in feed: ThreatPost
 2026-03-24 02:24:26,467 - INFO - SKIPPED (already in DB): Student Loan Breach Exposes 2.5M Records [ThreatPost]
 2026-03-24 02:24:26,468 - INFO - SKIPPED (already in DB): Watering Hole Attacks Push ScanBox Keylogger [ThreatPost]
-2026-03-24 02:24:26,468 - INFO - SKIPPED (already in DB): Tentacles of ë0ktapusí Threat Group Victimize 130 Firms [ThreatPost]
+2026-03-24 02:24:26,468 - INFO - SKIPPED (already in DB): Tentacles of ‚Äò0ktapus‚Äô Threat Group Victimize 130 Firms [ThreatPost]
 2026-03-24 02:24:26,468 - INFO - SKIPPED (already in DB): Ransomware Attacks are on the Rise [ThreatPost]
 2026-03-24 02:24:26,469 - INFO - SKIPPED (already in DB): Cybercriminals Are Selling Access to Chinese Surveillance Cameras [ThreatPost]
 2026-03-24 02:24:26,469 - INFO - SKIPPED (already in DB): Twitter Whistleblower Complaint: The TL;DR Version [ThreatPost]
 2026-03-24 02:24:26,470 - INFO - SKIPPED (already in DB): Firewall Bug Under Active Attack Triggers CISA Warning [ThreatPost]
 2026-03-24 02:24:26,473 - INFO - SKIPPED (already in DB): Fake Reservation Links Prey on Weary Travelers [ThreatPost]
 2026-03-24 02:24:26,473 - INFO - SKIPPED (already in DB): iPhone Users Urged to Update to Patch 2 Zero-Days [ThreatPost]
-2026-03-24 02:24:26,474 - INFO - SKIPPED (already in DB): Google Patches Chromeís Fifth Zero-Day of the Year [ThreatPost]
+2026-03-24 02:24:26,474 - INFO - SKIPPED (already in DB): Google Patches Chrome‚Äôs Fifth Zero-Day of the Year [ThreatPost]
 2026-03-24 02:24:26,474 - INFO - Fetching RSS feed: https://www.darkreading.com/rss.xml
 2026-03-24 02:24:27,113 - INFO - Found 50 entries in feed: Dark Reading
 2026-03-24 02:24:27,114 - INFO - SKIPPED (already in DB): AI in the SOC: What Could Go Wrong? [Dark Reading]
@@ -565,7 +447,7 @@
 2026-03-24 02:24:27,125 - INFO - SKIPPED (already in DB): EU Sanctions Companies in China, Iran for Cyberattacks [Dark Reading]
 2026-03-24 02:24:27,126 - INFO - SKIPPED (already in DB): C2 Implant 'SnappyClient' Targets Crypto Wallets [Dark Reading]
 2026-03-24 02:24:27,126 - INFO - SKIPPED (already in DB): DarkSword: iPhone Exploit Kit Serves Spies &amp; Thieves Alike [Dark Reading]
-2026-03-24 02:24:27,128 - INFO - SKIPPED (already in DB): 'Claudy Dayí Trio of Flaws Exposes Claude Users to Data Theft [Dark Reading]
+2026-03-24 02:24:27,128 - INFO - SKIPPED (already in DB): 'Claudy Day‚Äô Trio of Flaws Exposes Claude Users to Data Theft [Dark Reading]
 2026-03-24 02:24:27,134 - INFO - SKIPPED (already in DB): SideWinder Espionage Campaign Expands Across Southeast Asia [Dark Reading]
 2026-03-24 02:24:27,134 - INFO - SKIPPED (already in DB): Researchers: Meta, TikTok Steal Personal &amp; Financial Info When Users Click Ads [Dark Reading]
 2026-03-24 02:24:27,135 - INFO - SKIPPED (already in DB): More Attackers Are Logging In, Not Breaking In [Dark Reading]
@@ -601,16 +483,16 @@
 2026-03-24 02:24:27,249 - INFO - SKIPPED (already in DB): White House Cyber Strategy Prioritizes Offense [Dark Reading]
 2026-03-24 02:24:27,255 - INFO - Fetching RSS feed: https://krebsonsecurity.com/feed/
 2026-03-24 02:24:27,895 - INFO - Found 10 entries in feed: Krebs on Security
-2026-03-24 02:24:27,934 - INFO - SKIPPED (already in DB): ëCanisterWormí Springs Wiper Attack Targeting Iran [Krebs on Security]
+2026-03-24 02:24:27,934 - INFO - SKIPPED (already in DB): ‚ÄòCanisterWorm‚Äô Springs Wiper Attack Targeting Iran [Krebs on Security]
 2026-03-24 02:24:27,946 - INFO - SKIPPED (already in DB): Feds Disrupt IoT Botnets Behind Huge DDoS Attacks [Krebs on Security]
 2026-03-24 02:24:27,954 - INFO - SKIPPED (already in DB): Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker [Krebs on Security]
 2026-03-24 02:24:27,956 - INFO - SKIPPED (already in DB): Microsoft Patch Tuesday, March 2026 Edition [Krebs on Security]
 2026-03-24 02:24:27,962 - INFO - SKIPPED (already in DB): How AI Assistants are Moving the Security Goalposts [Krebs on Security]
-2026-03-24 02:24:27,968 - INFO - SKIPPED (already in DB): Who is the Kimwolf Botmaster ìDortî? [Krebs on Security]
-2026-03-24 02:24:27,979 - INFO - SKIPPED (already in DB): ëStarkillerí Phishing Service Proxies Real Login Pages, MFA [Krebs on Security]
+2026-03-24 02:24:27,968 - INFO - SKIPPED (already in DB): Who is the Kimwolf Botmaster ‚ÄúDort‚Äù? [Krebs on Security]
+2026-03-24 02:24:27,979 - INFO - SKIPPED (already in DB): ‚ÄòStarkiller‚Äô Phishing Service Proxies Real Login Pages, MFA [Krebs on Security]
 2026-03-24 02:24:27,989 - INFO - SKIPPED (already in DB): Kimwolf Botnet Swamps Anonymity Network I2P [Krebs on Security]
 2026-03-24 02:24:27,994 - INFO - SKIPPED (already in DB): Patch Tuesday, February 2026 Edition [Krebs on Security]
-2026-03-24 02:24:28,003 - INFO - SKIPPED (already in DB): Please Donít Feed the Scattered Lapsus ShinyHunters [Krebs on Security]
+2026-03-24 02:24:28,003 - INFO - SKIPPED (already in DB): Please Don‚Äôt Feed the Scattered Lapsus ShinyHunters [Krebs on Security]
 2026-03-24 02:24:28,008 - INFO - Fetching RSS feed: https://www.bleepingcomputer.com/feed/
 2026-03-24 02:24:28,392 - INFO - Found 15 entries in feed: BleepingComputer
 2026-03-24 02:24:28,393 - INFO - SKIPPED (already in DB): OpenAI rolls out ChatGPT Library to store your personal files [BleepingComputer]
@@ -626,7 +508,7 @@
 2026-03-24 02:24:28,409 - INFO - SKIPPED (already in DB): New KB5085516 emergency update fixes Microsoft account sign-in [BleepingComputer]
 2026-03-24 02:24:28,409 - INFO - SKIPPED (already in DB): VoidStealer malware steals Chrome master key via debugger trick [BleepingComputer]
 2026-03-24 02:24:28,410 - INFO - SKIPPED (already in DB): Trivy vulnerability scanner breach pushed infostealer via GitHub Actions [BleepingComputer]
-2026-03-24 02:24:28,417 - INFO - SKIPPED (already in DB): Google adds ëAdvanced Flowí for safe APK sideloading on Android [BleepingComputer]
+2026-03-24 02:24:28,417 - INFO - SKIPPED (already in DB): Google adds ‚ÄòAdvanced Flow‚Äô for safe APK sideloading on Android [BleepingComputer]
 2026-03-24 02:24:28,418 - INFO - SKIPPED (already in DB): Microsoft Azure Monitor alerts abused for callback phishing attacks [BleepingComputer]
 2026-03-24 02:24:28,419 - INFO - Fetching RSS feed: https://www.schneier.com/blog/atom.xml
 2026-03-24 02:24:28,896 - INFO - Found 10 entries in feed: Schneier on Security
@@ -634,12 +516,12 @@
 2026-03-24 02:24:28,898 - INFO - SKIPPED (already in DB): Friday Squid Blogging: Jumbo Flying Squid in the South Pacific [Schneier on Security]
 2026-03-24 02:24:28,899 - INFO - SKIPPED (already in DB): Proton Mail Shared User Information with the Police [Schneier on Security]
 2026-03-24 02:24:28,899 - INFO - SKIPPED (already in DB): Hacking a Robot Vacuum [Schneier on Security]
-2026-03-24 02:24:28,900 - INFO - SKIPPED (already in DB): Metaís AI Glasses and Privacy [Schneier on Security]
+2026-03-24 02:24:28,900 - INFO - SKIPPED (already in DB): Meta‚Äôs AI Glasses and Privacy [Schneier on Security]
 2026-03-24 02:24:28,900 - INFO - SKIPPED (already in DB): South Korean Police Accidentally Post Cryptocurrency Wallet Password [Schneier on Security]
 2026-03-24 02:24:28,901 - INFO - SKIPPED (already in DB): Possible New Result in Quantum Factorization [Schneier on Security]
 2026-03-24 02:24:28,901 - INFO - SKIPPED (already in DB): Upcoming Speaking Engagements [Schneier on Security]
 2026-03-24 02:24:28,901 - INFO - SKIPPED (already in DB): Friday Squid Blogging: Increased Squid Population in the Falklands [Schneier on Security]
-2026-03-24 02:24:28,902 - INFO - SKIPPED (already in DB): Academia and the ìAI Brain Drainî [Schneier on Security]
+2026-03-24 02:24:28,902 - INFO - SKIPPED (already in DB): Academia and the ‚ÄúAI Brain Drain‚Äù [Schneier on Security]
 2026-03-24 02:24:28,905 - INFO - Scraping finished. Total saved: 2, Total skipped: 163
 2026-03-24 02:40:30,951 - INFO - Loaded 485 existing titles into memory.
 2026-03-24 02:40:30,957 - INFO - Fetching RSS feed: https://feeds.feedburner.com/TheHackersNews
@@ -697,7 +579,7 @@
 2026-03-24 02:40:32,107 - INFO - SKIPPED (already in DB): Why CISOs should embrace AI honeypots [CSO Online]
 2026-03-24 02:40:32,107 - INFO - SKIPPED (already in DB): ISO und ISMS: Darum gehen Security-Zertifizierungen schief [CSO Online]
 2026-03-24 02:40:32,107 - INFO - SKIPPED (already in DB): Palo Alto updates security platform to discover AI agents [CSO Online]
-2026-03-24 02:40:32,108 - INFO - SKIPPED (already in DB): Faster attacks and ërecovery denialí ransomware reshape threat landscape [CSO Online]
+2026-03-24 02:40:32,108 - INFO - SKIPPED (already in DB): Faster attacks and ‚Äòrecovery denial‚Äô ransomware reshape threat landscape [CSO Online]
 2026-03-24 02:40:32,108 - INFO - SKIPPED (already in DB): Chrome ABE bypass discovered: New VoidStealer malware steals passwords and cookies [CSO Online]
 2026-03-24 02:40:32,108 - INFO - SKIPPED (already in DB): Behavioral XDR and threat intel nab North Korean fake IT worker within 10 days of hire [CSO Online]
 2026-03-24 02:40:32,109 - INFO - SKIPPED (already in DB): Why US companies must be ready for quantum by 2030: A practical roadmap [CSO Online]
@@ -712,20 +594,20 @@
 2026-03-24 02:40:32,114 - INFO - SKIPPED (already in DB): CISA urges IT to harden endpoint management systems after cyberattack by pro-Iranian group [CSO Online]
 2026-03-24 02:40:32,116 - INFO - SKIPPED (already in DB): That cheap KVM device could expose your network to remote compromise [CSO Online]
 2026-03-24 02:40:32,117 - INFO - SKIPPED (already in DB): Ransomware group exploited Cisco firewall vulnerability as a zero day, weeks before a patch appeared [CSO Online]
-2026-03-24 02:40:32,118 - INFO - SKIPPED (already in DB): Beijing wants its own quantum-resistant encryption standards rather than adopt NISTís [CSO Online]
+2026-03-24 02:40:32,118 - INFO - SKIPPED (already in DB): Beijing wants its own quantum-resistant encryption standards rather than adopt NIST‚Äôs [CSO Online]
 2026-03-24 02:40:32,119 - INFO - SKIPPED (already in DB): Telnet vulnerability opens door to remote code execution as root [CSO Online]
 2026-03-24 02:40:32,119 - INFO - Fetching RSS feed: https://threatpost.com/feed/
 2026-03-24 02:40:33,086 - INFO - Found 10 entries in feed: ThreatPost
 2026-03-24 02:40:33,087 - INFO - SKIPPED (already in DB): Student Loan Breach Exposes 2.5M Records [ThreatPost]
 2026-03-24 02:40:33,088 - INFO - SKIPPED (already in DB): Watering Hole Attacks Push ScanBox Keylogger [ThreatPost]
-2026-03-24 02:40:33,088 - INFO - SKIPPED (already in DB): Tentacles of ë0ktapusí Threat Group Victimize 130 Firms [ThreatPost]
+2026-03-24 02:40:33,088 - INFO - SKIPPED (already in DB): Tentacles of ‚Äò0ktapus‚Äô Threat Group Victimize 130 Firms [ThreatPost]
 2026-03-24 02:40:33,088 - INFO - SKIPPED (already in DB): Ransomware Attacks are on the Rise [ThreatPost]
 2026-03-24 02:40:33,088 - INFO - SKIPPED (already in DB): Cybercriminals Are Selling Access to Chinese Surveillance Cameras [ThreatPost]
 2026-03-24 02:40:33,088 - INFO - SKIPPED (already in DB): Twitter Whistleblower Complaint: The TL;DR Version [ThreatPost]
 2026-03-24 02:40:33,089 - INFO - SKIPPED (already in DB): Firewall Bug Under Active Attack Triggers CISA Warning [ThreatPost]
 2026-03-24 02:40:33,089 - INFO - SKIPPED (already in DB): Fake Reservation Links Prey on Weary Travelers [ThreatPost]
 2026-03-24 02:40:33,089 - INFO - SKIPPED (already in DB): iPhone Users Urged to Update to Patch 2 Zero-Days [ThreatPost]
-2026-03-24 02:40:33,089 - INFO - SKIPPED (already in DB): Google Patches Chromeís Fifth Zero-Day of the Year [ThreatPost]
+2026-03-24 02:40:33,089 - INFO - SKIPPED (already in DB): Google Patches Chrome‚Äôs Fifth Zero-Day of the Year [ThreatPost]
 2026-03-24 02:40:33,089 - INFO - Fetching RSS feed: https://www.darkreading.com/rss.xml
 2026-03-24 02:40:33,488 - INFO - Found 50 entries in feed: Dark Reading
 2026-03-24 02:40:33,491 - INFO - SKIPPED (already in DB): AI in the SOC: What Could Go Wrong? [Dark Reading]
@@ -744,7 +626,7 @@
 2026-03-24 02:40:33,522 - INFO - SKIPPED (already in DB): EU Sanctions Companies in China, Iran for Cyberattacks [Dark Reading]
 2026-03-24 02:40:33,522 - INFO - SKIPPED (already in DB): C2 Implant 'SnappyClient' Targets Crypto Wallets [Dark Reading]
 2026-03-24 02:40:33,522 - INFO - SKIPPED (already in DB): DarkSword: iPhone Exploit Kit Serves Spies &amp; Thieves Alike [Dark Reading]
-2026-03-24 02:40:33,522 - INFO - SKIPPED (already in DB): 'Claudy Dayí Trio of Flaws Exposes Claude Users to Data Theft [Dark Reading]
+2026-03-24 02:40:33,522 - INFO - SKIPPED (already in DB): 'Claudy Day‚Äô Trio of Flaws Exposes Claude Users to Data Theft [Dark Reading]
 2026-03-24 02:40:33,522 - INFO - SKIPPED (already in DB): SideWinder Espionage Campaign Expands Across Southeast Asia [Dark Reading]
 2026-03-24 02:40:33,523 - INFO - SKIPPED (already in DB): Researchers: Meta, TikTok Steal Personal &amp; Financial Info When Users Click Ads [Dark Reading]
 2026-03-24 02:40:33,523 - INFO - SKIPPED (already in DB): More Attackers Are Logging In, Not Breaking In [Dark Reading]
@@ -780,16 +662,16 @@
 2026-03-24 02:40:33,539 - INFO - SKIPPED (already in DB): White House Cyber Strategy Prioritizes Offense [Dark Reading]
 2026-03-24 02:40:33,540 - INFO - Fetching RSS feed: https://krebsonsecurity.com/feed/
 2026-03-24 02:40:34,019 - INFO - Found 10 entries in feed: Krebs on Security
-2026-03-24 02:40:34,020 - INFO - SKIPPED (already in DB): ëCanisterWormí Springs Wiper Attack Targeting Iran [Krebs on Security]
+2026-03-24 02:40:34,020 - INFO - SKIPPED (already in DB): ‚ÄòCanisterWorm‚Äô Springs Wiper Attack Targeting Iran [Krebs on Security]
 2026-03-24 02:40:34,020 - INFO - SKIPPED (already in DB): Feds Disrupt IoT Botnets Behind Huge DDoS Attacks [Krebs on Security]
 2026-03-24 02:40:34,020 - INFO - SKIPPED (already in DB): Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker [Krebs on Security]
 2026-03-24 02:40:34,020 - INFO - SKIPPED (already in DB): Microsoft Patch Tuesday, March 2026 Edition [Krebs on Security]
 2026-03-24 02:40:34,020 - INFO - SKIPPED (already in DB): How AI Assistants are Moving the Security Goalposts [Krebs on Security]
-2026-03-24 02:40:34,021 - INFO - SKIPPED (already in DB): Who is the Kimwolf Botmaster ìDortî? [Krebs on Security]
-2026-03-24 02:40:34,021 - INFO - SKIPPED (already in DB): ëStarkillerí Phishing Service Proxies Real Login Pages, MFA [Krebs on Security]
+2026-03-24 02:40:34,021 - INFO - SKIPPED (already in DB): Who is the Kimwolf Botmaster ‚ÄúDort‚Äù? [Krebs on Security]
+2026-03-24 02:40:34,021 - INFO - SKIPPED (already in DB): ‚ÄòStarkiller‚Äô Phishing Service Proxies Real Login Pages, MFA [Krebs on Security]
 2026-03-24 02:40:34,021 - INFO - SKIPPED (already in DB): Kimwolf Botnet Swamps Anonymity Network I2P [Krebs on Security]
 2026-03-24 02:40:34,021 - INFO - SKIPPED (already in DB): Patch Tuesday, February 2026 Edition [Krebs on Security]
-2026-03-24 02:40:34,021 - INFO - SKIPPED (already in DB): Please Donít Feed the Scattered Lapsus ShinyHunters [Krebs on Security]
+2026-03-24 02:40:34,021 - INFO - SKIPPED (already in DB): Please Don‚Äôt Feed the Scattered Lapsus ShinyHunters [Krebs on Security]
 2026-03-24 02:40:34,021 - INFO - Fetching RSS feed: https://www.bleepingcomputer.com/feed/
 2026-03-24 02:40:34,186 - INFO - Found 15 entries in feed: BleepingComputer
 2026-03-24 02:40:34,186 - INFO - SKIPPED (already in DB): OpenAI rolls out ChatGPT Library to store your personal files [BleepingComputer]
@@ -805,7 +687,7 @@
 2026-03-24 02:40:34,189 - INFO - SKIPPED (already in DB): New KB5085516 emergency update fixes Microsoft account sign-in [BleepingComputer]
 2026-03-24 02:40:34,189 - INFO - SKIPPED (already in DB): VoidStealer malware steals Chrome master key via debugger trick [BleepingComputer]
 2026-03-24 02:40:34,189 - INFO - SKIPPED (already in DB): Trivy vulnerability scanner breach pushed infostealer via GitHub Actions [BleepingComputer]
-2026-03-24 02:40:34,189 - INFO - SKIPPED (already in DB): Google adds ëAdvanced Flowí for safe APK sideloading on Android [BleepingComputer]
+2026-03-24 02:40:34,189 - INFO - SKIPPED (already in DB): Google adds ‚ÄòAdvanced Flow‚Äô for safe APK sideloading on Android [BleepingComputer]
 2026-03-24 02:40:34,189 - INFO - SKIPPED (already in DB): Microsoft Azure Monitor alerts abused for callback phishing attacks [BleepingComputer]
 2026-03-24 02:40:34,189 - INFO - Fetching RSS feed: https://www.schneier.com/blog/atom.xml
 2026-03-24 02:40:34,589 - INFO - Found 10 entries in feed: Schneier on Security
@@ -813,12 +695,12 @@
 2026-03-24 02:40:34,591 - INFO - SKIPPED (already in DB): Friday Squid Blogging: Jumbo Flying Squid in the South Pacific [Schneier on Security]
 2026-03-24 02:40:34,591 - INFO - SKIPPED (already in DB): Proton Mail Shared User Information with the Police [Schneier on Security]
 2026-03-24 02:40:34,591 - INFO - SKIPPED (already in DB): Hacking a Robot Vacuum [Schneier on Security]
-2026-03-24 02:40:34,591 - INFO - SKIPPED (already in DB): Metaís AI Glasses and Privacy [Schneier on Security]
+2026-03-24 02:40:34,591 - INFO - SKIPPED (already in DB): Meta‚Äôs AI Glasses and Privacy [Schneier on Security]
 2026-03-24 02:40:34,591 - INFO - SKIPPED (already in DB): South Korean Police Accidentally Post Cryptocurrency Wallet Password [Schneier on Security]
 2026-03-24 02:40:34,592 - INFO - SKIPPED (already in DB): Possible New Result in Quantum Factorization [Schneier on Security]
 2026-03-24 02:40:34,592 - INFO - SKIPPED (already in DB): Upcoming Speaking Engagements [Schneier on Security]
 2026-03-24 02:40:34,592 - INFO - SKIPPED (already in DB): Friday Squid Blogging: Increased Squid Population in the Falklands [Schneier on Security]
-2026-03-24 02:40:34,592 - INFO - SKIPPED (already in DB): Academia and the ìAI Brain Drainî [Schneier on Security]
+2026-03-24 02:40:34,592 - INFO - SKIPPED (already in DB): Academia and the ‚ÄúAI Brain Drain‚Äù [Schneier on Security]
 2026-03-24 02:40:34,592 - INFO - Scraping finished. Total saved: 0, Total skipped: 165
 2026-03-24 02:46:31,651 - INFO - Loaded 485 existing titles into memory.
 2026-03-24 02:46:31,682 - INFO - Fetching RSS feed: https://feeds.feedburner.com/TheHackersNews
@@ -877,7 +759,7 @@
 2026-03-24 02:46:33,891 - INFO - SKIPPED (already in DB): Why CISOs should embrace AI honeypots [CSO Online]
 2026-03-24 02:46:33,898 - INFO - SKIPPED (already in DB): ISO und ISMS: Darum gehen Security-Zertifizierungen schief [CSO Online]
 2026-03-24 02:46:33,901 - INFO - SKIPPED (already in DB): Palo Alto updates security platform to discover AI agents [CSO Online]
-2026-03-24 02:46:33,912 - INFO - SKIPPED (already in DB): Faster attacks and ërecovery denialí ransomware reshape threat landscape [CSO Online]
+2026-03-24 02:46:33,912 - INFO - SKIPPED (already in DB): Faster attacks and ‚Äòrecovery denial‚Äô ransomware reshape threat landscape [CSO Online]
 2026-03-24 02:46:33,913 - INFO - SKIPPED (already in DB): Chrome ABE bypass discovered: New VoidStealer malware steals passwords and cookies [CSO Online]
 2026-03-24 02:46:33,913 - INFO - SKIPPED (already in DB): Behavioral XDR and threat intel nab North Korean fake IT worker within 10 days of hire [CSO Online]
 2026-03-24 02:46:33,914 - INFO - SKIPPED (already in DB): Why US companies must be ready for quantum by 2030: A practical roadmap [CSO Online]
@@ -893,7 +775,7 @@
 2026-03-24 02:46:33,948 - INFO - SKIPPED (already in DB): CISA urges IT to harden endpoint management systems after cyberattack by pro-Iranian group [CSO Online]
 2026-03-24 02:46:34,013 - INFO - SKIPPED (already in DB): That cheap KVM device could expose your network to remote compromise [CSO Online]
 2026-03-24 02:46:34,014 - INFO - SKIPPED (already in DB): Ransomware group exploited Cisco firewall vulnerability as a zero day, weeks before a patch appeared [CSO Online]
-2026-03-24 02:46:34,016 - INFO - SKIPPED (already in DB): Beijing wants its own quantum-resistant encryption standards rather than adopt NISTís [CSO Online]
+2026-03-24 02:46:34,016 - INFO - SKIPPED (already in DB): Beijing wants its own quantum-resistant encryption standards rather than adopt NIST‚Äôs [CSO Online]
 2026-03-24 02:46:34,017 - INFO - SKIPPED (already in DB): Telnet vulnerability opens door to remote code execution as root [CSO Online]
 2026-03-24 02:46:34,018 - INFO - Fetching RSS feed: https://threatpost.com/feed/
 2026-03-24 02:46:34,804 - INFO - Found 50 entries in feed: The Hacker News
@@ -949,20 +831,20 @@
 2026-03-24 02:46:35,055 - INFO - Fetching RSS feed: https://www.csoonline.com/feed/
 2026-03-24 02:46:35,061 - INFO - SKIPPED (already in DB): Student Loan Breach Exposes 2.5M Records [ThreatPost]
 2026-03-24 02:46:35,061 - INFO - SKIPPED (already in DB): Watering Hole Attacks Push ScanBox Keylogger [ThreatPost]
-2026-03-24 02:46:35,062 - INFO - SKIPPED (already in DB): Tentacles of ë0ktapusí Threat Group Victimize 130 Firms [ThreatPost]
+2026-03-24 02:46:35,062 - INFO - SKIPPED (already in DB): Tentacles of ‚Äò0ktapus‚Äô Threat Group Victimize 130 Firms [ThreatPost]
 2026-03-24 02:46:35,065 - INFO - SKIPPED (already in DB): Ransomware Attacks are on the Rise [ThreatPost]
 2026-03-24 02:46:35,067 - INFO - SKIPPED (already in DB): Cybercriminals Are Selling Access to Chinese Surveillance Cameras [ThreatPost]
 2026-03-24 02:46:35,068 - INFO - SKIPPED (already in DB): Twitter Whistleblower Complaint: The TL;DR Version [ThreatPost]
 2026-03-24 02:46:35,068 - INFO - SKIPPED (already in DB): Firewall Bug Under Active Attack Triggers CISA Warning [ThreatPost]
 2026-03-24 02:46:35,068 - INFO - SKIPPED (already in DB): Fake Reservation Links Prey on Weary Travelers [ThreatPost]
 2026-03-24 02:46:35,070 - INFO - SKIPPED (already in DB): iPhone Users Urged to Update to Patch 2 Zero-Days [ThreatPost]
-2026-03-24 02:46:35,070 - INFO - SKIPPED (already in DB): Google Patches Chromeís Fifth Zero-Day of the Year [ThreatPost]
+2026-03-24 02:46:35,070 - INFO - SKIPPED (already in DB): Google Patches Chrome‚Äôs Fifth Zero-Day of the Year [ThreatPost]
 2026-03-24 02:46:35,070 - INFO - Fetching RSS feed: https://www.darkreading.com/rss.xml
 2026-03-24 02:46:35,396 - INFO - Found 20 entries in feed: CSO Online
 2026-03-24 02:46:35,400 - INFO - SKIPPED (already in DB): Why CISOs should embrace AI honeypots [CSO Online]
 2026-03-24 02:46:35,402 - INFO - SKIPPED (already in DB): ISO und ISMS: Darum gehen Security-Zertifizierungen schief [CSO Online]
 2026-03-24 02:46:35,407 - INFO - SKIPPED (already in DB): Palo Alto updates security platform to discover AI agents [CSO Online]
-2026-03-24 02:46:35,412 - INFO - SKIPPED (already in DB): Faster attacks and ërecovery denialí ransomware reshape threat landscape [CSO Online]
+2026-03-24 02:46:35,412 - INFO - SKIPPED (already in DB): Faster attacks and ‚Äòrecovery denial‚Äô ransomware reshape threat landscape [CSO Online]
 2026-03-24 02:46:35,414 - INFO - SKIPPED (already in DB): Chrome ABE bypass discovered: New VoidStealer malware steals passwords and cookies [CSO Online]
 2026-03-24 02:46:35,417 - INFO - SKIPPED (already in DB): Behavioral XDR and threat intel nab North Korean fake IT worker within 10 days of hire [CSO Online]
 2026-03-24 02:46:35,417 - INFO - SKIPPED (already in DB): Why US companies must be ready for quantum by 2030: A practical roadmap [CSO Online]
@@ -977,7 +859,7 @@
 2026-03-24 02:46:35,421 - INFO - SKIPPED (already in DB): CISA urges IT to harden endpoint management systems after cyberattack by pro-Iranian group [CSO Online]
 2026-03-24 02:46:35,421 - INFO - SKIPPED (already in DB): That cheap KVM device could expose your network to remote compromise [CSO Online]
 2026-03-24 02:46:35,421 - INFO - SKIPPED (already in DB): Ransomware group exploited Cisco firewall vulnerability as a zero day, weeks before a patch appeared [CSO Online]
-2026-03-24 02:46:35,421 - INFO - SKIPPED (already in DB): Beijing wants its own quantum-resistant encryption standards rather than adopt NISTís [CSO Online]
+2026-03-24 02:46:35,421 - INFO - SKIPPED (already in DB): Beijing wants its own quantum-resistant encryption standards rather than adopt NIST‚Äôs [CSO Online]
 2026-03-24 02:46:35,422 - INFO - SKIPPED (already in DB): Telnet vulnerability opens door to remote code execution as root [CSO Online]
 2026-03-24 02:46:35,422 - INFO - Fetching RSS feed: https://threatpost.com/feed/
 2026-03-24 02:46:35,673 - INFO - Found 50 entries in feed: Dark Reading
@@ -997,7 +879,7 @@
 2026-03-24 02:46:35,678 - INFO - SKIPPED (already in DB): EU Sanctions Companies in China, Iran for Cyberattacks [Dark Reading]
 2026-03-24 02:46:35,678 - INFO - SKIPPED (already in DB): C2 Implant 'SnappyClient' Targets Crypto Wallets [Dark Reading]
 2026-03-24 02:46:35,680 - INFO - SKIPPED (already in DB): DarkSword: iPhone Exploit Kit Serves Spies &amp; Thieves Alike [Dark Reading]
-2026-03-24 02:46:35,681 - INFO - SKIPPED (already in DB): 'Claudy Dayí Trio of Flaws Exposes Claude Users to Data Theft [Dark Reading]
+2026-03-24 02:46:35,681 - INFO - SKIPPED (already in DB): 'Claudy Day‚Äô Trio of Flaws Exposes Claude Users to Data Theft [Dark Reading]
 2026-03-24 02:46:35,682 - INFO - SKIPPED (already in DB): SideWinder Espionage Campaign Expands Across Southeast Asia [Dark Reading]
 2026-03-24 02:46:35,682 - INFO - SKIPPED (already in DB): Researchers: Meta, TikTok Steal Personal &amp; Financial Info When Users Click Ads [Dark Reading]
 2026-03-24 02:46:35,682 - INFO - SKIPPED (already in DB): More Attackers Are Logging In, Not Breaking In [Dark Reading]
@@ -1035,26 +917,26 @@
 2026-03-24 02:46:36,101 - INFO - Found 10 entries in feed: ThreatPost
 2026-03-24 02:46:36,111 - INFO - SKIPPED (already in DB): Student Loan Breach Exposes 2.5M Records [ThreatPost]
 2026-03-24 02:46:36,121 - INFO - SKIPPED (already in DB): Watering Hole Attacks Push ScanBox Keylogger [ThreatPost]
-2026-03-24 02:46:36,133 - INFO - SKIPPED (already in DB): Tentacles of ë0ktapusí Threat Group Victimize 130 Firms [ThreatPost]
+2026-03-24 02:46:36,133 - INFO - SKIPPED (already in DB): Tentacles of ‚Äò0ktapus‚Äô Threat Group Victimize 130 Firms [ThreatPost]
 2026-03-24 02:46:36,142 - INFO - SKIPPED (already in DB): Ransomware Attacks are on the Rise [ThreatPost]
 2026-03-24 02:46:36,144 - INFO - SKIPPED (already in DB): Cybercriminals Are Selling Access to Chinese Surveillance Cameras [ThreatPost]
 2026-03-24 02:46:36,145 - INFO - SKIPPED (already in DB): Twitter Whistleblower Complaint: The TL;DR Version [ThreatPost]
 2026-03-24 02:46:36,146 - INFO - SKIPPED (already in DB): Firewall Bug Under Active Attack Triggers CISA Warning [ThreatPost]
 2026-03-24 02:46:36,147 - INFO - SKIPPED (already in DB): Fake Reservation Links Prey on Weary Travelers [ThreatPost]
 2026-03-24 02:46:36,147 - INFO - SKIPPED (already in DB): iPhone Users Urged to Update to Patch 2 Zero-Days [ThreatPost]
-2026-03-24 02:46:36,150 - INFO - SKIPPED (already in DB): Google Patches Chromeís Fifth Zero-Day of the Year [ThreatPost]
+2026-03-24 02:46:36,150 - INFO - SKIPPED (already in DB): Google Patches Chrome‚Äôs Fifth Zero-Day of the Year [ThreatPost]
 2026-03-24 02:46:36,152 - INFO - Fetching RSS feed: https://www.darkreading.com/rss.xml
 2026-03-24 02:46:36,291 - INFO - Found 10 entries in feed: Krebs on Security
-2026-03-24 02:46:36,295 - INFO - SKIPPED (already in DB): ëCanisterWormí Springs Wiper Attack Targeting Iran [Krebs on Security]
+2026-03-24 02:46:36,295 - INFO - SKIPPED (already in DB): ‚ÄòCanisterWorm‚Äô Springs Wiper Attack Targeting Iran [Krebs on Security]
 2026-03-24 02:46:36,296 - INFO - SKIPPED (already in DB): Feds Disrupt IoT Botnets Behind Huge DDoS Attacks [Krebs on Security]
 2026-03-24 02:46:36,297 - INFO - SKIPPED (already in DB): Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker [Krebs on Security]
 2026-03-24 02:46:36,297 - INFO - SKIPPED (already in DB): Microsoft Patch Tuesday, March 2026 Edition [Krebs on Security]
 2026-03-24 02:46:36,297 - INFO - SKIPPED (already in DB): How AI Assistants are Moving the Security Goalposts [Krebs on Security]
-2026-03-24 02:46:36,297 - INFO - SKIPPED (already in DB): Who is the Kimwolf Botmaster ìDortî? [Krebs on Security]
-2026-03-24 02:46:36,297 - INFO - SKIPPED (already in DB): ëStarkillerí Phishing Service Proxies Real Login Pages, MFA [Krebs on Security]
+2026-03-24 02:46:36,297 - INFO - SKIPPED (already in DB): Who is the Kimwolf Botmaster ‚ÄúDort‚Äù? [Krebs on Security]
+2026-03-24 02:46:36,297 - INFO - SKIPPED (already in DB): ‚ÄòStarkiller‚Äô Phishing Service Proxies Real Login Pages, MFA [Krebs on Security]
 2026-03-24 02:46:36,298 - INFO - SKIPPED (already in DB): Kimwolf Botnet Swamps Anonymity Network I2P [Krebs on Security]
 2026-03-24 02:46:36,298 - INFO - SKIPPED (already in DB): Patch Tuesday, February 2026 Edition [Krebs on Security]
-2026-03-24 02:46:36,299 - INFO - SKIPPED (already in DB): Please Donít Feed the Scattered Lapsus ShinyHunters [Krebs on Security]
+2026-03-24 02:46:36,299 - INFO - SKIPPED (already in DB): Please Don‚Äôt Feed the Scattered Lapsus ShinyHunters [Krebs on Security]
 2026-03-24 02:46:36,299 - INFO - Fetching RSS feed: https://www.bleepingcomputer.com/feed/
 2026-03-24 02:46:36,631 - INFO - Found 15 entries in feed: BleepingComputer
 2026-03-24 02:46:36,639 - INFO - SKIPPED (already in DB): OpenAI rolls out ChatGPT Library to store your personal files [BleepingComputer]
@@ -1077,7 +959,7 @@
 2026-03-24 02:46:36,754 - INFO - SKIPPED (already in DB): Attackers Hide Infostealer in Copyright Infringement Notices [Dark Reading]
 2026-03-24 02:46:36,754 - INFO - SKIPPED (already in DB): Trivy vulnerability scanner breach pushed infostealer via GitHub Actions [BleepingComputer]
 2026-03-24 02:46:36,755 - INFO - SKIPPED (already in DB): AI Dominates RSAC Innovation Sandbox [Dark Reading]
-2026-03-24 02:46:36,759 - INFO - SKIPPED (already in DB): Google adds ëAdvanced Flowí for safe APK sideloading on Android [BleepingComputer]
+2026-03-24 02:46:36,759 - INFO - SKIPPED (already in DB): Google adds ‚ÄòAdvanced Flow‚Äô for safe APK sideloading on Android [BleepingComputer]
 2026-03-24 02:46:36,761 - INFO - SKIPPED (already in DB): Patch Now: Oracle's Fusion Middleware Has Critical RCE Flaw [Dark Reading]
 2026-03-24 02:46:36,764 - INFO - SKIPPED (already in DB): Microsoft Azure Monitor alerts abused for callback phishing attacks [BleepingComputer]
 2026-03-24 02:46:36,765 - INFO - SKIPPED (already in DB): Cyber OpSec Fail: Beast Gang Exposes Ransomware Server [Dark Reading]
@@ -1090,7 +972,7 @@
 2026-03-24 02:46:36,813 - INFO - SKIPPED (already in DB): EU Sanctions Companies in China, Iran for Cyberattacks [Dark Reading]
 2026-03-24 02:46:36,816 - INFO - SKIPPED (already in DB): C2 Implant 'SnappyClient' Targets Crypto Wallets [Dark Reading]
 2026-03-24 02:46:36,817 - INFO - SKIPPED (already in DB): DarkSword: iPhone Exploit Kit Serves Spies &amp; Thieves Alike [Dark Reading]
-2026-03-24 02:46:36,817 - INFO - SKIPPED (already in DB): 'Claudy Dayí Trio of Flaws Exposes Claude Users to Data Theft [Dark Reading]
+2026-03-24 02:46:36,817 - INFO - SKIPPED (already in DB): 'Claudy Day‚Äô Trio of Flaws Exposes Claude Users to Data Theft [Dark Reading]
 2026-03-24 02:46:36,818 - INFO - SKIPPED (already in DB): SideWinder Espionage Campaign Expands Across Southeast Asia [Dark Reading]
 2026-03-24 02:46:36,818 - INFO - SKIPPED (already in DB): Researchers: Meta, TikTok Steal Personal &amp; Financial Info When Users Click Ads [Dark Reading]
 2026-03-24 02:46:36,819 - INFO - SKIPPED (already in DB): More Attackers Are Logging In, Not Breaking In [Dark Reading]
@@ -1127,7 +1009,7 @@
 2026-03-24 02:46:36,836 - INFO - Fetching RSS feed: https://krebsonsecurity.com/feed/
 2026-03-24 02:46:37,289 - INFO - Found 10 entries in feed: Krebs on Security
 2026-03-24 02:46:37,304 - INFO - Found 10 entries in feed: Schneier on Security
-2026-03-24 02:46:37,304 - INFO - SKIPPED (already in DB): ëCanisterWormí Springs Wiper Attack Targeting Iran [Krebs on Security]
+2026-03-24 02:46:37,304 - INFO - SKIPPED (already in DB): ‚ÄòCanisterWorm‚Äô Springs Wiper Attack Targeting Iran [Krebs on Security]
 2026-03-24 02:46:37,307 - INFO - SKIPPED (already in DB): Feds Disrupt IoT Botnets Behind Huge DDoS Attacks [Krebs on Security]
 2026-03-24 02:46:37,308 - INFO - SKIPPED (already in DB): Microsoft Xbox One Hacked [Schneier on Security]
 2026-03-24 02:46:37,308 - INFO - SKIPPED (already in DB): Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker [Krebs on Security]
@@ -1135,19 +1017,19 @@
 2026-03-24 02:46:37,311 - INFO - SKIPPED (already in DB): Friday Squid Blogging: Jumbo Flying Squid in the South Pacific [Schneier on Security]
 2026-03-24 02:46:37,313 - INFO - SKIPPED (already in DB): How AI Assistants are Moving the Security Goalposts [Krebs on Security]
 2026-03-24 02:46:37,314 - INFO - SKIPPED (already in DB): Proton Mail Shared User Information with the Police [Schneier on Security]
-2026-03-24 02:46:37,316 - INFO - SKIPPED (already in DB): Who is the Kimwolf Botmaster ìDortî? [Krebs on Security]
-2026-03-24 02:46:37,317 - INFO - SKIPPED (already in DB): ëStarkillerí Phishing Service Proxies Real Login Pages, MFA [Krebs on Security]
+2026-03-24 02:46:37,316 - INFO - SKIPPED (already in DB): Who is the Kimwolf Botmaster ‚ÄúDort‚Äù? [Krebs on Security]
+2026-03-24 02:46:37,317 - INFO - SKIPPED (already in DB): ‚ÄòStarkiller‚Äô Phishing Service Proxies Real Login Pages, MFA [Krebs on Security]
 2026-03-24 02:46:37,318 - INFO - SKIPPED (already in DB): Hacking a Robot Vacuum [Schneier on Security]
-2026-03-24 02:46:37,320 - INFO - SKIPPED (already in DB): Metaís AI Glasses and Privacy [Schneier on Security]
+2026-03-24 02:46:37,320 - INFO - SKIPPED (already in DB): Meta‚Äôs AI Glasses and Privacy [Schneier on Security]
 2026-03-24 02:46:37,320 - INFO - SKIPPED (already in DB): Kimwolf Botnet Swamps Anonymity Network I2P [Krebs on Security]
 2026-03-24 02:46:37,321 - INFO - SKIPPED (already in DB): South Korean Police Accidentally Post Cryptocurrency Wallet Password [Schneier on Security]
 2026-03-24 02:46:37,321 - INFO - SKIPPED (already in DB): Possible New Result in Quantum Factorization [Schneier on Security]
 2026-03-24 02:46:37,322 - INFO - SKIPPED (already in DB): Patch Tuesday, February 2026 Edition [Krebs on Security]
 2026-03-24 02:46:37,323 - INFO - SKIPPED (already in DB): Upcoming Speaking Engagements [Schneier on Security]
-2026-03-24 02:46:37,323 - INFO - SKIPPED (already in DB): Please Donít Feed the Scattered Lapsus ShinyHunters [Krebs on Security]
+2026-03-24 02:46:37,323 - INFO - SKIPPED (already in DB): Please Don‚Äôt Feed the Scattered Lapsus ShinyHunters [Krebs on Security]
 2026-03-24 02:46:37,324 - INFO - SKIPPED (already in DB): Friday Squid Blogging: Increased Squid Population in the Falklands [Schneier on Security]
 2026-03-24 02:46:37,325 - INFO - Fetching RSS feed: https://www.bleepingcomputer.com/feed/
-2026-03-24 02:46:37,325 - INFO - SKIPPED (already in DB): Academia and the ìAI Brain Drainî [Schneier on Security]
+2026-03-24 02:46:37,325 - INFO - SKIPPED (already in DB): Academia and the ‚ÄúAI Brain Drain‚Äù [Schneier on Security]
 2026-03-24 02:46:37,328 - INFO - Scraping finished. Total saved: 0, Total skipped: 165
 2026-03-24 02:46:37,510 - INFO - Found 15 entries in feed: BleepingComputer
 2026-03-24 02:46:37,512 - INFO - SKIPPED (already in DB): OpenAI rolls out ChatGPT Library to store your personal files [BleepingComputer]
@@ -1163,7 +1045,7 @@
 2026-03-24 02:46:37,540 - INFO - SKIPPED (already in DB): New KB5085516 emergency update fixes Microsoft account sign-in [BleepingComputer]
 2026-03-24 02:46:37,544 - INFO - SKIPPED (already in DB): VoidStealer malware steals Chrome master key via debugger trick [BleepingComputer]
 2026-03-24 02:46:37,547 - INFO - SKIPPED (already in DB): Trivy vulnerability scanner breach pushed infostealer via GitHub Actions [BleepingComputer]
-2026-03-24 02:46:37,548 - INFO - SKIPPED (already in DB): Google adds ëAdvanced Flowí for safe APK sideloading on Android [BleepingComputer]
+2026-03-24 02:46:37,548 - INFO - SKIPPED (already in DB): Google adds ‚ÄòAdvanced Flow‚Äô for safe APK sideloading on Android [BleepingComputer]
 2026-03-24 02:46:37,551 - INFO - SKIPPED (already in DB): Microsoft Azure Monitor alerts abused for callback phishing attacks [BleepingComputer]
 2026-03-24 02:46:37,565 - INFO - Fetching RSS feed: https://www.schneier.com/blog/atom.xml
 2026-03-24 02:46:38,008 - INFO - Found 10 entries in feed: Schneier on Security
@@ -1171,12 +1053,12 @@
 2026-03-24 02:46:38,030 - INFO - SKIPPED (already in DB): Friday Squid Blogging: Jumbo Flying Squid in the South Pacific [Schneier on Security]
 2026-03-24 02:46:38,040 - INFO - SKIPPED (already in DB): Proton Mail Shared User Information with the Police [Schneier on Security]
 2026-03-24 02:46:38,057 - INFO - SKIPPED (already in DB): Hacking a Robot Vacuum [Schneier on Security]
-2026-03-24 02:46:38,074 - INFO - SKIPPED (already in DB): Metaís AI Glasses and Privacy [Schneier on Security]
+2026-03-24 02:46:38,074 - INFO - SKIPPED (already in DB): Meta‚Äôs AI Glasses and Privacy [Schneier on Security]
 2026-03-24 02:46:38,084 - INFO - SKIPPED (already in DB): South Korean Police Accidentally Post Cryptocurrency Wallet Password [Schneier on Security]
 2026-03-24 02:46:38,114 - INFO - SKIPPED (already in DB): Possible New Result in Quantum Factorization [Schneier on Security]
 2026-03-24 02:46:38,123 - INFO - SKIPPED (already in DB): Upcoming Speaking Engagements [Schneier on Security]
 2026-03-24 02:46:38,140 - INFO - SKIPPED (already in DB): Friday Squid Blogging: Increased Squid Population in the Falklands [Schneier on Security]
-2026-03-24 02:46:38,150 - INFO - SKIPPED (already in DB): Academia and the ìAI Brain Drainî [Schneier on Security]
+2026-03-24 02:46:38,150 - INFO - SKIPPED (already in DB): Academia and the ‚ÄúAI Brain Drain‚Äù [Schneier on Security]
 2026-03-24 02:46:38,158 - INFO - Scraping finished. Total saved: 0, Total skipped: 165
 2026-03-24 02:48:54,002 - INFO - Loaded 485 existing titles into memory.
 2026-03-24 02:48:54,011 - INFO - Fetching RSS feed: https://feeds.feedburner.com/TheHackersNews
@@ -1234,7 +1116,7 @@
 2026-03-24 02:48:55,087 - INFO - SKIPPED (already in DB): Why CISOs should embrace AI honeypots [CSO Online]
 2026-03-24 02:48:55,089 - INFO - SKIPPED (already in DB): ISO und ISMS: Darum gehen Security-Zertifizierungen schief [CSO Online]
 2026-03-24 02:48:55,091 - INFO - SKIPPED (already in DB): Palo Alto updates security platform to discover AI agents [CSO Online]
-2026-03-24 02:48:55,094 - INFO - SKIPPED (already in DB): Faster attacks and ërecovery denialí ransomware reshape threat landscape [CSO Online]
+2026-03-24 02:48:55,094 - INFO - SKIPPED (already in DB): Faster attacks and ‚Äòrecovery denial‚Äô ransomware reshape threat landscape [CSO Online]
 2026-03-24 02:48:55,096 - INFO - SKIPPED (already in DB): Chrome ABE bypass discovered: New VoidStealer malware steals passwords and cookies [CSO Online]
 2026-03-24 02:48:55,101 - INFO - SKIPPED (already in DB): Behavioral XDR and threat intel nab North Korean fake IT worker within 10 days of hire [CSO Online]
 2026-03-24 02:48:55,103 - INFO - SKIPPED (already in DB): Why US companies must be ready for quantum by 2030: A practical roadmap [CSO Online]
@@ -1249,20 +1131,20 @@
 2026-03-24 02:48:55,127 - INFO - SKIPPED (already in DB): CISA urges IT to harden endpoint management systems after cyberattack by pro-Iranian group [CSO Online]
 2026-03-24 02:48:55,128 - INFO - SKIPPED (already in DB): That cheap KVM device could expose your network to remote compromise [CSO Online]
 2026-03-24 02:48:55,129 - INFO - SKIPPED (already in DB): Ransomware group exploited Cisco firewall vulnerability as a zero day, weeks before a patch appeared [CSO Online]
-2026-03-24 02:48:55,132 - INFO - SKIPPED (already in DB): Beijing wants its own quantum-resistant encryption standards rather than adopt NISTís [CSO Online]
+2026-03-24 02:48:55,132 - INFO - SKIPPED (already in DB): Beijing wants its own quantum-resistant encryption standards rather than adopt NIST‚Äôs [CSO Online]
 2026-03-24 02:48:55,137 - INFO - SKIPPED (already in DB): Telnet vulnerability opens door to remote code execution as root [CSO Online]
 2026-03-24 02:48:55,147 - INFO - Fetching RSS feed: https://threatpost.com/feed/
 2026-03-24 02:48:56,055 - INFO - Found 10 entries in feed: ThreatPost
 2026-03-24 02:48:56,070 - INFO - SKIPPED (already in DB): Student Loan Breach Exposes 2.5M Records [ThreatPost]
 2026-03-24 02:48:56,086 - INFO - SKIPPED (already in DB): Watering Hole Attacks Push ScanBox Keylogger [ThreatPost]
-2026-03-24 02:48:56,094 - INFO - SKIPPED (already in DB): Tentacles of ë0ktapusí Threat Group Victimize 130 Firms [ThreatPost]
+2026-03-24 02:48:56,094 - INFO - SKIPPED (already in DB): Tentacles of ‚Äò0ktapus‚Äô Threat Group Victimize 130 Firms [ThreatPost]
 2026-03-24 02:48:56,109 - INFO - SKIPPED (already in DB): Ransomware Attacks are on the Rise [ThreatPost]
 2026-03-24 02:48:56,109 - INFO - SKIPPED (already in DB): Cybercriminals Are Selling Access to Chinese Surveillance Cameras [ThreatPost]
 2026-03-24 02:48:56,110 - INFO - SKIPPED (already in DB): Twitter Whistleblower Complaint: The TL;DR Version [ThreatPost]
 2026-03-24 02:48:56,117 - INFO - SKIPPED (already in DB): Firewall Bug Under Active Attack Triggers CISA Warning [ThreatPost]
 2026-03-24 02:48:56,124 - INFO - SKIPPED (already in DB): Fake Reservation Links Prey on Weary Travelers [ThreatPost]
 2026-03-24 02:48:56,129 - INFO - SKIPPED (already in DB): iPhone Users Urged to Update to Patch 2 Zero-Days [ThreatPost]
-2026-03-24 02:48:56,135 - INFO - SKIPPED (already in DB): Google Patches Chromeís Fifth Zero-Day of the Year [ThreatPost]
+2026-03-24 02:48:56,135 - INFO - SKIPPED (already in DB): Google Patches Chrome‚Äôs Fifth Zero-Day of the Year [ThreatPost]
 2026-03-24 02:48:56,137 - INFO - Fetching RSS feed: https://www.darkreading.com/rss.xml
 2026-03-24 02:48:56,769 - INFO - Found 50 entries in feed: Dark Reading
 2026-03-24 02:48:56,770 - INFO - SKIPPED (already in DB): AI in the SOC: What Could Go Wrong? [Dark Reading]
@@ -1281,7 +1163,7 @@
 2026-03-24 02:48:56,781 - INFO - SKIPPED (already in DB): EU Sanctions Companies in China, Iran for Cyberattacks [Dark Reading]
 2026-03-24 02:48:56,784 - INFO - SKIPPED (already in DB): C2 Implant 'SnappyClient' Targets Crypto Wallets [Dark Reading]
 2026-03-24 02:48:56,786 - INFO - SKIPPED (already in DB): DarkSword: iPhone Exploit Kit Serves Spies &amp; Thieves Alike [Dark Reading]
-2026-03-24 02:48:56,786 - INFO - SKIPPED (already in DB): 'Claudy Dayí Trio of Flaws Exposes Claude Users to Data Theft [Dark Reading]
+2026-03-24 02:48:56,786 - INFO - SKIPPED (already in DB): 'Claudy Day‚Äô Trio of Flaws Exposes Claude Users to Data Theft [Dark Reading]
 2026-03-24 02:48:56,787 - INFO - SKIPPED (already in DB): Researchers: Meta, TikTok Steal Personal &amp; Financial Info When Users Click Ads [Dark Reading]
 2026-03-24 02:48:56,787 - INFO - SKIPPED (already in DB): SideWinder Espionage Campaign Expands Across Southeast Asia [Dark Reading]
 2026-03-24 02:48:56,787 - INFO - SKIPPED (already in DB): More Attackers Are Logging In, Not Breaking In [Dark Reading]
@@ -1317,16 +1199,16 @@
 2026-03-24 02:48:56,804 - INFO - SKIPPED (already in DB): White House Cyber Strategy Prioritizes Offense [Dark Reading]
 2026-03-24 02:48:56,805 - INFO - Fetching RSS feed: https://krebsonsecurity.com/feed/
 2026-03-24 02:48:57,412 - INFO - Found 10 entries in feed: Krebs on Security
-2026-03-24 02:48:57,416 - INFO - SKIPPED (already in DB): ëCanisterWormí Springs Wiper Attack Targeting Iran [Krebs on Security]
+2026-03-24 02:48:57,416 - INFO - SKIPPED (already in DB): ‚ÄòCanisterWorm‚Äô Springs Wiper Attack Targeting Iran [Krebs on Security]
 2026-03-24 02:48:57,418 - INFO - SKIPPED (already in DB): Feds Disrupt IoT Botnets Behind Huge DDoS Attacks [Krebs on Security]
 2026-03-24 02:48:57,421 - INFO - SKIPPED (already in DB): Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker [Krebs on Security]
 2026-03-24 02:48:57,423 - INFO - SKIPPED (already in DB): Microsoft Patch Tuesday, March 2026 Edition [Krebs on Security]
 2026-03-24 02:48:57,428 - INFO - SKIPPED (already in DB): How AI Assistants are Moving the Security Goalposts [Krebs on Security]
-2026-03-24 02:48:57,435 - INFO - SKIPPED (already in DB): Who is the Kimwolf Botmaster ìDortî? [Krebs on Security]
-2026-03-24 02:48:57,438 - INFO - SKIPPED (already in DB): ëStarkillerí Phishing Service Proxies Real Login Pages, MFA [Krebs on Security]
+2026-03-24 02:48:57,435 - INFO - SKIPPED (already in DB): Who is the Kimwolf Botmaster ‚ÄúDort‚Äù? [Krebs on Security]
+2026-03-24 02:48:57,438 - INFO - SKIPPED (already in DB): ‚ÄòStarkiller‚Äô Phishing Service Proxies Real Login Pages, MFA [Krebs on Security]
 2026-03-24 02:48:57,440 - INFO - SKIPPED (already in DB): Kimwolf Botnet Swamps Anonymity Network I2P [Krebs on Security]
 2026-03-24 02:48:57,441 - INFO - SKIPPED (already in DB): Patch Tuesday, February 2026 Edition [Krebs on Security]
-2026-03-24 02:48:57,443 - INFO - SKIPPED (already in DB): Please Donít Feed the Scattered Lapsus ShinyHunters [Krebs on Security]
+2026-03-24 02:48:57,443 - INFO - SKIPPED (already in DB): Please Don‚Äôt Feed the Scattered Lapsus ShinyHunters [Krebs on Security]
 2026-03-24 02:48:57,444 - INFO - Fetching RSS feed: https://www.bleepingcomputer.com/feed/
 2026-03-24 02:48:57,627 - INFO - Found 15 entries in feed: BleepingComputer
 2026-03-24 02:48:57,631 - INFO - SKIPPED (already in DB): OpenAI rolls out ChatGPT Library to store your personal files [BleepingComputer]
@@ -1342,7 +1224,7 @@
 2026-03-24 02:48:57,658 - INFO - SKIPPED (already in DB): New KB5085516 emergency update fixes Microsoft account sign-in [BleepingComputer]
 2026-03-24 02:48:57,671 - INFO - SKIPPED (already in DB): VoidStealer malware steals Chrome master key via debugger trick [BleepingComputer]
 2026-03-24 02:48:57,671 - INFO - SKIPPED (already in DB): Trivy vulnerability scanner breach pushed infostealer via GitHub Actions [BleepingComputer]
-2026-03-24 02:48:57,672 - INFO - SKIPPED (already in DB): Google adds ëAdvanced Flowí for safe APK sideloading on Android [BleepingComputer]
+2026-03-24 02:48:57,672 - INFO - SKIPPED (already in DB): Google adds ‚ÄòAdvanced Flow‚Äô for safe APK sideloading on Android [BleepingComputer]
 2026-03-24 02:48:57,680 - INFO - SKIPPED (already in DB): Microsoft Azure Monitor alerts abused for callback phishing attacks [BleepingComputer]
 2026-03-24 02:48:57,688 - INFO - Fetching RSS feed: https://www.schneier.com/blog/atom.xml
 2026-03-24 02:48:58,205 - INFO - Found 10 entries in feed: Schneier on Security
@@ -1350,12 +1232,12 @@
 2026-03-24 02:48:58,207 - INFO - SKIPPED (already in DB): Friday Squid Blogging: Jumbo Flying Squid in the South Pacific [Schneier on Security]
 2026-03-24 02:48:58,207 - INFO - SKIPPED (already in DB): Proton Mail Shared User Information with the Police [Schneier on Security]
 2026-03-24 02:48:58,208 - INFO - SKIPPED (already in DB): Hacking a Robot Vacuum [Schneier on Security]
-2026-03-24 02:48:58,208 - INFO - SKIPPED (already in DB): Metaís AI Glasses and Privacy [Schneier on Security]
+2026-03-24 02:48:58,208 - INFO - SKIPPED (already in DB): Meta‚Äôs AI Glasses and Privacy [Schneier on Security]
 2026-03-24 02:48:58,209 - INFO - SKIPPED (already in DB): South Korean Police Accidentally Post Cryptocurrency Wallet Password [Schneier on Security]
 2026-03-24 02:48:58,209 - INFO - SKIPPED (already in DB): Possible New Result in Quantum Factorization [Schneier on Security]
 2026-03-24 02:48:58,209 - INFO - SKIPPED (already in DB): Upcoming Speaking Engagements [Schneier on Security]
 2026-03-24 02:48:58,210 - INFO - SKIPPED (already in DB): Friday Squid Blogging: Increased Squid Population in the Falklands [Schneier on Security]
-2026-03-24 02:48:58,210 - INFO - SKIPPED (already in DB): Academia and the ìAI Brain Drainî [Schneier on Security]
+2026-03-24 02:48:58,210 - INFO - SKIPPED (already in DB): Academia and the ‚ÄúAI Brain Drain‚Äù [Schneier on Security]
 2026-03-24 02:48:58,213 - INFO - Scraping finished. Total saved: 0, Total skipped: 165
 2026-03-24 10:25:43,927 - INFO - Dash is running on http://127.0.0.1:8050/
 
@@ -1414,12 +1296,12 @@
 2026-03-24 11:06:00,735 - INFO - Found 20 entries in feed: CSO Online
 2026-03-24 11:06:00,736 - INFO - SKIPPED (already in DB): DDoS-Angriffe haben sich verdoppelt [CSO Online]
 2026-03-24 11:06:00,737 - INFO - SKIPPED (already in DB): HP launches TPM Guard to help defeat physical TPM attacks [CSO Online]
-2026-03-24 11:06:00,749 - INFO - SKIPPED (already in DB): Autonomous AI adoption is on the rise, but itís risky [CSO Online]
+2026-03-24 11:06:00,749 - INFO - SKIPPED (already in DB): Autonomous AI adoption is on the rise, but it‚Äôs risky [CSO Online]
 2026-03-24 11:06:00,750 - INFO - SKIPPED (already in DB): Streamline physical security to enable data center growth in the era of AI [CSO Online]
 2026-03-24 11:06:00,750 - INFO - SKIPPED (already in DB): Why CISOs should embrace AI honeypots [CSO Online]
 2026-03-24 11:06:00,751 - INFO - SKIPPED (already in DB): ISO und ISMS: Darum gehen Security-Zertifizierungen schief [CSO Online]
 2026-03-24 11:06:00,751 - INFO - SKIPPED (already in DB): Palo Alto updates security platform to discover AI agents [CSO Online]
-2026-03-24 11:06:00,752 - INFO - SKIPPED (already in DB): Faster attacks and ërecovery denialí ransomware reshape threat landscape [CSO Online]
+2026-03-24 11:06:00,752 - INFO - SKIPPED (already in DB): Faster attacks and ‚Äòrecovery denial‚Äô ransomware reshape threat landscape [CSO Online]
 2026-03-24 11:06:00,752 - INFO - SKIPPED (already in DB): Chrome ABE bypass discovered: New VoidStealer malware steals passwords and cookies [CSO Online]
 2026-03-24 11:06:00,753 - INFO - SKIPPED (already in DB): Behavioral XDR and threat intel nab North Korean fake IT worker within 10 days of hire [CSO Online]
 2026-03-24 11:06:00,753 - INFO - SKIPPED (already in DB): Why US companies must be ready for quantum by 2030: A practical roadmap [CSO Online]
@@ -1435,14 +1317,14 @@
 2026-03-24 11:06:01,926 - INFO - Found 10 entries in feed: ThreatPost
 2026-03-24 11:06:01,928 - INFO - SKIPPED (already in DB): Student Loan Breach Exposes 2.5M Records [ThreatPost]
 2026-03-24 11:06:01,929 - INFO - SKIPPED (already in DB): Watering Hole Attacks Push ScanBox Keylogger [ThreatPost]
-2026-03-24 11:06:01,930 - INFO - SKIPPED (already in DB): Tentacles of ë0ktapusí Threat Group Victimize 130 Firms [ThreatPost]
+2026-03-24 11:06:01,930 - INFO - SKIPPED (already in DB): Tentacles of ‚Äò0ktapus‚Äô Threat Group Victimize 130 Firms [ThreatPost]
 2026-03-24 11:06:01,930 - INFO - SKIPPED (already in DB): Ransomware Attacks are on the Rise [ThreatPost]
 2026-03-24 11:06:01,930 - INFO - SKIPPED (already in DB): Cybercriminals Are Selling Access to Chinese Surveillance Cameras [ThreatPost]
 2026-03-24 11:06:01,931 - INFO - SKIPPED (already in DB): Twitter Whistleblower Complaint: The TL;DR Version [ThreatPost]
 2026-03-24 11:06:01,931 - INFO - SKIPPED (already in DB): Firewall Bug Under Active Attack Triggers CISA Warning [ThreatPost]
 2026-03-24 11:06:01,931 - INFO - SKIPPED (already in DB): Fake Reservation Links Prey on Weary Travelers [ThreatPost]
 2026-03-24 11:06:01,932 - INFO - SKIPPED (already in DB): iPhone Users Urged to Update to Patch 2 Zero-Days [ThreatPost]
-2026-03-24 11:06:01,932 - INFO - SKIPPED (already in DB): Google Patches Chromeís Fifth Zero-Day of the Year [ThreatPost]
+2026-03-24 11:06:01,932 - INFO - SKIPPED (already in DB): Google Patches Chrome‚Äôs Fifth Zero-Day of the Year [ThreatPost]
 2026-03-24 11:06:01,933 - INFO - Fetching RSS feed: https://www.darkreading.com/rss.xml
 2026-03-24 11:06:04,106 - INFO - Found 50 entries in feed: Dark Reading
 2026-03-24 11:06:06,906 - INFO - Spacy model 'en_core_web_sm' loaded successfully.
@@ -1468,7 +1350,7 @@
 2026-03-24 11:07:43,831 - INFO - SKIPPED (already in DB): EU Sanctions Companies in China, Iran for Cyberattacks [Dark Reading]
 2026-03-24 11:07:43,831 - INFO - SKIPPED (already in DB): C2 Implant 'SnappyClient' Targets Crypto Wallets [Dark Reading]
 2026-03-24 11:07:43,831 - INFO - SKIPPED (already in DB): DarkSword: iPhone Exploit Kit Serves Spies &amp; Thieves Alike [Dark Reading]
-2026-03-24 11:07:43,832 - INFO - SKIPPED (already in DB): 'Claudy Dayí Trio of Flaws Exposes Claude Users to Data Theft [Dark Reading]
+2026-03-24 11:07:43,832 - INFO - SKIPPED (already in DB): 'Claudy Day‚Äô Trio of Flaws Exposes Claude Users to Data Theft [Dark Reading]
 2026-03-24 11:07:43,832 - INFO - SKIPPED (already in DB): Researchers: Meta, TikTok Steal Personal &amp; Financial Info When Users Click Ads [Dark Reading]
 2026-03-24 11:07:43,832 - INFO - SKIPPED (already in DB): SideWinder Espionage Campaign Expands Across Southeast Asia [Dark Reading]
 2026-03-24 11:07:43,832 - INFO - SKIPPED (already in DB): More Attackers Are Logging In, Not Breaking In [Dark Reading]
@@ -1501,16 +1383,16 @@
 2026-03-24 11:07:43,844 - INFO - SKIPPED (already in DB): 'Overly Permissive' Salesforce Cloud Configs in the Crosshairs [Dark Reading]
 2026-03-24 11:07:43,845 - INFO - Fetching RSS feed: https://krebsonsecurity.com/feed/
 2026-03-24 11:07:44,475 - INFO - Found 10 entries in feed: Krebs on Security
-2026-03-24 11:07:44,476 - INFO - SKIPPED (already in DB): ëCanisterWormí Springs Wiper Attack Targeting Iran [Krebs on Security]
+2026-03-24 11:07:44,476 - INFO - SKIPPED (already in DB): ‚ÄòCanisterWorm‚Äô Springs Wiper Attack Targeting Iran [Krebs on Security]
 2026-03-24 11:07:44,477 - INFO - SKIPPED (already in DB): Feds Disrupt IoT Botnets Behind Huge DDoS Attacks [Krebs on Security]
 2026-03-24 11:07:44,480 - INFO - SKIPPED (already in DB): Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker [Krebs on Security]
 2026-03-24 11:07:44,482 - INFO - SKIPPED (already in DB): Microsoft Patch Tuesday, March 2026 Edition [Krebs on Security]
 2026-03-24 11:07:44,488 - INFO - SKIPPED (already in DB): How AI Assistants are Moving the Security Goalposts [Krebs on Security]
-2026-03-24 11:07:44,490 - INFO - SKIPPED (already in DB): Who is the Kimwolf Botmaster ìDortî? [Krebs on Security]
-2026-03-24 11:07:44,495 - INFO - SKIPPED (already in DB): ëStarkillerí Phishing Service Proxies Real Login Pages, MFA [Krebs on Security]
+2026-03-24 11:07:44,490 - INFO - SKIPPED (already in DB): Who is the Kimwolf Botmaster ‚ÄúDort‚Äù? [Krebs on Security]
+2026-03-24 11:07:44,495 - INFO - SKIPPED (already in DB): ‚ÄòStarkiller‚Äô Phishing Service Proxies Real Login Pages, MFA [Krebs on Security]
 2026-03-24 11:07:44,514 - INFO - SKIPPED (already in DB): Kimwolf Botnet Swamps Anonymity Network I2P [Krebs on Security]
 2026-03-24 11:07:44,518 - INFO - SKIPPED (already in DB): Patch Tuesday, February 2026 Edition [Krebs on Security]
-2026-03-24 11:07:44,519 - INFO - SKIPPED (already in DB): Please Donít Feed the Scattered Lapsus ShinyHunters [Krebs on Security]
+2026-03-24 11:07:44,519 - INFO - SKIPPED (already in DB): Please Don‚Äôt Feed the Scattered Lapsus ShinyHunters [Krebs on Security]
 2026-03-24 11:07:44,519 - INFO - Fetching RSS feed: https://www.bleepingcomputer.com/feed/
 2026-03-24 11:07:44,816 - INFO - Found 15 entries in feed: BleepingComputer
 2026-03-24 11:08:05,220 - INFO - Successfully generated AI summary.
@@ -1576,12 +1458,12 @@
 2026-03-24 12:45:27,723 - INFO - Found 20 entries in feed: CSO Online
 2026-03-24 12:45:27,725 - INFO - SKIPPED (already in DB): DDoS-Angriffe haben sich verdoppelt [CSO Online]
 2026-03-24 12:45:27,726 - INFO - SKIPPED (already in DB): HP launches TPM Guard to help defeat physical TPM attacks [CSO Online]
-2026-03-24 12:45:27,735 - INFO - SKIPPED (already in DB): Autonomous AI adoption is on the rise, but itís risky [CSO Online]
+2026-03-24 12:45:27,735 - INFO - SKIPPED (already in DB): Autonomous AI adoption is on the rise, but it‚Äôs risky [CSO Online]
 2026-03-24 12:45:27,736 - INFO - SKIPPED (already in DB): Streamline physical security to enable data center growth in the era of AI [CSO Online]
 2026-03-24 12:45:27,736 - INFO - SKIPPED (already in DB): Why CISOs should embrace AI honeypots [CSO Online]
 2026-03-24 12:45:27,736 - INFO - SKIPPED (already in DB): ISO und ISMS: Darum gehen Security-Zertifizierungen schief [CSO Online]
 2026-03-24 12:45:27,737 - INFO - SKIPPED (already in DB): Palo Alto updates security platform to discover AI agents [CSO Online]
-2026-03-24 12:45:27,737 - INFO - SKIPPED (already in DB): Faster attacks and ërecovery denialí ransomware reshape threat landscape [CSO Online]
+2026-03-24 12:45:27,737 - INFO - SKIPPED (already in DB): Faster attacks and ‚Äòrecovery denial‚Äô ransomware reshape threat landscape [CSO Online]
 2026-03-24 12:45:27,737 - INFO - SKIPPED (already in DB): Chrome ABE bypass discovered: New VoidStealer malware steals passwords and cookies [CSO Online]
 2026-03-24 12:45:27,738 - INFO - SKIPPED (already in DB): Behavioral XDR and threat intel nab North Korean fake IT worker within 10 days of hire [CSO Online]
 2026-03-24 12:45:27,738 - INFO - SKIPPED (already in DB): Why US companies must be ready for quantum by 2030: A practical roadmap [CSO Online]
@@ -1597,14 +1479,14 @@
 2026-03-24 12:45:29,088 - INFO - Found 10 entries in feed: ThreatPost
 2026-03-24 12:45:29,088 - INFO - SKIPPED (already in DB): Student Loan Breach Exposes 2.5M Records [ThreatPost]
 2026-03-24 12:45:29,089 - INFO - SKIPPED (already in DB): Watering Hole Attacks Push ScanBox Keylogger [ThreatPost]
-2026-03-24 12:45:29,089 - INFO - SKIPPED (already in DB): Tentacles of ë0ktapusí Threat Group Victimize 130 Firms [ThreatPost]
+2026-03-24 12:45:29,089 - INFO - SKIPPED (already in DB): Tentacles of ‚Äò0ktapus‚Äô Threat Group Victimize 130 Firms [ThreatPost]
 2026-03-24 12:45:29,089 - INFO - SKIPPED (already in DB): Ransomware Attacks are on the Rise [ThreatPost]
 2026-03-24 12:45:29,090 - INFO - SKIPPED (already in DB): Cybercriminals Are Selling Access to Chinese Surveillance Cameras [ThreatPost]
 2026-03-24 12:45:29,091 - INFO - SKIPPED (already in DB): Twitter Whistleblower Complaint: The TL;DR Version [ThreatPost]
 2026-03-24 12:45:29,091 - INFO - SKIPPED (already in DB): Firewall Bug Under Active Attack Triggers CISA Warning [ThreatPost]
 2026-03-24 12:45:29,091 - INFO - SKIPPED (already in DB): Fake Reservation Links Prey on Weary Travelers [ThreatPost]
 2026-03-24 12:45:29,091 - INFO - SKIPPED (already in DB): iPhone Users Urged to Update to Patch 2 Zero-Days [ThreatPost]
-2026-03-24 12:45:29,092 - INFO - SKIPPED (already in DB): Google Patches Chromeís Fifth Zero-Day of the Year [ThreatPost]
+2026-03-24 12:45:29,092 - INFO - SKIPPED (already in DB): Google Patches Chrome‚Äôs Fifth Zero-Day of the Year [ThreatPost]
 2026-03-24 12:45:29,092 - INFO - Fetching RSS feed: https://www.darkreading.com/rss.xml
 2026-03-24 12:45:29,843 - INFO - Found 50 entries in feed: Dark Reading
 2026-03-24 12:45:29,844 - INFO - SKIPPED (already in DB): GitHub 'OpenClaw Deployer' Repo Delivers Trojan Instead [Dark Reading]
@@ -1626,7 +1508,7 @@
 2026-03-24 12:45:29,851 - INFO - SKIPPED (already in DB): EU Sanctions Companies in China, Iran for Cyberattacks [Dark Reading]
 2026-03-24 12:45:29,852 - INFO - SKIPPED (already in DB): C2 Implant 'SnappyClient' Targets Crypto Wallets [Dark Reading]
 2026-03-24 12:45:29,852 - INFO - SKIPPED (already in DB): DarkSword: iPhone Exploit Kit Serves Spies &amp; Thieves Alike [Dark Reading]
-2026-03-24 12:45:29,852 - INFO - SKIPPED (already in DB): 'Claudy Dayí Trio of Flaws Exposes Claude Users to Data Theft [Dark Reading]
+2026-03-24 12:45:29,852 - INFO - SKIPPED (already in DB): 'Claudy Day‚Äô Trio of Flaws Exposes Claude Users to Data Theft [Dark Reading]
 2026-03-24 12:45:29,853 - INFO - SKIPPED (already in DB): Researchers: Meta, TikTok Steal Personal &amp; Financial Info When Users Click Ads [Dark Reading]
 2026-03-24 12:45:29,853 - INFO - SKIPPED (already in DB): SideWinder Espionage Campaign Expands Across Southeast Asia [Dark Reading]
 2026-03-24 12:45:29,854 - INFO - SKIPPED (already in DB): More Attackers Are Logging In, Not Breaking In [Dark Reading]
@@ -1659,16 +1541,16 @@
 2026-03-24 12:45:29,866 - INFO - SKIPPED (already in DB): 'Overly Permissive' Salesforce Cloud Configs in the Crosshairs [Dark Reading]
 2026-03-24 12:45:29,866 - INFO - Fetching RSS feed: https://krebsonsecurity.com/feed/
 2026-03-24 12:45:30,558 - INFO - Found 10 entries in feed: Krebs on Security
-2026-03-24 12:45:30,560 - INFO - SKIPPED (already in DB): ëCanisterWormí Springs Wiper Attack Targeting Iran [Krebs on Security]
+2026-03-24 12:45:30,560 - INFO - SKIPPED (already in DB): ‚ÄòCanisterWorm‚Äô Springs Wiper Attack Targeting Iran [Krebs on Security]
 2026-03-24 12:45:30,560 - INFO - SKIPPED (already in DB): Feds Disrupt IoT Botnets Behind Huge DDoS Attacks [Krebs on Security]
 2026-03-24 12:45:30,561 - INFO - SKIPPED (already in DB): Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker [Krebs on Security]
 2026-03-24 12:45:30,561 - INFO - SKIPPED (already in DB): Microsoft Patch Tuesday, March 2026 Edition [Krebs on Security]
 2026-03-24 12:45:30,562 - INFO - SKIPPED (already in DB): How AI Assistants are Moving the Security Goalposts [Krebs on Security]
-2026-03-24 12:45:30,562 - INFO - SKIPPED (already in DB): Who is the Kimwolf Botmaster ìDortî? [Krebs on Security]
-2026-03-24 12:45:30,562 - INFO - SKIPPED (already in DB): ëStarkillerí Phishing Service Proxies Real Login Pages, MFA [Krebs on Security]
+2026-03-24 12:45:30,562 - INFO - SKIPPED (already in DB): Who is the Kimwolf Botmaster ‚ÄúDort‚Äù? [Krebs on Security]
+2026-03-24 12:45:30,562 - INFO - SKIPPED (already in DB): ‚ÄòStarkiller‚Äô Phishing Service Proxies Real Login Pages, MFA [Krebs on Security]
 2026-03-24 12:45:30,563 - INFO - SKIPPED (already in DB): Kimwolf Botnet Swamps Anonymity Network I2P [Krebs on Security]
 2026-03-24 12:45:30,563 - INFO - SKIPPED (already in DB): Patch Tuesday, February 2026 Edition [Krebs on Security]
-2026-03-24 12:45:30,563 - INFO - SKIPPED (already in DB): Please Donít Feed the Scattered Lapsus ShinyHunters [Krebs on Security]
+2026-03-24 12:45:30,563 - INFO - SKIPPED (already in DB): Please Don‚Äôt Feed the Scattered Lapsus ShinyHunters [Krebs on Security]
 2026-03-24 12:45:30,564 - INFO - Fetching RSS feed: https://www.bleepingcomputer.com/feed/
 2026-03-24 12:45:30,956 - INFO - Found 15 entries in feed: BleepingComputer
 2026-03-24 12:45:30,957 - INFO - SKIPPED (already in DB): Firefox now has a free built-in VPN with 50GB monthly data limit [BleepingComputer]
@@ -1696,7 +1578,7 @@
 2026-03-24 12:46:38,163 - INFO - SKIPPED (already in DB): Friday Squid Blogging: Jumbo Flying Squid in the South Pacific [Schneier on Security]
 2026-03-24 12:46:38,164 - INFO - SKIPPED (already in DB): Proton Mail Shared User Information with the Police [Schneier on Security]
 2026-03-24 12:46:38,164 - INFO - SKIPPED (already in DB): Hacking a Robot Vacuum [Schneier on Security]
-2026-03-24 12:46:38,164 - INFO - SKIPPED (already in DB): Metaís AI Glasses and Privacy [Schneier on Security]
+2026-03-24 12:46:38,164 - INFO - SKIPPED (already in DB): Meta‚Äôs AI Glasses and Privacy [Schneier on Security]
 2026-03-24 12:46:38,165 - INFO - SKIPPED (already in DB): South Korean Police Accidentally Post Cryptocurrency Wallet Password [Schneier on Security]
 2026-03-24 12:46:38,165 - INFO - SKIPPED (already in DB): Possible New Result in Quantum Factorization [Schneier on Security]
 2026-03-24 12:46:38,165 - INFO - SKIPPED (already in DB): Upcoming Speaking Engagements [Schneier on Security]
@@ -1757,12 +1639,12 @@
 2026-03-24 13:49:54,971 - INFO - Found 20 entries in feed: CSO Online
 2026-03-24 13:49:54,972 - INFO - SKIPPED (already in DB): DDoS-Angriffe haben sich verdoppelt [CSO Online]
 2026-03-24 13:49:54,973 - INFO - SKIPPED (already in DB): HP launches TPM Guard to help defeat physical TPM attacks [CSO Online]
-2026-03-24 13:49:54,990 - INFO - SKIPPED (already in DB): Autonomous AI adoption is on the rise, but itís risky [CSO Online]
+2026-03-24 13:49:54,990 - INFO - SKIPPED (already in DB): Autonomous AI adoption is on the rise, but it‚Äôs risky [CSO Online]
 2026-03-24 13:49:54,991 - INFO - SKIPPED (already in DB): Streamline physical security to enable data center growth in the era of AI [CSO Online]
 2026-03-24 13:49:54,991 - INFO - SKIPPED (already in DB): Why CISOs should embrace AI honeypots [CSO Online]
 2026-03-24 13:49:54,991 - INFO - SKIPPED (already in DB): ISO und ISMS: Darum gehen Security-Zertifizierungen schief [CSO Online]
 2026-03-24 13:49:54,992 - INFO - SKIPPED (already in DB): Palo Alto updates security platform to discover AI agents [CSO Online]
-2026-03-24 13:49:54,992 - INFO - SKIPPED (already in DB): Faster attacks and ërecovery denialí ransomware reshape threat landscape [CSO Online]
+2026-03-24 13:49:54,992 - INFO - SKIPPED (already in DB): Faster attacks and ‚Äòrecovery denial‚Äô ransomware reshape threat landscape [CSO Online]
 2026-03-24 13:49:54,993 - INFO - SKIPPED (already in DB): Chrome ABE bypass discovered: New VoidStealer malware steals passwords and cookies [CSO Online]
 2026-03-24 13:49:54,993 - INFO - SKIPPED (already in DB): Behavioral XDR and threat intel nab North Korean fake IT worker within 10 days of hire [CSO Online]
 2026-03-24 13:49:54,994 - INFO - SKIPPED (already in DB): Why US companies must be ready for quantum by 2030: A practical roadmap [CSO Online]
@@ -1778,14 +1660,14 @@
 2026-03-24 13:49:56,017 - INFO - Found 10 entries in feed: ThreatPost
 2026-03-24 13:49:56,018 - INFO - SKIPPED (already in DB): Student Loan Breach Exposes 2.5M Records [ThreatPost]
 2026-03-24 13:49:56,018 - INFO - SKIPPED (already in DB): Watering Hole Attacks Push ScanBox Keylogger [ThreatPost]
-2026-03-24 13:49:56,019 - INFO - SKIPPED (already in DB): Tentacles of ë0ktapusí Threat Group Victimize 130 Firms [ThreatPost]
+2026-03-24 13:49:56,019 - INFO - SKIPPED (already in DB): Tentacles of ‚Äò0ktapus‚Äô Threat Group Victimize 130 Firms [ThreatPost]
 2026-03-24 13:49:56,020 - INFO - SKIPPED (already in DB): Ransomware Attacks are on the Rise [ThreatPost]
 2026-03-24 13:49:56,021 - INFO - SKIPPED (already in DB): Cybercriminals Are Selling Access to Chinese Surveillance Cameras [ThreatPost]
 2026-03-24 13:49:56,022 - INFO - SKIPPED (already in DB): Twitter Whistleblower Complaint: The TL;DR Version [ThreatPost]
 2026-03-24 13:49:56,022 - INFO - SKIPPED (already in DB): Firewall Bug Under Active Attack Triggers CISA Warning [ThreatPost]
 2026-03-24 13:49:56,023 - INFO - SKIPPED (already in DB): Fake Reservation Links Prey on Weary Travelers [ThreatPost]
 2026-03-24 13:49:56,023 - INFO - SKIPPED (already in DB): iPhone Users Urged to Update to Patch 2 Zero-Days [ThreatPost]
-2026-03-24 13:49:56,023 - INFO - SKIPPED (already in DB): Google Patches Chromeís Fifth Zero-Day of the Year [ThreatPost]
+2026-03-24 13:49:56,023 - INFO - SKIPPED (already in DB): Google Patches Chrome‚Äôs Fifth Zero-Day of the Year [ThreatPost]
 2026-03-24 13:49:56,024 - INFO - Fetching RSS feed: https://www.darkreading.com/rss.xml
 2026-03-24 13:49:56,594 - INFO - Found 50 entries in feed: Dark Reading
 2026-03-24 13:49:56,596 - INFO - SKIPPED (already in DB): GitHub 'OpenClaw Deployer' Repo Delivers Trojan Instead [Dark Reading]
@@ -1807,7 +1689,7 @@
 2026-03-24 13:49:56,606 - INFO - SKIPPED (already in DB): EU Sanctions Companies in China, Iran for Cyberattacks [Dark Reading]
 2026-03-24 13:49:56,606 - INFO - SKIPPED (already in DB): C2 Implant 'SnappyClient' Targets Crypto Wallets [Dark Reading]
 2026-03-24 13:49:56,607 - INFO - SKIPPED (already in DB): DarkSword: iPhone Exploit Kit Serves Spies &amp; Thieves Alike [Dark Reading]
-2026-03-24 13:49:56,608 - INFO - SKIPPED (already in DB): 'Claudy Dayí Trio of Flaws Exposes Claude Users to Data Theft [Dark Reading]
+2026-03-24 13:49:56,608 - INFO - SKIPPED (already in DB): 'Claudy Day‚Äô Trio of Flaws Exposes Claude Users to Data Theft [Dark Reading]
 2026-03-24 13:49:56,608 - INFO - SKIPPED (already in DB): Researchers: Meta, TikTok Steal Personal &amp; Financial Info When Users Click Ads [Dark Reading]
 2026-03-24 13:49:56,609 - INFO - SKIPPED (already in DB): SideWinder Espionage Campaign Expands Across Southeast Asia [Dark Reading]
 2026-03-24 13:49:56,609 - INFO - SKIPPED (already in DB): More Attackers Are Logging In, Not Breaking In [Dark Reading]
@@ -1840,16 +1722,16 @@
 2026-03-24 13:49:56,620 - INFO - SKIPPED (already in DB): 'Overly Permissive' Salesforce Cloud Configs in the Crosshairs [Dark Reading]
 2026-03-24 13:49:56,621 - INFO - Fetching RSS feed: https://krebsonsecurity.com/feed/
 2026-03-24 13:49:57,290 - INFO - Found 10 entries in feed: Krebs on Security
-2026-03-24 13:49:57,291 - INFO - SKIPPED (already in DB): ëCanisterWormí Springs Wiper Attack Targeting Iran [Krebs on Security]
+2026-03-24 13:49:57,291 - INFO - SKIPPED (already in DB): ‚ÄòCanisterWorm‚Äô Springs Wiper Attack Targeting Iran [Krebs on Security]
 2026-03-24 13:49:57,291 - INFO - SKIPPED (already in DB): Feds Disrupt IoT Botnets Behind Huge DDoS Attacks [Krebs on Security]
 2026-03-24 13:49:57,291 - INFO - SKIPPED (already in DB): Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker [Krebs on Security]
 2026-03-24 13:49:57,292 - INFO - SKIPPED (already in DB): Microsoft Patch Tuesday, March 2026 Edition [Krebs on Security]
 2026-03-24 13:49:57,293 - INFO - SKIPPED (already in DB): How AI Assistants are Moving the Security Goalposts [Krebs on Security]
-2026-03-24 13:49:57,293 - INFO - SKIPPED (already in DB): Who is the Kimwolf Botmaster ìDortî? [Krebs on Security]
-2026-03-24 13:49:57,293 - INFO - SKIPPED (already in DB): ëStarkillerí Phishing Service Proxies Real Login Pages, MFA [Krebs on Security]
+2026-03-24 13:49:57,293 - INFO - SKIPPED (already in DB): Who is the Kimwolf Botmaster ‚ÄúDort‚Äù? [Krebs on Security]
+2026-03-24 13:49:57,293 - INFO - SKIPPED (already in DB): ‚ÄòStarkiller‚Äô Phishing Service Proxies Real Login Pages, MFA [Krebs on Security]
 2026-03-24 13:49:57,294 - INFO - SKIPPED (already in DB): Kimwolf Botnet Swamps Anonymity Network I2P [Krebs on Security]
 2026-03-24 13:49:57,294 - INFO - SKIPPED (already in DB): Patch Tuesday, February 2026 Edition [Krebs on Security]
-2026-03-24 13:49:57,295 - INFO - SKIPPED (already in DB): Please Donít Feed the Scattered Lapsus ShinyHunters [Krebs on Security]
+2026-03-24 13:49:57,295 - INFO - SKIPPED (already in DB): Please Don‚Äôt Feed the Scattered Lapsus ShinyHunters [Krebs on Security]
 2026-03-24 13:49:57,295 - INFO - Fetching RSS feed: https://www.bleepingcomputer.com/feed/
 2026-03-24 13:49:57,584 - INFO - Found 15 entries in feed: BleepingComputer
 2026-03-24 13:49:57,586 - INFO - SKIPPED (already in DB): Firefox now has a free built-in VPN with 50GB monthly data limit [BleepingComputer]
@@ -1874,7 +1756,7 @@
 2026-03-24 13:49:58,135 - INFO - SKIPPED (already in DB): Friday Squid Blogging: Jumbo Flying Squid in the South Pacific [Schneier on Security]
 2026-03-24 13:49:58,135 - INFO - SKIPPED (already in DB): Proton Mail Shared User Information with the Police [Schneier on Security]
 2026-03-24 13:49:58,136 - INFO - SKIPPED (already in DB): Hacking a Robot Vacuum [Schneier on Security]
-2026-03-24 13:49:58,137 - INFO - SKIPPED (already in DB): Metaís AI Glasses and Privacy [Schneier on Security]
+2026-03-24 13:49:58,137 - INFO - SKIPPED (already in DB): Meta‚Äôs AI Glasses and Privacy [Schneier on Security]
 2026-03-24 13:49:58,137 - INFO - SKIPPED (already in DB): South Korean Police Accidentally Post Cryptocurrency Wallet Password [Schneier on Security]
 2026-03-24 13:49:58,138 - INFO - SKIPPED (already in DB): Possible New Result in Quantum Factorization [Schneier on Security]
 2026-03-24 13:49:58,138 - INFO - SKIPPED (already in DB): Upcoming Speaking Engagements [Schneier on Security]
