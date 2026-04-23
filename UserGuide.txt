@@ -1,0 +1,17 @@
+Important Commands
+To initiatiate venv: 
+cd C:\Users\nirma\Downloads\655\cyber-news-visualizer
+python -m venv env
+
+To start venv:
+env\Scripts\activate
+To install requirements:
+pip install -r requirements.txt
+
+To start project:
+python -m src.visualizer.dashboard
+
+To scrape news:
+python -m src.scraper.scraper
+or
+python src/scraper/scraper.py

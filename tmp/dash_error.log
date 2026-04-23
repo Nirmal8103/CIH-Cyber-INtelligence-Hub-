@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "C:\Users\nirma\Downloads\655\cyber-news-visualizer\tmp\run_dash_debug.py", line 13, in <module>
+    run_dashboard()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\nirma\Downloads\655\cyber-news-visualizer\src\visualizer\dashboard.py", line 230, in run_dashboard
+    df = load_news_data()
+  File "C:\Users\nirma\Downloads\655\cyber-news-visualizer\src\visualizer\dashboard.py", line 36, in load_news_data
+    "entities": [", ".join([e.name for e in n.entities]) for n in news_list],
+                                            ^^^^^^^^^^
+  File "C:\Users\nirma\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\orm\attributes.py", line 569, in __get__
+    return self.impl.get(state, dict_)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\nirma\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\orm\attributes.py", line 1096, in get
+    value = self._fire_loader_callables(state, key, passive)
+  File "C:\Users\nirma\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\orm\attributes.py", line 1131, in _fire_loader_callables
+    return self.callable_(state, passive)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\nirma\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\sqlalchemy\orm\strategies.py", line 922, in _load_for_state
+    raise orm_exc.DetachedInstanceError(
+    ...<3 lines>...
+    )
+sqlalchemy.orm.exc.DetachedInstanceError: Parent instance <News at 0x1da9280e270> is not bound to a Session; lazy load operation of attribute 'entities' cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)

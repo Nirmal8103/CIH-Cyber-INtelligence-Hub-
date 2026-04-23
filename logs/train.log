@@ -1,0 +1,9 @@
+2025-11-18 17:15:40,302 - INFO - Loading dataset from data/cyber_news.xlsx
+2025-11-18 17:18:56,929 - INFO - Loading dataset from data/cyber_news.xlsx
+2025-11-18 17:19:03,003 - INFO - Loaded 3742 articles
+2025-11-18 17:19:03,003 - INFO - Loading embedding model: all-MiniLM-L6-v2
+2025-11-18 17:19:03,008 - INFO - Use pytorch device_name: cpu
+2025-11-18 17:19:03,013 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-18 17:19:05,454 - INFO - Generating embeddings...
+2025-11-18 17:21:18,203 - INFO - Training classifier...
+2025-11-18 17:21:18,464 - INFO - Classifier saved to src/processor/news_classifier.pkl
