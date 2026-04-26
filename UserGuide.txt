@@ -1,6 +1,6 @@
 Important Commands
 To initiatiate venv: 
-cd C:\Users\nirma\Downloads\655\cyber-news-visualizer
+cd C:\Users\Your_Name\folder\folder\your_project_name
 python -m venv env
 
 To start venv:
