@@ -6,7 +6,6 @@ import plotly.graph_objects as go
 from src.database import SessionLocal, News, AlertHistory
 from sqlalchemy.orm import joinedload
 from src.scraper.scrape_news import scrape_news
-from src.visualizer.knowledge_graph import create_knowledge_graph
 from src.visualizer.sankey_flow import create_sankey_flow
 from src.processor.evaluate import run_evaluation
 import datetime
@@ -20,12 +19,14 @@ def load_news_data():
     news_list = db.query(News).options(joinedload(News.entities)).all()
     data = {
         "title": [n.title for n in news_list],
+        "title_link": [f"{n.title} ([View Full ↗]({n.url}))" for n in news_list],
         "summary": [n.content[:200] + "..." for n in news_list],
         "content": [n.content for n in news_list],
         "category": [n.category for n in news_list],
-        "date": [n.date for n in news_list],
+        "date": [str(n.date) if n.date else "" for n in news_list],
         "source": [n.source for n in news_list],
-        "full_article": [f"[View Full]({n.url})" for n in news_list],
+        "url": [n.url for n in news_list],
+        "full_article": [f"[View Full ↗]({n.url})" for n in news_list],
         "sentiment": [n.sentiment for n in news_list],
         "entities": [", ".join([e.name for e in n.entities]) for n in news_list],
         "ai_summary": [n.ai_summary if n.ai_summary else (n.content[:200] + "...") for n in news_list],
@@ -40,23 +41,42 @@ def load_news_data():
 # ---------------------------------------
 # Figures
 # ---------------------------------------
+# -----------------------------
+# Color Constants
+# -----------------------------
+CATEGORY_COLORS = {
+    "Data Breach": "#4361ee",  # Blue
+    "Data_Breaches": "#4361ee",
+    "Vulnerability": "#f9c74f", # Yellow / Amber
+    "Malware": "#7209b7",      # Purple
+    "Cyber Attack": "#fb5607", # Orange
+    "Ransomware": "#ff4b4b",   # Standard Red
+    "Phishing": "#f72585",     # Magenta
+    "APT": "#4cc9f0",          # Cyan
+    "Other": "#94a3b8",
+    "other": "#94a3b8"
+}
+
 def create_category_pie(df):
     if df.empty:
         return px.pie(title="No data available")
-    counts = df['category'].value_counts()
+    counts = df['category'].value_counts().reset_index()
+    counts.columns = ['category', 'count']
     fig = px.pie(
-        counts,
-        values=counts.values,
-        names=counts.index,
+        counts, 
+        values='count', 
+        names='category', 
         hole=0.4,
-        template="plotly_dark"
+        template="plotly_dark",
+        color='category',
+        color_discrete_map=CATEGORY_COLORS
     )
     fig.update_layout(
         paper_bgcolor='rgba(0,0,0,0)',
         plot_bgcolor='rgba(0,0,0,0)',
-        margin=dict(t=10, b=10, l=10, r=10),
+        margin=dict(t=30, b=20, l=10, r=10),
         showlegend=True,
-        legend=dict(orientation="h", yanchor="bottom", y=-0.2, xanchor="center", x=0.5)
+        legend=dict(orientation="h", yanchor="bottom", y=-0.15, xanchor="center", x=0.5)
     )
     return fig
 
@@ -86,23 +106,45 @@ def create_top5_category_bar(df):
 def create_articles_trend(df):
     if df.empty:
         return px.line(title="No data available")
-    df_grouped = df.groupby('date').size().reset_index(name='count')
+    
+    # Group by date and category to show trends per category
+    df_grouped = df.groupby(['date', 'category']).size().reset_index(name='count')
+    df_grouped = df_grouped.sort_values('date')
+    
     fig = px.line(
         df_grouped,
         x='date',
         y='count',
-        template="plotly_dark"
+        color='category',
+        template="plotly_dark",
+        color_discrete_map=CATEGORY_COLORS
     )
     fig.update_layout(
         paper_bgcolor='rgba(0,0,0,0)',
         plot_bgcolor='rgba(0,0,0,0)',
-        margin=dict(t=10, b=10, l=10, r=10),
+        margin=dict(t=30, b=30, l=10, r=10),
         xaxis_title="",
-        yaxis_title=""
+        yaxis_title="",
+        xaxis=dict(
+            rangeslider=dict(visible=False),
+            type="date",
+            rangeselector=dict(
+                buttons=list([
+                    dict(count=7, label="7D", step="day", stepmode="backward"),
+                    dict(count=1, label="1M", step="month", stepmode="backward"),
+                    dict(count=6, label="6M", step="month", stepmode="backward"),
+                    dict(count=1, label="YTD", step="year", stepmode="todate"),
+                    dict(step="all")
+                ]),
+                bgcolor="#1a2336",
+                font=dict(color="white", size=11),
+                activecolor="var(--accent-cyan)"
+            )
+        )
     )
     fig.update_xaxes(showgrid=False)
     fig.update_yaxes(showgrid=True, gridcolor='#1e293b')
-    fig.update_traces(line_color='#00f2ff', line_width=2)
+    fig.update_traces(line_width=2)
     return fig
 
 def create_category_radar(df):
@@ -129,7 +171,8 @@ def create_category_radar(df):
         polar=dict(radialaxis=dict(visible=True, color='white')),
         title="Radar Chart of Cybersecurity Categories",
         title_font_size=22,
-        template="plotly_dark"
+        template="plotly_dark",
+        margin=dict(t=50, b=20, l=20, r=20)
     )
     return fig
 
@@ -160,19 +203,9 @@ def create_sentiment_pie(df):
     fig.update_layout(
         paper_bgcolor='rgba(0,0,0,0)',
         plot_bgcolor='rgba(0,0,0,0)',
-        margin=dict(t=10, b=10, l=10, r=10),
+        margin=dict(t=30, b=20, l=10, r=10),
         showlegend=True,
-        legend=dict(orientation="h", yanchor="bottom", y=-0.2, xanchor="center", x=0.5)
-    )
-    return fig
-
-    fig.update_layout(
-        title="News Sentiment Over Time (Stacked Area, 7-day MA)",
-        template="plotly_dark",
-        title_font_size=22,
-        xaxis_title="Date",
-        yaxis_title="Number of Articles",
-        legend_title="Sentiment"
+        legend=dict(orientation="h", yanchor="bottom", y=-0.15, xanchor="center", x=0.5)
     )
     return fig
 
@@ -211,7 +244,7 @@ def create_sentiment_trend(df):
     )
     return fig
 
-def create_threat_map(df, selected_region='global'):
+def create_threat_map(df, selected_region='global', color_mode='sentiment'):
     # Region view settings (lat, lon, zoom)
     region_map = {
         'global': {'center': {'lat': 20, 'lon': 0}, 'zoom': 1},
@@ -219,43 +252,74 @@ def create_threat_map(df, selected_region='global'):
         'eu': {'center': {'lat': 50, 'lon': 15}, 'zoom': 3.5},
         'asia': {'center': {'lat': 35, 'lon': 110}, 'zoom': 2.5},
         'mea': {'center': {'lat': 15, 'lon': 30}, 'zoom': 2.5},
-        'latam': {'center': {'lat': -15, 'lon': -60}, 'zoom': 2.5}
+        'latam': {'center': {'lat': -15, 'lon': -60}, 'zoom': 2.5},
+        'oceania': {'center': {'lat': -25, 'lon': 135}, 'zoom': 3}
+    }
+    
+    region_bounds = {
+        'na': {'lat': [15, 75], 'lon': [-170, -50]},
+        'eu': {'lat': [34, 72], 'lon': [-25, 45]},
+        'asia': {'lat': [-10, 80], 'lon': [60, 180]},
+        'mea': {'lat': [-40, 40], 'lon': [-20, 60]},
+        'latam': {'lat': [-60, 30], 'lon': [-120, -30]},
+        'oceania': {'lat': [-50, 0], 'lon': [110, 180]}
     }
     
     view = region_map.get(selected_region, region_map['global'])
 
     if df.empty or 'latitude' not in df.columns:
-        fig = px.scatter_map(lat=[0], lon=[0], zoom=view['zoom'], center=view['center'])
+        fig = go.Figure(go.Scattermap(lat=[], lon=[]))
         fig.update_layout(
             map_style="carto-darkmatter",
+            map_center=view['center'],
+            map_zoom=view['zoom'],
             template="plotly_dark",
             title="No location data available"
         )
         return fig
     
     # Filter only rows with valid lat/lon
-    map_df = df.dropna(subset=['latitude', 'longitude'])
+    map_df = df.dropna(subset=['latitude', 'longitude']).copy()
+    
+    # Add tiny jitter so overlapping points (e.g. same city) can be seen when zooming
+    import numpy as np
+    if not map_df.empty:
+        map_df['latitude'] += np.random.uniform(-0.0001, 0.0001, size=len(map_df))
+        map_df['longitude'] += np.random.uniform(-0.0001, 0.0001, size=len(map_df))
     
     if map_df.empty:
-        fig = px.scatter_map(lat=[0], lon=[0], zoom=view['zoom'], center=view['center'])
+        fig = go.Figure(go.Scattermap(lat=[], lon=[]))
         fig.update_layout(
             map_style="carto-darkmatter",
+            map_center=view['center'],
+            map_zoom=view['zoom'],
             template="plotly_dark",
             title="No location data available"
         )
         return fig
+
+    # Map coloring logic
+    if color_mode == 'category':
+        color_col = 'category'
+        color_seq = None
+        color_map = CATEGORY_COLORS
+    else:
+        color_col = 'sentiment'
+        color_seq = None
+        color_map = {
+            "Negative": "#ff3e3e",
+            "Neutral": "#94a3b8",
+            "Positive": "#00ff9d"
+        }
 
     fig = px.scatter_map(
         map_df,
         lat="latitude",
         lon="longitude",
         hover_name="title",
-        color="sentiment",
-        color_discrete_map={
-            "Negative": "#ff3e3e",
-            "Neutral": "#94a3b8",
-            "Positive": "#00ff9d"
-        },
+        color=color_col,
+        color_discrete_map=color_map,
+        color_discrete_sequence=color_seq,
         hover_data={
             "latitude": False,
             "longitude": False,
@@ -270,14 +334,14 @@ def create_threat_map(df, selected_region='global'):
         template="plotly_dark"
     )
     
-    # Enable point clustering for better SOC aesthetic
-    fig.update_traces(cluster=dict(enabled=True))
+    fig.update_traces(marker=dict(size=10))
     
     fig.update_layout(
         margin=dict(t=0, b=0, l=0, r=0),
         title_font_size=22,
         paper_bgcolor='rgba(0,0,0,0)',
-        plot_bgcolor='rgba(0,0,0,0)'
+        plot_bgcolor='rgba(0,0,0,0)',
+        uirevision=str(len(map_df)) + color_mode + str(map_df['category'].nunique() if not map_df.empty else 0)
     )
     return fig
 
@@ -287,31 +351,16 @@ def create_threat_map(df, selected_region='global'):
 def run_dashboard():
     df = load_news_data()
     if df.empty:
-        df = pd.DataFrame(columns=["title","summary","content","category","date","source","full_article","sentiment"])
-    df['date'] = pd.to_datetime(df['date'])
-
-    app = Dash(__name__, suppress_callback_exceptions=True)
-    categories = sorted(df['category'].unique())
-
-    card_style = {
-        'backgroundColor': '#1f2c56',
-        'padding': '20px',
-        'borderRadius': '10px',
-        'marginBottom': '20px',
-        'boxShadow': '2px 2px 10px rgba(0,0,0,0.5)',
-        'color': 'white'
-    }
-
-    # -----------------------------
-    # Initial data for range
-    # -----------------------------
-    df = load_news_data()
-    if df.empty:
+        df = pd.DataFrame(columns=["title","summary","content","category","date","source","full_article","sentiment", "latitude", "longitude", "location_name"])
         start_date = datetime.date.today()
         end_date = datetime.date.today()
     else:
-        start_date = df['date'].min()
-        end_date = df['date'].max()
+        df['date'] = pd.to_datetime(df['date'])
+        start_date = df['date'].min().date()
+        end_date = df['date'].max().date()
+
+    app = Dash(__name__, suppress_callback_exceptions=True)
+    categories = sorted(df['category'].unique())
 
     # -----------------------------
     # Premium SOC CSS & Layout
@@ -451,6 +500,8 @@ def run_dashboard():
                     padding: 20px;
                     border-radius: 5px;
                     min-height: 200px;
+                    max-height: 600px;
+                    overflow-y: auto;
                     color: #e6edf3;
                     margin-top: 10px;
                 }
@@ -508,51 +559,66 @@ def run_dashboard():
         ]),
 
         # Filters Bar
-        html.Div(className='filter-bar', children=[
-            html.Div([
-                html.Span("🔍 SEARCH", style={'fontSize':'0.7rem', 'fontWeight':'bold', 'marginRight':'10px'}),
+        html.Div(className='filter-bar', style={'flexWrap': 'nowrap', 'display': 'flex', 'alignItems': 'center', 'overflow': 'visible'}, children=[
+            html.Div(style={'flexShrink': '0', 'display': 'flex', 'alignItems': 'center', 'marginRight': '20px'}, children=[
+                html.Span("🔍 SEARCH", style={'fontSize':'0.9rem', 'fontWeight':'bold', 'marginRight':'10px'}),
                 dcc.Input(id='search-input', type='text', placeholder='Enter term...', 
-                          style={'backgroundColor':'#0d1117', 'border':'1px solid #30363d', 'color':'white', 'padding':'5px 10px', 'borderRadius':'3px', 'width':'250px'})
+                          style={'backgroundColor':'#0d1117', 'border':'1px solid #30363d', 'color':'white', 'padding':'5px 10px', 'borderRadius':'3px', 'width':'150px'})
             ]),
-            html.Div([
-                html.Span("📂 CATEGORY", style={'fontSize':'0.7rem', 'fontWeight':'bold', 'marginRight':'10px'}),
+            html.Div(style={'flexShrink': '0', 'display': 'flex', 'alignItems': 'center', 'marginRight': '20px'}, children=[
+                html.Span("📂 CATEGORY", style={'fontSize':'0.9rem', 'fontWeight':'bold', 'marginRight':'10px'}),
                 dcc.Dropdown(id='category-dropdown', options=[{'label': c, 'value': c} for c in categories], 
-                             placeholder="ALL", style={'width':'150px', 'display':'inline-block'})
+                             placeholder="ALL", style={'width':'120px'})
             ]),
-            html.Div([
-                html.Span("🌍 REGION", style={'fontSize':'0.7rem', 'fontWeight':'bold', 'marginRight':'10px'}),
+            html.Div(style={'flexShrink': '0', 'display': 'flex', 'alignItems': 'center', 'marginRight': '20px'}, children=[
+                html.Span("🌍 REGION", style={'fontSize':'0.9rem', 'fontWeight':'bold', 'marginRight':'10px'}),
                 dcc.Dropdown(id='region-dropdown', options=[
                     {'label': 'GLOBAL', 'value': 'global'},
                     {'label': 'NORTH AMERICA', 'value': 'na'},
                     {'label': 'EUROPE', 'value': 'eu'},
                     {'label': 'ASIA', 'value': 'asia'},
                     {'label': 'MEA', 'value': 'mea'},
-                    {'label': 'LATAM', 'value': 'latam'}
-                ], value='global', style={'width':'160px', 'display':'inline-block'})
+                    {'label': 'LATAM', 'value': 'latam'},
+                    {'label': 'OCEANIA', 'value': 'oceania'}
+                ], value='global', style={'width':'120px', 'display':'inline-block'})
             ]),
-            html.Div([
-                html.Span("📅 RANGE", style={'fontSize':'0.7rem', 'fontWeight':'bold', 'marginRight':'10px'}),
+            html.Div(style={'flexShrink': '0', 'display': 'flex', 'alignItems': 'center', 'marginRight': '20px'}, children=[
+                html.Span("SENTIMENT", style={'fontSize':'0.9rem', 'fontWeight':'bold', 'marginRight':'10px'}),
+                dcc.Dropdown(id='sentiment-dropdown', options=[
+                    {'label': 'ALL', 'value': 'ALL'},
+                    {'label': 'Positive', 'value': 'Positive'},
+                    {'label': 'Neutral', 'value': 'Neutral'},
+                    {'label': 'Negative', 'value': 'Negative'}
+                ], value='ALL', style={'width':'100px'})
+            ]),
+            html.Div(style={'flexShrink': '0', 'display': 'flex', 'alignItems': 'center', 'marginRight': '20px'}, children=[
+                html.Span("RANGE", style={'fontSize':'0.9rem', 'fontWeight':'bold', 'marginRight':'10px'}),
                 dcc.DatePickerRange(id='date-picker', start_date=start_date, end_date=end_date, 
-                                     display_format='YYYY-MM-DD', style={'display':'inline-block'})
+                                     display_format='YYYY-MM-DD')
             ]),
             html.Button("RUN SCRAPE", id='scrape-button', n_clicks=0, 
                         style={'marginLeft':'auto', 'backgroundColor':'var(--accent-cyan)', 'color':'black', 'border':'none', 'padding':'7px 15px', 'fontWeight':'bold', 'borderRadius':'3px', 'cursor':'pointer'}),
-            html.Div(id='scrape-output', style={'fontSize':'0.7rem', 'color':'var(--text-muted)'})
+            dcc.Loading(
+                id="loading-scrape",
+                type="circle",
+                color="var(--accent-cyan)",
+                children=[html.Div(id='scrape-output', style={'fontSize':'0.7rem', 'color':'var(--text-muted)'})]
+            )
         ]),
 
         # Main Visualization Grid
         html.Div(className='soc-card chart-container', children=[
             html.H3("THREAT DISTRIBUTION", style={'fontSize':'0.9rem', 'marginBottom':'15px', 'borderBottom':'1px solid #1e293b'}),
-            dcc.Graph(id='pie-chart', config={'displayModeBar': False})
+            dcc.Graph(id='pie-chart', config={'displayModeBar': False}, style={'height': '350px'})
         ]),
         html.Div(className='soc-card chart-container', children=[
             html.H3("INCIDENT TREND LINE", style={'fontSize':'0.9rem', 'marginBottom':'15px', 'borderBottom':'1px solid #1e293b'}),
-            dcc.Graph(id='trend-chart', config={'displayModeBar': False})
+            dcc.Graph(id='trend-chart', config={'displayModeBar': False}, style={'height': '350px'})
         ]),
 
         html.Div(className='soc-card three-col', children=[
             html.H3("SENTIMENT ANALYSIS", style={'fontSize':'0.9rem', 'marginBottom':'15px', 'borderBottom':'1px solid #1e293b'}),
-            dcc.Graph(id='sentiment-pie-chart', config={'displayModeBar': False})
+            dcc.Graph(id='sentiment-pie-chart', config={'displayModeBar': False}, style={'height': '350px'})
         ]),
         html.Div(className='soc-card three-col', children=[
             html.H3("INTELLIGENCE HUB STATUS", style={'fontSize':'0.9rem', 'marginBottom':'15px', 'borderBottom':'1px solid #1e293b'}),
@@ -564,7 +630,7 @@ def run_dashboard():
         ]),
         html.Div(className='soc-card three-col', children=[
             html.H3("VECTOR ANALYSIS (RADAR)", style={'fontSize':'0.9rem', 'marginBottom':'15px', 'borderBottom':'1px solid #1e293b'}),
-            dcc.Graph(id='radar-chart', config={'displayModeBar': False})
+            dcc.Graph(id='radar-chart', config={'displayModeBar': False}, style={'height': '350px'})
         ]),
 
         # Evaluation & Alerts Row
@@ -576,16 +642,29 @@ def run_dashboard():
 
         # Geospatial Map (Primary Awareness)
         html.Div(className='soc-card full-width', children=[
-            html.H3("GLOBAL GEOSPATIAL THREATS // INCIDENT MAPPING", style={'fontSize':'0.9rem', 'marginBottom':'15px', 'borderBottom':'1px solid #1e293b'}),
+            html.Div(style={'display':'flex', 'justifyContent':'space-between', 'alignItems':'center', 'borderBottom':'1px solid #1e293b', 'marginBottom':'15px'}, children=[
+                html.H3("GLOBAL GEOSPATIAL THREATS // INCIDENT MAPPING", style={'fontSize':'0.9rem', 'margin':'0'}),
+                dcc.RadioItems(
+                    id='map-color-mode',
+                    options=[
+                        {'label': ' By Sentiment', 'value': 'sentiment'},
+                        {'label': ' By Category', 'value': 'category'}
+                    ],
+                    value='sentiment',
+                    inline=True,
+                    style={'color': 'var(--text-muted)', 'fontSize': '0.9rem'}
+                )
+            ]),
             dcc.Graph(id='threat-map', config={'displayModeBar': False}, style={'height':'600px'})
         ]),
 
         # Advanced Intelligence Analysis
         html.Div(className='soc-card full-width', children=[
             html.H3("DATA ANALYSIS", style={'fontSize':'0.9rem', 'marginBottom':'15px', 'borderBottom':'1px solid #1e293b'}),
-            dcc.Tabs(id='intel-tabs', value='graph', children=[
-                dcc.Tab(label='KNOWLEDGE GRAPH', value='graph', style={'backgroundColor':'#0d1117', 'color':'#94a3b8', 'border':'none'}, selected_style={'backgroundColor':'#161b22', 'color':'var(--accent-cyan)', 'borderTop':'2px solid var(--accent-cyan)'}),
-                dcc.Tab(label='SANKEY FLOW', value='sankey', style={'backgroundColor':'#0d1117', 'color':'#94a3b8', 'border':'none'}, selected_style={'backgroundColor':'#161b22', 'color':'var(--accent-cyan)', 'borderTop':'2px solid var(--accent-cyan)'}),
+            html.Div(style={'display':'flex', 'justifyContent':'space-between', 'alignItems':'center'}, children=[
+                dcc.Tabs(id='intel-tabs', value='sankey', children=[
+                    dcc.Tab(label='SANKEY FLOW', value='sankey', style={'backgroundColor':'#0d1117', 'color':'#94a3b8', 'border':'none'}, selected_style={'backgroundColor':'#161b22', 'color':'var(--accent-cyan)', 'borderTop':'2px solid var(--accent-cyan)'}),
+                ])
             ]),
             html.Div(id='intel-container', style={'height':'600px', 'marginTop':'20px'})
         ]),
@@ -607,15 +686,19 @@ def run_dashboard():
                 columns=[
                     {"name":"DATE","id":"date"},
                     {"name":"CAT","id":"category"},
-                    {"name":"TITLE","id":"title"},
+                    {"name":"TITLE","id":"title_link", "presentation":"markdown"},
                     {"name":"ENTITIES","id":"entities"},
                     {"name":"AI SUMMARY","id":"ai_summary"}
                 ],
                 style_header={'backgroundColor': '#161b22', 'color': 'var(--accent-cyan)', 'fontWeight': 'bold', 'border': '1px solid #30363d'},
-                style_cell={'backgroundColor': '#0d1117', 'color': 'var(--text-main)', 'textAlign': 'left', 'fontFamily': 'JetBrains Mono', 'fontSize': '12px', 'border': '1px solid #30363d'},
+                style_cell={'backgroundColor': '#0d1117', 'color': 'var(--text-main)', 'textAlign': 'left', 'fontFamily': 'JetBrains Mono', 'fontSize': '12px', 'border': '1px solid #30363d', 'whiteSpace': 'normal', 'height': 'auto'},
                 page_size=10,
                 style_table={'overflowX':'auto'},
-                markdown_options={"link_target":"_blank"}
+                markdown_options={"link_target":"_blank"},
+                style_data_conditional=[
+                    {'if': {'column_id': 'entities'}, 'maxWidth': '250px', 'whiteSpace': 'normal', 'overflow': 'visible'},
+                    {'if': {'column_id': 'ai_summary'}, 'maxWidth': '350px', 'whiteSpace': 'normal', 'overflow': 'visible'},
+                ]
             )
         ]),
 
@@ -638,7 +721,6 @@ def run_dashboard():
             Output('total-articles','children'),
             Output('total-categories','children'),
             Output('top-category','children'),
-            Output('scrape-output', 'children'),
             Output('intel-container', 'children'),
             Output('alerts-feed-container', 'children'),
             Output('evaluation-report', 'children')
@@ -646,26 +728,18 @@ def run_dashboard():
         [
             Input('category-dropdown','value'),
             Input('region-dropdown','value'),
+            Input('sentiment-dropdown','value'),
             Input('date-picker','start_date'),
             Input('date-picker','end_date'),
             Input('search-input', 'value'),
             Input('interval-component','n_intervals'),
-            Input('scrape-button', 'n_clicks'),
-            Input('intel-tabs', 'value')
+            Input('scrape-output', 'children'),
+            Input('intel-tabs', 'value'),
+            Input('map-color-mode', 'value')
         ]
     )
-    def update_dashboard(selected_category, selected_region, start_date, end_date, search_query, n_intervals, n_clicks, current_tab):
-        # Handle scraping if button clicked
+    def update_dashboard(selected_category, selected_region, selected_sentiment, start_date, end_date, search_query, n_intervals, scrape_msg, current_tab, map_color_mode):
         ctx = callback_context
-        triggered_ids = [t['prop_id'].split('.')[0] for t in ctx.triggered]
-        scrape_msg = ""
-        
-        if 'scrape-button' in triggered_ids and n_clicks > 0:
-            try:
-                scrape_news()
-                scrape_msg = f"✅ Scraping complete at {datetime.datetime.now().strftime('%H:%M:%S')}"
-            except Exception as e:
-                scrape_msg = f"❌ Scraping failed: {str(e)}"
 
         # Load News
         df = load_news_data()
@@ -678,7 +752,7 @@ def run_dashboard():
 
         if df.empty:
             empty_fig = px.pie(title="No data available")
-            return empty_fig, empty_fig, empty_fig, empty_fig, create_threat_map(pd.DataFrame(), selected_region), [], last_updated, "0", "0", "-", scrape_msg, None, [], []
+            return empty_fig, empty_fig, empty_fig, empty_fig, create_threat_map(pd.DataFrame(), selected_region), [], last_updated, "0", "0", "-", None, [], []
 
         df['date'] = pd.to_datetime(df['date'])
 
@@ -689,12 +763,32 @@ def run_dashboard():
         mask = (df['date'] >= start) & (df['date'] <= end)
         if selected_category:
             mask = mask & (df['category'] == selected_category)
+            
+        if selected_sentiment and selected_sentiment != 'ALL':
+            mask = mask & (df['sentiment'] == selected_sentiment)
         
         if search_query and len(search_query) > 2:
             sq = search_query.lower()
             mask = mask & (df['title'].str.lower().str.contains(sq) | 
                           df['content'].str.lower().str.contains(sq) |
                           df['ai_summary'].str.lower().str.contains(sq))
+            
+        # Region Filtering (Task Fix)
+        if selected_region and selected_region != 'global':
+            region_bounds = {
+                'na': {'lat': [15, 75], 'lon': [-170, -50]},
+                'eu': {'lat': [35, 75], 'lon': [-25, 45]},
+                'asia': {'lat': [-10, 80], 'lon': [60, 180]},
+                'mea': {'lat': [-40, 40], 'lon': [-20, 60]},
+                'latam': {'lat': [-60, 30], 'lon': [-120, -30]},
+                'oceania': {'lat': [-50, 0], 'lon': [110, 180]}
+            }
+            bounds = region_bounds.get(selected_region)
+            if bounds:
+                # Only include articles that HAVE location and fall within bounds
+                mask = mask & df['latitude'].notnull() & df['longitude'].notnull()
+                mask = mask & (df['latitude'] >= bounds['lat'][0]) & (df['latitude'] <= bounds['lat'][1])
+                mask = mask & (df['longitude'] >= bounds['lon'][0]) & (df['longitude'] <= bounds['lon'][1])
             
         filtered_df = df[mask]
 
@@ -736,10 +830,7 @@ def run_dashboard():
         top_category = f"Top Category: {top_cat_val}"
 
         # Intelligence View Implementation (Task 16)
-        if current_tab == 'sankey':
-            intel_view = create_sankey_flow(filtered_df)
-        else:
-            intel_view = create_knowledge_graph(filtered_df)
+        intel_view = create_sankey_flow(filtered_df)
 
         db.close()
 
@@ -748,17 +839,30 @@ def run_dashboard():
             create_articles_trend(filtered_df),
             create_category_radar(filtered_df),
             create_sentiment_pie(filtered_df),
-            create_threat_map(filtered_df, selected_region),
+            create_threat_map(filtered_df, selected_region, map_color_mode),
             filtered_df.to_dict('records'),
             last_updated,
             total_articles,
             total_categories,
             top_category,
-            scrape_msg,
             intel_view,
             alert_elements,
             eval_ui
         )
+
+    @app.callback(
+        Output('scrape-output', 'children'),
+        Input('scrape-button', 'n_clicks'),
+        prevent_initial_call=True
+    )
+    def run_scrape_process(n_clicks):
+        if n_clicks and n_clicks > 0:
+            try:
+                scrape_news(limit=14)
+                return f"✅ Scraping complete at {datetime.datetime.now().strftime('%H:%M:%S')}"
+            except Exception as e:
+                return f"❌ Scraping failed: {str(e)}"
+        return no_update
 
     # Intelligence Briefing Callback (Task 16)
     # Uses only static layout IDs to avoid ReferenceError
@@ -799,7 +903,12 @@ def run_dashboard():
                     html.Div("AI GENERATED SUMMARY", className='briefing-label'),
                     html.P(article['ai_summary'], style={'lineHeight':'1.8', 'fontSize':'0.95rem'}),
                     html.Div("DETECTED ENTITIES", className='briefing-label'),
-                    html.P(article['entities'], style={'fontSize':'0.8rem', 'color':'var(--text-muted)'}),
+                    html.Div(style={'display':'flex', 'flexWrap':'wrap', 'gap':'6px', 'marginBottom':'10px'}, children=[
+                        html.Span(e.strip(), style={'backgroundColor':'#1a2336', 'color':'#e6edf3', 'padding':'4px 10px', 'borderRadius':'12px', 'fontSize':'0.75rem', 'border':'1px solid #30363d'})
+                        for e in str(article.get('entities', '')).split(',') if e.strip()
+                    ] or [html.Span('None detected', style={'color':'var(--text-muted)', 'fontSize':'0.8rem'})]),
+                    html.A("🔗 VIEW ORIGINAL SOURCE", href=article.get('url', '#'), target='_blank',
+                           style={'display':'inline-block', 'marginTop':'15px', 'padding':'8px 16px', 'backgroundColor':'#1a2336', 'color':'var(--accent-cyan)', 'border':'1px solid var(--accent-cyan)', 'borderRadius':'4px', 'textDecoration':'none', 'fontSize':'0.8rem', 'letterSpacing':'1px'})
                 ])
 
         # 2. From Table
@@ -818,7 +927,12 @@ def run_dashboard():
                 html.Div("AI GENERATED SUMMARY", className='briefing-label'),
                 html.P(article.get('ai_summary', 'No summary available.'), style={'lineHeight':'1.8', 'fontSize':'0.95rem'}),
                 html.Div("DETECTED ENTITIES", className='briefing-label'),
-                html.P(article.get('entities', 'None'), style={'fontSize':'0.8rem', 'color':'var(--text-muted)'}),
+                html.Div(style={'display':'flex', 'flexWrap':'wrap', 'gap':'6px', 'marginBottom':'10px'}, children=[
+                    html.Span(e.strip(), style={'backgroundColor':'#1a2336', 'color':'#e6edf3', 'padding':'4px 10px', 'borderRadius':'12px', 'fontSize':'0.75rem', 'border':'1px solid #30363d'})
+                    for e in str(article.get('entities', '')).split(',') if e.strip()
+                ] or [html.Span('None detected', style={'color':'var(--text-muted)', 'fontSize':'0.8rem'})]),
+                html.A("🔗 VIEW ORIGINAL SOURCE", href=article.get('url', '#'), target='_blank',
+                       style={'display':'inline-block', 'marginTop':'15px', 'padding':'8px 16px', 'backgroundColor':'#1a2336', 'color':'var(--accent-cyan)', 'border':'1px solid var(--accent-cyan)', 'borderRadius':'4px', 'textDecoration':'none', 'fontSize':'0.8rem', 'letterSpacing':'1px'}),
             ])
 
         return no_update

@@ -1766,3 +1766,534 @@
 
 2026-04-22 23:34:34,775 - INFO - Dash is running on http://127.0.0.1:8050/
 
+2026-04-25 11:44:58,859 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2026-04-25 11:56:07,304 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2026-04-25 12:03:47,521 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2026-04-25 12:20:44,524 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2026-04-25 12:23:34,199 - INFO - Loaded 491 existing titles into memory.
+2026-04-25 12:23:34,214 - INFO - Fetching RSS feed: https://feeds.feedburner.com/TheHackersNews
+2026-04-25 12:23:34,550 - INFO - Found 50 entries in feed: The Hacker News
+2026-04-25 12:23:36,522 - INFO - Spacy model 'en_core_web_sm' loaded successfully.
+2026-04-25 12:23:41,920 - INFO - Loaded 491 existing titles into memory.
+2026-04-25 12:23:41,929 - INFO - Fetching RSS feed: https://feeds.feedburner.com/TheHackersNews
+2026-04-25 12:23:42,202 - INFO - Found 50 entries in feed: The Hacker News
+2026-04-25 12:23:43,188 - INFO - Loaded 491 existing titles into memory.
+2026-04-25 12:23:43,198 - INFO - Fetching RSS feed: https://feeds.feedburner.com/TheHackersNews
+2026-04-25 12:23:43,522 - INFO - Found 50 entries in feed: The Hacker News
+2026-04-25 12:23:50,017 - INFO - Loaded 491 existing titles into memory.
+2026-04-25 12:23:50,050 - INFO - Fetching RSS feed: https://feeds.feedburner.com/TheHackersNews
+2026-04-25 12:23:50,486 - INFO - Found 50 entries in feed: The Hacker News
+2026-04-25 12:23:51,113 - INFO - Loaded 491 existing titles into memory.
+2026-04-25 12:23:51,152 - INFO - Fetching RSS feed: https://feeds.feedburner.com/TheHackersNews
+2026-04-25 12:23:51,475 - INFO - Found 50 entries in feed: The Hacker News
+2026-04-25 12:23:52,371 - INFO - Loaded 491 existing titles into memory.
+2026-04-25 12:23:52,373 - INFO - Loaded 491 existing titles into memory.
+2026-04-25 12:23:52,653 - INFO - Fetching RSS feed: https://feeds.feedburner.com/TheHackersNews
+2026-04-25 12:23:52,685 - INFO - Fetching RSS feed: https://feeds.feedburner.com/TheHackersNews
+2026-04-25 12:23:53,244 - INFO - Found 50 entries in feed: The Hacker News
+2026-04-25 12:23:53,317 - INFO - Found 50 entries in feed: The Hacker News
+2026-04-25 12:23:53,557 - INFO - Loaded 491 existing titles into memory.
+2026-04-25 12:23:53,597 - INFO - Fetching RSS feed: https://feeds.feedburner.com/TheHackersNews
+2026-04-25 12:23:53,831 - INFO - Loaded 491 existing titles into memory.
+2026-04-25 12:23:53,846 - INFO - Fetching RSS feed: https://feeds.feedburner.com/TheHackersNews
+2026-04-25 12:23:53,936 - INFO - Found 50 entries in feed: The Hacker News
+2026-04-25 12:23:54,193 - INFO - Found 50 entries in feed: The Hacker News
+2026-04-25 12:24:38,755 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:24:39,075 - INFO - SAVED: Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software [The Hacker News]
+2026-04-25 12:24:44,374 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:24:44,494 - WARNING - SKIPPED (DB IntegrityError): Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software [The Hacker News]
+2026-04-25 12:24:45,800 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:24:45,893 - WARNING - SKIPPED (DB IntegrityError): Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software [The Hacker News]
+2026-04-25 12:24:52,981 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:24:53,128 - WARNING - SKIPPED (DB IntegrityError): Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software [The Hacker News]
+2026-04-25 12:24:53,814 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:24:53,882 - WARNING - SKIPPED (DB IntegrityError): Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software [The Hacker News]
+2026-04-25 12:24:55,698 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:24:55,714 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:24:55,881 - WARNING - SKIPPED (DB IntegrityError): Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software [The Hacker News]
+2026-04-25 12:24:55,973 - WARNING - SKIPPED (DB IntegrityError): Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software [The Hacker News]
+2026-04-25 12:24:56,414 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:24:56,544 - WARNING - SKIPPED (DB IntegrityError): Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software [The Hacker News]
+2026-04-25 12:24:56,631 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:24:56,768 - WARNING - SKIPPED (DB IntegrityError): Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software [The Hacker News]
+2026-04-25 12:25:41,730 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:25:42,732 - INFO - Geocoded: CISA -> {'lat': 47.7795902, 'lon': 21.0399878}
+2026-04-25 12:25:42,787 - INFO - SAVED: CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline [The Hacker News]
+2026-04-25 12:25:46,871 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:25:46,937 - WARNING - SKIPPED (DB IntegrityError): CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline [The Hacker News]
+2026-04-25 12:25:48,400 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:25:48,457 - WARNING - SKIPPED (DB IntegrityError): CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline [The Hacker News]
+2026-04-25 12:25:55,828 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:25:55,902 - WARNING - SKIPPED (DB IntegrityError): CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline [The Hacker News]
+2026-04-25 12:25:56,452 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:25:56,566 - WARNING - SKIPPED (DB IntegrityError): CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline [The Hacker News]
+2026-04-25 12:25:59,016 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:25:59,018 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:25:59,165 - WARNING - SKIPPED (DB IntegrityError): CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline [The Hacker News]
+2026-04-25 12:25:59,166 - WARNING - SKIPPED (DB IntegrityError): CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline [The Hacker News]
+2026-04-25 12:25:59,315 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:25:59,358 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:25:59,429 - WARNING - SKIPPED (DB IntegrityError): CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline [The Hacker News]
+2026-04-25 12:25:59,503 - WARNING - SKIPPED (DB IntegrityError): CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline [The Hacker News]
+2026-04-25 12:26:32,819 - INFO - Successfully generated AI summary.
+2026-04-25 12:26:33,109 - INFO - Geocoded: U.K. -> {'lat': 16.9873547, 'lon': 121.7114596}
+2026-04-25 12:26:33,155 - INFO - SAVED: FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches [The Hacker News]
+2026-04-25 12:26:33,159 - WARNING - !!! ALERT TRIGGERED: 'State-Sponsored Threat' for article 'FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches'
+2026-04-25 12:26:46,233 - INFO - Successfully generated AI summary.
+2026-04-25 12:26:46,357 - WARNING - SKIPPED (DB IntegrityError): FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches [The Hacker News]
+2026-04-25 12:26:50,753 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:26:50,822 - WARNING - SKIPPED (DB IntegrityError): FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches [The Hacker News]
+2026-04-25 12:26:58,178 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:26:58,246 - WARNING - SKIPPED (DB IntegrityError): FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches [The Hacker News]
+2026-04-25 12:26:58,836 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:26:58,960 - WARNING - SKIPPED (DB IntegrityError): FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches [The Hacker News]
+2026-04-25 12:27:01,857 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:27:01,858 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:27:01,954 - WARNING - SKIPPED (DB IntegrityError): FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches [The Hacker News]
+2026-04-25 12:27:01,987 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:27:01,988 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:27:02,068 - WARNING - SKIPPED (DB IntegrityError): FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches [The Hacker News]
+2026-04-25 12:27:02,161 - WARNING - SKIPPED (DB IntegrityError): FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches [The Hacker News]
+2026-04-25 12:27:02,198 - WARNING - SKIPPED (DB IntegrityError): FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches [The Hacker News]
+2026-04-25 12:27:02,769 - INFO - Loaded 494 existing titles into memory.
+2026-04-25 12:27:02,788 - INFO - Fetching RSS feed: https://feeds.feedburner.com/TheHackersNews
+2026-04-25 12:27:03,227 - INFO - Found 50 entries in feed: The Hacker News
+2026-04-25 12:27:03,227 - INFO - SKIPPED (already in DB): Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software [The Hacker News]
+2026-04-25 12:27:03,227 - INFO - SKIPPED (already in DB): CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline [The Hacker News]
+2026-04-25 12:27:03,228 - INFO - SKIPPED (already in DB): FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches [The Hacker News]
+2026-04-25 12:27:03,228 - INFO - SKIPPED (already in DB): NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software [The Hacker News]
+2026-04-25 12:27:03,228 - INFO - SKIPPED (already in DB): Bridging the AI Agent Authority Gap: Continuous Observability as the Decision Engine [The Hacker News]
+2026-04-25 12:27:03,228 - INFO - SKIPPED (already in DB): 26 FakeWallet Apps Found on Apple App Store Targeting Crypto Seed Phrases [The Hacker News]
+2026-04-25 12:27:03,228 - INFO - SKIPPED (already in DB): Tropic Trooper Uses Trojanized SumatraPDF and GitHub to Deploy AdaptixC2 [The Hacker News]
+2026-04-25 12:27:03,228 - INFO - SKIPPED (already in DB): LMDeploy CVE-2026-33626 Flaw Exploited Within 13 Hours of Disclosure [The Hacker News]
+2026-04-25 12:27:03,229 - INFO - SKIPPED (already in DB): UNC6692 Impersonates IT Help Desk via Microsoft Teams to Deploy SNOW Malware [The Hacker News]
+2026-04-25 12:27:03,229 - INFO - SKIPPED (already in DB): Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign [The Hacker News]
+2026-04-25 12:27:03,229 - INFO - SKIPPED (already in DB): ThreatsDay Bulletin: $290M DeFi Hack, macOS LotL Abuse, ProxySmart SIM Farms +25 New Stories [The Hacker News]
+2026-04-25 12:27:03,229 - INFO - SKIPPED (already in DB): [Webinar] Mythos Reality Check: Beating Automated Exploitation at AI Speed [The Hacker News]
+2026-04-25 12:27:03,229 - INFO - SKIPPED (already in DB): Project Glasswing Proved AI Can Find the Bugs. Who's Going to Fix Them? [The Hacker News]
+2026-04-25 12:27:03,229 - INFO - SKIPPED (already in DB): China-Linked GopherWhisper Infects 12 Mongolian Government Systems with Go Backdoors [The Hacker News]
+2026-04-25 12:27:03,229 - INFO - SKIPPED (already in DB): Vercel Finds More Compromised Accounts in Context.ai-Linked Breach [The Hacker News]
+2026-04-25 12:27:03,229 - INFO - SKIPPED (already in DB): Apple Fixes iOS Flaw That Let FBI Recover Deleted Signal Messages [The Hacker News]
+2026-04-25 12:27:03,229 - INFO - SKIPPED (already in DB): Malicious KICS Docker Images and VS Code Extensions Hit Checkmarx Supply Chain [The Hacker News]
+2026-04-25 12:27:03,229 - INFO - SKIPPED (already in DB): Self-Propagating Supply Chain Worm Hijacks npm Packages to Steal Developer Tokens [The Hacker News]
+2026-04-25 12:27:03,230 - INFO - SKIPPED (already in DB): Harvester Deploys Linux GoGra Backdoor in South Asia Using Microsoft Graph API [The Hacker News]
+2026-04-25 12:27:03,230 - INFO - SKIPPED (already in DB): Lotus Wiper Malware Targets Venezuelan Energy Systems in Destructive Attack [The Hacker News]
+2026-04-25 12:27:03,230 - INFO - SKIPPED (already in DB): Toxic Combinations: When Cross-App Permissions Stack into Risk [The Hacker News]
+2026-04-25 12:27:03,230 - INFO - SKIPPED (already in DB): Microsoft Patches Critical ASP.NET Core CVE-2026-40372 Privilege Escalation Bug [The Hacker News]
+2026-04-25 12:27:03,230 - INFO - SKIPPED (already in DB): Mustang Panda’s New LOTUSLITE Variant Targets India Banks, South Korea Policy Circles [The Hacker News]
+2026-04-25 12:27:03,230 - INFO - SKIPPED (already in DB): Cohere AI Terrarium Sandbox Flaw Enables Root Code Execution, Container Escape [The Hacker News]
+2026-04-25 12:27:03,230 - INFO - SKIPPED (already in DB): SystemBC C2 Server Reveals 1,570+ Victims in The Gentlemen Ransomware Operation [The Hacker News]
+2026-04-25 12:27:03,230 - INFO - SKIPPED (already in DB): 22 BRIDGE:BREAK Flaws Expose Thousands of Lantronix and Silex Serial-to-IP Converters [The Hacker News]
+2026-04-25 12:27:03,230 - INFO - SKIPPED (already in DB): Ransomware Negotiator Pleads Guilty to Aiding BlackCat Attacks in 2023 [The Hacker News]
+2026-04-25 12:27:03,230 - INFO - SKIPPED (already in DB): 5 Places where Mature SOCs Keep MTTR Fast and Others Waste Time [The Hacker News]
+2026-04-25 12:27:03,230 - INFO - SKIPPED (already in DB): NGate Campaign Targets Brazil, Trojanizes HandyPay to Steal NFC Data and PINs [The Hacker News]
+2026-04-25 12:27:03,231 - INFO - SKIPPED (already in DB): No Exploit Needed: How Attackers Walk Through the Front Door via Identity-Based Attacks [The Hacker News]
+2026-04-25 12:27:03,231 - INFO - SKIPPED (already in DB): Google Patches Antigravity IDE Flaw Enabling Prompt Injection Code Execution [The Hacker News]
+2026-04-25 12:27:03,231 - INFO - SKIPPED (already in DB): CISA Adds 8 Exploited Flaws to KEV, Sets April-May 2026 Federal Deadlines [The Hacker News]
+2026-04-25 12:27:03,231 - INFO - SKIPPED (already in DB): SGLang CVE-2026-5760 (CVSS 9.8) Enables RCE via Malicious GGUF Model Files [The Hacker News]
+2026-04-25 12:27:03,236 - INFO - SKIPPED (already in DB): Why Most AI Deployments Stall After the Demo [The Hacker News]
+2026-04-25 12:27:03,237 - INFO - SKIPPED (already in DB): Anthropic MCP Design Vulnerability Enables RCE, Threatening AI Supply Chain [The Hacker News]
+2026-04-25 12:27:03,237 - INFO - SKIPPED (already in DB): Researchers Detect ZionSiphon Malware Targeting Israeli Water, Desalination OT Systems [The Hacker News]
+2026-04-25 12:27:03,237 - INFO - SKIPPED (already in DB): Vercel Breach Tied to Context AI Hack Exposes Limited Customer Credentials [The Hacker News]
+2026-04-25 12:27:03,237 - INFO - SKIPPED (already in DB): [Webinar] Eliminate Ghost Identities Before They Expose Your Enterprise Data [The Hacker News]
+2026-04-25 12:27:03,237 - INFO - SKIPPED (already in DB): $13.74M Hack Shuts Down Sanctioned Grinex Exchange After Intelligence Claims [The Hacker News]
+2026-04-25 12:27:03,237 - INFO - SKIPPED (already in DB): Mirai Variant Nexcorium Exploits CVE-2024-3721 to Hijack TBK DVRs for DDoS Botnet [The Hacker News]
+2026-04-25 12:27:03,237 - INFO - SKIPPED (already in DB): Three Microsoft Defender Zero-Days Actively Exploited; Two Still Unpatched [The Hacker News]
+2026-04-25 12:27:03,237 - INFO - SKIPPED (already in DB): Google Blocks 8.3B Policy-Violating Ads in 2025, Launches Android 17 Privacy Overhaul [The Hacker News]
+2026-04-25 12:27:03,237 - INFO - SKIPPED (already in DB): NIST Limits CVE Enrichment After 263% Surge in Vulnerability Submissions [The Hacker News]
+2026-04-25 12:27:03,238 - INFO - SKIPPED (already in DB): Operation PowerOFF Seizes 53 DDoS Domains, Exposes 3 Million Criminal Accounts [The Hacker News]
+2026-04-25 12:27:03,238 - INFO - SKIPPED (already in DB): Apache ActiveMQ CVE-2026-34197 Added to CISA KEV Amid Active Exploitation [The Hacker News]
+2026-04-25 12:27:03,238 - INFO - SKIPPED (already in DB): Newly Discovered PowMix Botnet Hits Czech Workers Using Randomized C2 Traffic [The Hacker News]
+2026-04-25 12:27:03,238 - INFO - SKIPPED (already in DB): ThreatsDay Bulletin: Defender 0-Day, SonicWall Brute-Force, 17-Year-Old Excel RCE and 15 More Stories [The Hacker News]
+2026-04-25 12:27:03,238 - INFO - SKIPPED (already in DB): Cisco Patches Four Critical Identity Services, Webex Flaws Enabling Code Execution [The Hacker News]
+2026-04-25 12:27:03,238 - INFO - SKIPPED (already in DB): Obsidian Plugin Abuse Delivers PHANTOMPULSE RAT in Targeted Finance, Crypto Attacks [The Hacker News]
+2026-04-25 12:27:03,238 - INFO - Fetching RSS feed: https://www.csoonline.com/feed/
+2026-04-25 12:27:03,671 - INFO - Found 20 entries in feed: CSO Online
+2026-04-25 12:27:06,101 - INFO - Spacy model 'en_core_web_sm' loaded successfully.
+2026-04-25 12:27:35,541 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:27:35,667 - INFO - SAVED: NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software [The Hacker News]
+2026-04-25 12:27:48,773 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:27:48,838 - WARNING - SKIPPED (DB IntegrityError): NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software [The Hacker News]
+2026-04-25 12:27:53,298 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:27:53,352 - WARNING - SKIPPED (DB IntegrityError): NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software [The Hacker News]
+2026-04-25 12:28:00,844 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:28:00,956 - WARNING - SKIPPED (DB IntegrityError): NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software [The Hacker News]
+2026-04-25 12:28:01,218 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:28:01,279 - WARNING - SKIPPED (DB IntegrityError): NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software [The Hacker News]
+2026-04-25 12:28:04,970 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:28:05,131 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:28:05,131 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:28:05,135 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:28:05,320 - WARNING - SKIPPED (DB IntegrityError): NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software [The Hacker News]
+2026-04-25 12:28:05,323 - WARNING - SKIPPED (DB IntegrityError): NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software [The Hacker News]
+2026-04-25 12:28:05,357 - WARNING - SKIPPED (DB IntegrityError): NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software [The Hacker News]
+2026-04-25 12:28:05,371 - WARNING - SKIPPED (DB IntegrityError): NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software [The Hacker News]
+2026-04-25 12:28:09,187 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:28:10,115 - INFO - Geocoded: California -> {'lat': 36.7014631, 'lon': -118.755997}
+2026-04-25 12:28:10,259 - INFO - SAVED: New US House privacy bills raise hard questions about enterprise data collection [CSO Online]
+2026-04-25 12:29:12,661 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:29:13,268 - INFO - Geocoded: Florida -> {'lat': 27.7567667, 'lon': -81.4639835}
+2026-04-25 12:29:13,340 - INFO - SAVED: Scattered Spider co-conspirator pleads guilty [CSO Online]
+2026-04-25 12:29:37,371 - INFO - Loaded 497 existing titles and URLs into memory.
+2026-04-25 12:29:37,375 - INFO - Fetching RSS feed: https://feeds.feedburner.com/TheHackersNews
+2026-04-25 12:29:37,508 - INFO - Loaded 497 existing titles and URLs into memory.
+2026-04-25 12:29:37,510 - INFO - Fetching RSS feed: https://feeds.feedburner.com/TheHackersNews
+2026-04-25 12:29:37,513 - INFO - Loaded 497 existing titles and URLs into memory.
+2026-04-25 12:29:37,579 - INFO - Fetching RSS feed: https://feeds.feedburner.com/TheHackersNews
+2026-04-25 12:29:37,614 - INFO - Loaded 497 existing titles and URLs into memory.
+2026-04-25 12:29:37,626 - INFO - Fetching RSS feed: https://feeds.feedburner.com/TheHackersNews
+2026-04-25 12:29:37,938 - INFO - Found 50 entries in feed: The Hacker News
+2026-04-25 12:29:37,942 - INFO - SKIPPED (duplicate): Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software [The Hacker News]
+2026-04-25 12:29:37,944 - INFO - SKIPPED (duplicate): CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline [The Hacker News]
+2026-04-25 12:29:37,945 - INFO - SKIPPED (duplicate): FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches [The Hacker News]
+2026-04-25 12:29:37,946 - INFO - SKIPPED (duplicate): NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software [The Hacker News]
+2026-04-25 12:29:37,998 - INFO - Found 50 entries in feed: The Hacker News
+2026-04-25 12:29:38,004 - INFO - SKIPPED (duplicate): Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software [The Hacker News]
+2026-04-25 12:29:38,022 - INFO - SKIPPED (duplicate): CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline [The Hacker News]
+2026-04-25 12:29:38,037 - INFO - SKIPPED (duplicate): FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches [The Hacker News]
+2026-04-25 12:29:38,088 - INFO - Found 50 entries in feed: The Hacker News
+2026-04-25 12:29:38,099 - INFO - SKIPPED (duplicate): NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software [The Hacker News]
+2026-04-25 12:29:38,131 - INFO - Found 50 entries in feed: The Hacker News
+2026-04-25 12:29:38,132 - INFO - SKIPPED (duplicate): Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software [The Hacker News]
+2026-04-25 12:29:38,137 - INFO - SKIPPED (duplicate): Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software [The Hacker News]
+2026-04-25 12:29:38,139 - INFO - SKIPPED (duplicate): CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline [The Hacker News]
+2026-04-25 12:29:38,140 - INFO - SKIPPED (duplicate): CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline [The Hacker News]
+2026-04-25 12:29:38,142 - INFO - SKIPPED (duplicate): FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches [The Hacker News]
+2026-04-25 12:29:38,143 - INFO - SKIPPED (duplicate): FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches [The Hacker News]
+2026-04-25 12:29:38,144 - INFO - SKIPPED (duplicate): NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software [The Hacker News]
+2026-04-25 12:29:38,147 - INFO - SKIPPED (duplicate): NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software [The Hacker News]
+2026-04-25 12:29:44,013 - INFO - Spacy model 'en_core_web_sm' loaded successfully.
+2026-04-25 12:29:44,487 - INFO - Spacy model 'en_core_web_sm' loaded successfully.
+2026-04-25 12:29:45,855 - INFO - Spacy model 'en_core_web_sm' loaded successfully.
+2026-04-25 12:29:46,311 - INFO - Spacy model 'en_core_web_sm' loaded successfully.
+2026-04-25 12:30:16,381 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:30:16,954 - INFO - Geocoded: Bloomberg -> {'lat': 51.512773, 'lon': -0.0906448}
+2026-04-25 12:30:17,016 - INFO - SAVED: CISA last in line for access to Anthropic Mythos [CSO Online]
+2026-04-25 12:30:29,233 - INFO - Loaded 498 existing titles and URLs into memory.
+2026-04-25 12:30:29,236 - INFO - Fetching RSS feed: https://feeds.feedburner.com/TheHackersNews
+2026-04-25 12:30:29,651 - INFO - Found 50 entries in feed: The Hacker News
+2026-04-25 12:30:29,654 - INFO - SKIPPED (duplicate): Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software [The Hacker News]
+2026-04-25 12:30:29,658 - INFO - SKIPPED (duplicate): CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline [The Hacker News]
+2026-04-25 12:30:29,659 - INFO - SKIPPED (duplicate): FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches [The Hacker News]
+2026-04-25 12:30:29,659 - INFO - SKIPPED (duplicate): NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software [The Hacker News]
+2026-04-25 12:31:21,009 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:31:21,591 - INFO - Geocoded: Background -> {'lat': 40.1843657, 'lon': 44.5100737}
+2026-04-25 12:31:21,778 - INFO - SAVED: Security-KPIs und -KRIs: So messen Sie Cybersicherheit [CSO Online]
+2026-04-25 12:31:52,118 - INFO - Successfully generated AI summary.
+2026-04-25 12:31:52,653 - INFO - Geocoded: Bridging -> {'lat': 48.4427917, 'lon': -123.3795285}
+2026-04-25 12:32:12,177 - INFO - Successfully generated AI summary.
+2026-04-25 12:32:25,017 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2026-04-25 12:32:25,447 - INFO - SAVED: Bitwarden CLI password manager trojanized in supply chain attack [CSO Online]
+2026-04-25 12:32:25,453 - INFO - Reached limit of 5 saved articles. Stopping feed processing.
+2026-04-25 12:32:25,457 - INFO - Scraping finished. Total saved: 5, Total skipped: 50
+2026-04-25 12:32:34,805 - INFO - Successfully generated AI summary.
+2026-04-25 12:32:48,733 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=180)
+2026-04-25 12:33:43,265 - INFO - Loaded 500 existing titles and URLs into memory.
+2026-04-25 12:33:43,265 - INFO - Fetching RSS feed: https://feeds.feedburner.com/TheHackersNews
+2026-04-25 12:33:43,592 - INFO - Found 50 entries in feed: The Hacker News
+2026-04-25 12:33:43,598 - INFO - SKIPPED (duplicate): Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software [The Hacker News]
+2026-04-25 12:33:43,601 - INFO - SKIPPED (duplicate): CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline [The Hacker News]
+2026-04-25 12:33:43,604 - INFO - SKIPPED (duplicate): FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches [The Hacker News]
+2026-04-25 12:33:43,605 - INFO - SKIPPED (duplicate): NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software [The Hacker News]
+2026-04-25 12:33:45,329 - INFO - Spacy model 'en_core_web_sm' loaded successfully.
+2026-04-25 12:34:09,477 - INFO - Successfully generated AI summary.
+2026-04-25 12:34:09,591 - INFO - SAVED: Bridging the AI Agent Authority Gap: Continuous Observability as the Decision Engine [The Hacker News]
+2026-04-25 12:34:47,082 - INFO - Successfully generated AI summary.
+2026-04-25 12:34:47,128 - INFO - SAVED: 26 FakeWallet Apps Found on Apple App Store Targeting Crypto Seed Phrases [The Hacker News]
+2026-04-25 12:35:28,966 - INFO - Successfully generated AI summary.
+2026-04-25 12:35:29,414 - INFO - SAVED: Tropic Trooper Uses Trojanized SumatraPDF and GitHub to Deploy AdaptixC2 [The Hacker News]
+2026-04-25 12:35:29,422 - WARNING - !!! ALERT TRIGGERED: 'State-Sponsored Threat' for article 'Tropic Trooper Uses Trojanized SumatraPDF and GitHub to Deploy AdaptixC2'
+2026-04-25 12:36:26,768 - INFO - Loaded 503 existing titles and URLs into memory.
+2026-04-25 12:36:26,769 - INFO - Fetching RSS feed: https://feeds.feedburner.com/TheHackersNews
+2026-04-25 12:36:27,182 - INFO - Found 50 entries in feed: The Hacker News
+2026-04-25 12:36:27,183 - INFO - SKIPPED (duplicate): Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software [The Hacker News]
+2026-04-25 12:36:27,184 - INFO - SKIPPED (duplicate): CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline [The Hacker News]
+2026-04-25 12:36:27,184 - INFO - SKIPPED (duplicate): FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches [The Hacker News]
+2026-04-25 12:36:27,185 - INFO - SKIPPED (duplicate): NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software [The Hacker News]
+2026-04-25 12:36:27,185 - INFO - SKIPPED (duplicate): Bridging the AI Agent Authority Gap: Continuous Observability as the Decision Engine [The Hacker News]
+2026-04-25 12:36:27,185 - INFO - SKIPPED (duplicate): 26 FakeWallet Apps Found on Apple App Store Targeting Crypto Seed Phrases [The Hacker News]
+2026-04-25 12:36:27,186 - INFO - SKIPPED (duplicate): Tropic Trooper Uses Trojanized SumatraPDF and GitHub to Deploy AdaptixC2 [The Hacker News]
+2026-04-25 12:36:29,211 - INFO - Spacy model 'en_core_web_sm' loaded successfully.
+2026-04-25 12:36:52,699 - INFO - Successfully generated AI summary.
+2026-04-25 12:36:53,335 - INFO - SAVED: LMDeploy CVE-2026-33626 Flaw Exploited Within 13 Hours of Disclosure [The Hacker News]
+2026-04-25 12:37:44,479 - INFO - Successfully generated AI summary.
+2026-04-25 12:37:44,557 - INFO - SAVED: UNC6692 Impersonates IT Help Desk via Microsoft Teams to Deploy SNOW Malware [The Hacker News]
+2026-04-25 12:38:36,454 - INFO - Successfully generated AI summary.
+2026-04-25 12:38:37,081 - INFO - Geocoded: bw1.js -> {'lat': -36.8368348, 'lon': 174.7430514}
+2026-04-25 12:38:37,095 - INFO - SAVED: Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign [The Hacker News]
+2026-04-25 12:39:10,367 - INFO - Successfully generated AI summary.
+2026-04-25 12:39:10,405 - INFO - SAVED: ThreatsDay Bulletin: $290M DeFi Hack, macOS LotL Abuse, ProxySmart SIM Farms +25 New Stories [The Hacker News]
+2026-04-25 12:39:47,611 - INFO - Successfully generated AI summary.
+2026-04-25 12:39:47,636 - INFO - SAVED: [Webinar] Mythos Reality Check: Beating Automated Exploitation at AI Speed [The Hacker News]
+2026-04-25 12:39:47,639 - INFO - Reached limit of 5 saved articles. Stopping feed processing.
+2026-04-25 12:39:47,639 - INFO - Scraping finished. Total saved: 5, Total skipped: 7
+2026-04-25 12:52:46,551 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2026-04-25 13:05:26,230 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2026-04-25 13:33:39,291 - INFO - Loaded 508 existing titles and URLs into memory.
+2026-04-25 13:33:39,292 - INFO - Fetching RSS feed: https://feeds.feedburner.com/TheHackersNews
+2026-04-25 13:33:39,715 - INFO - Found 50 entries in feed: The Hacker News
+2026-04-25 13:33:39,716 - INFO - SKIPPED (duplicate): Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software [The Hacker News]
+2026-04-25 13:33:39,717 - INFO - SKIPPED (duplicate): CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline [The Hacker News]
+2026-04-25 13:33:39,717 - INFO - SKIPPED (duplicate): FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches [The Hacker News]
+2026-04-25 13:33:39,717 - INFO - SKIPPED (duplicate): NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software [The Hacker News]
+2026-04-25 13:33:39,718 - INFO - SKIPPED (duplicate): Bridging the AI Agent Authority Gap: Continuous Observability as the Decision Engine [The Hacker News]
+2026-04-25 13:33:39,718 - INFO - SKIPPED (duplicate): 26 FakeWallet Apps Found on Apple App Store Targeting Crypto Seed Phrases [The Hacker News]
+2026-04-25 13:33:39,718 - INFO - SKIPPED (duplicate): Tropic Trooper Uses Trojanized SumatraPDF and GitHub to Deploy AdaptixC2 [The Hacker News]
+2026-04-25 13:33:39,718 - INFO - SKIPPED (duplicate): LMDeploy CVE-2026-33626 Flaw Exploited Within 13 Hours of Disclosure [The Hacker News]
+2026-04-25 13:33:39,718 - INFO - SKIPPED (duplicate): UNC6692 Impersonates IT Help Desk via Microsoft Teams to Deploy SNOW Malware [The Hacker News]
+2026-04-25 13:33:39,718 - INFO - SKIPPED (duplicate): Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign [The Hacker News]
+2026-04-25 13:33:39,718 - INFO - SKIPPED (duplicate): ThreatsDay Bulletin: $290M DeFi Hack, macOS LotL Abuse, ProxySmart SIM Farms +25 New Stories [The Hacker News]
+2026-04-25 13:33:39,718 - INFO - SKIPPED (duplicate): [Webinar] Mythos Reality Check: Beating Automated Exploitation at AI Speed [The Hacker News]
+2026-04-25 13:33:41,602 - INFO - Spacy model 'en_core_web_sm' loaded successfully.
+2026-04-25 13:34:49,147 - INFO - Successfully generated AI summary.
+2026-04-25 13:34:49,384 - INFO - SAVED: Project Glasswing Proved AI Can Find the Bugs. Who's Going to Fix Them? [The Hacker News]
+2026-04-25 13:35:19,889 - INFO - Successfully generated AI summary.
+2026-04-25 13:35:19,923 - INFO - SAVED: China-Linked GopherWhisper Infects 12 Mongolian Government Systems with Go Backdoors [The Hacker News]
+2026-04-25 13:35:19,926 - WARNING - !!! ALERT TRIGGERED: 'State-Sponsored Threat' for article 'China-Linked GopherWhisper Infects 12 Mongolian Government Systems with Go Backdoors'
+2026-04-25 13:35:45,905 - INFO - Successfully generated AI summary.
+2026-04-25 13:35:45,940 - INFO - SAVED: Vercel Finds More Compromised Accounts in Context.ai-Linked Breach [The Hacker News]
+2026-04-25 13:36:21,215 - INFO - Successfully generated AI summary.
+2026-04-25 13:36:21,270 - INFO - SAVED: Apple Fixes iOS Flaw That Let FBI Recover Deleted Signal Messages [The Hacker News]
+2026-04-25 13:36:58,352 - INFO - Successfully generated AI summary.
+2026-04-25 13:36:58,396 - INFO - SAVED: Malicious KICS Docker Images and VS Code Extensions Hit Checkmarx Supply Chain [The Hacker News]
+2026-04-25 13:36:58,399 - INFO - Reached limit of 5 saved articles. Stopping feed processing.
+2026-04-25 13:36:58,399 - INFO - Scraping finished. Total saved: 5, Total skipped: 12
+2026-04-25 13:55:27,374 - INFO - Loaded 513 existing titles and URLs into memory.
+2026-04-25 13:55:27,376 - INFO - Fetching RSS feed: https://feeds.feedburner.com/TheHackersNews
+2026-04-25 13:55:27,822 - INFO - Found 50 entries in feed: The Hacker News
+2026-04-25 13:55:27,824 - INFO - SKIPPED (duplicate): Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software [The Hacker News]
+2026-04-25 13:55:27,833 - INFO - SKIPPED (duplicate): CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline [The Hacker News]
+2026-04-25 13:55:27,834 - INFO - SKIPPED (duplicate): FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches [The Hacker News]
+2026-04-25 13:55:27,835 - INFO - SKIPPED (duplicate): NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software [The Hacker News]
+2026-04-25 13:55:27,835 - INFO - SKIPPED (duplicate): Bridging the AI Agent Authority Gap: Continuous Observability as the Decision Engine [The Hacker News]
+2026-04-25 13:55:27,835 - INFO - SKIPPED (duplicate): 26 FakeWallet Apps Found on Apple App Store Targeting Crypto Seed Phrases [The Hacker News]
+2026-04-25 13:55:27,836 - INFO - SKIPPED (duplicate): Tropic Trooper Uses Trojanized SumatraPDF and GitHub to Deploy AdaptixC2 [The Hacker News]
+2026-04-25 13:55:27,836 - INFO - SKIPPED (duplicate): LMDeploy CVE-2026-33626 Flaw Exploited Within 13 Hours of Disclosure [The Hacker News]
+2026-04-25 13:55:27,837 - INFO - SKIPPED (duplicate): UNC6692 Impersonates IT Help Desk via Microsoft Teams to Deploy SNOW Malware [The Hacker News]
+2026-04-25 13:55:27,838 - INFO - SKIPPED (duplicate): Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign [The Hacker News]
+2026-04-25 13:55:27,838 - INFO - SKIPPED (duplicate): ThreatsDay Bulletin: $290M DeFi Hack, macOS LotL Abuse, ProxySmart SIM Farms +25 New Stories [The Hacker News]
+2026-04-25 13:55:27,838 - INFO - SKIPPED (duplicate): [Webinar] Mythos Reality Check: Beating Automated Exploitation at AI Speed [The Hacker News]
+2026-04-25 13:55:27,838 - INFO - SKIPPED (duplicate): Project Glasswing Proved AI Can Find the Bugs. Who's Going to Fix Them? [The Hacker News]
+2026-04-25 13:55:27,838 - INFO - SKIPPED (duplicate): China-Linked GopherWhisper Infects 12 Mongolian Government Systems with Go Backdoors [The Hacker News]
+2026-04-25 13:55:27,839 - INFO - SKIPPED (duplicate): Vercel Finds More Compromised Accounts in Context.ai-Linked Breach [The Hacker News]
+2026-04-25 13:55:27,839 - INFO - SKIPPED (duplicate): Apple Fixes iOS Flaw That Let FBI Recover Deleted Signal Messages [The Hacker News]
+2026-04-25 13:55:27,839 - INFO - SKIPPED (duplicate): Malicious KICS Docker Images and VS Code Extensions Hit Checkmarx Supply Chain [The Hacker News]
+2026-04-25 13:55:29,784 - INFO - Spacy model 'en_core_web_sm' loaded successfully.
+2026-04-25 13:57:18,678 - INFO - Successfully generated AI summary.
+2026-04-25 13:57:19,354 - INFO - Geocoded: Tokens -> {'lat': 43.1336343, 'lon': -77.5721871}
+2026-04-25 13:57:19,584 - INFO - SAVED: Self-Propagating Supply Chain Worm Hijacks npm Packages to Steal Developer Tokens [The Hacker News]
+2026-04-25 13:57:57,910 - INFO - Successfully generated AI summary.
+2026-04-25 13:57:57,970 - INFO - SAVED: Harvester Deploys Linux GoGra Backdoor in South Asia Using Microsoft Graph API [The Hacker News]
+2026-04-25 13:58:28,221 - INFO - Successfully generated AI summary.
+2026-04-25 13:58:28,561 - INFO - Geocoded: Venezuela -> {'lat': 8.0018709, 'lon': -66.1109318}
+2026-04-25 13:58:28,589 - INFO - SAVED: Lotus Wiper Malware Targets Venezuelan Energy Systems in Destructive Attack [The Hacker News]
+2026-04-25 14:00:30,812 - INFO - Successfully generated AI summary.
+2026-04-25 14:00:31,757 - INFO - SAVED: Toxic Combinations: When Cross-App Permissions Stack into Risk [The Hacker News]
+2026-04-25 14:01:37,426 - INFO - Successfully generated AI summary.
+2026-04-25 14:01:37,543 - INFO - SAVED: Microsoft Patches Critical ASP.NET Core CVE-2026-40372 Privilege Escalation Bug [The Hacker News]
+2026-04-25 14:01:37,548 - INFO - Reached limit of 5 saved articles. Stopping feed processing.
+2026-04-25 14:01:37,551 - INFO - Scraping finished. Total saved: 5, Total skipped: 17
+2026-04-25 14:49:36,237 - INFO - Loaded 518 existing titles and URLs into memory.
+2026-04-25 14:49:36,244 - INFO - Fetching RSS feed: https://feeds.feedburner.com/TheHackersNews
+2026-04-25 14:49:36,929 - INFO - Found 50 entries in feed: The Hacker News
+2026-04-25 14:49:36,934 - INFO - SKIPPED (duplicate): Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software [The Hacker News]
+2026-04-25 14:49:36,938 - INFO - SKIPPED (duplicate): CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline [The Hacker News]
+2026-04-25 14:49:36,939 - INFO - SKIPPED (duplicate): FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches [The Hacker News]
+2026-04-25 14:49:36,940 - INFO - SKIPPED (duplicate): NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software [The Hacker News]
+2026-04-25 14:49:36,940 - INFO - SKIPPED (duplicate): Bridging the AI Agent Authority Gap: Continuous Observability as the Decision Engine [The Hacker News]
+2026-04-25 14:49:36,941 - INFO - SKIPPED (duplicate): 26 FakeWallet Apps Found on Apple App Store Targeting Crypto Seed Phrases [The Hacker News]
+2026-04-25 14:49:36,941 - INFO - SKIPPED (duplicate): Tropic Trooper Uses Trojanized SumatraPDF and GitHub to Deploy AdaptixC2 [The Hacker News]
+2026-04-25 14:49:36,942 - INFO - SKIPPED (duplicate): LMDeploy CVE-2026-33626 Flaw Exploited Within 13 Hours of Disclosure [The Hacker News]
+2026-04-25 14:49:36,942 - INFO - SKIPPED (duplicate): UNC6692 Impersonates IT Help Desk via Microsoft Teams to Deploy SNOW Malware [The Hacker News]
+2026-04-25 14:49:36,942 - INFO - SKIPPED (duplicate): Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign [The Hacker News]
+2026-04-25 14:49:36,943 - INFO - SKIPPED (duplicate): ThreatsDay Bulletin: $290M DeFi Hack, macOS LotL Abuse, ProxySmart SIM Farms +25 New Stories [The Hacker News]
+2026-04-25 14:49:36,944 - INFO - SKIPPED (duplicate): [Webinar] Mythos Reality Check: Beating Automated Exploitation at AI Speed [The Hacker News]
+2026-04-25 14:49:36,944 - INFO - SKIPPED (duplicate): Project Glasswing Proved AI Can Find the Bugs. Who's Going to Fix Them? [The Hacker News]
+2026-04-25 14:49:36,944 - INFO - SKIPPED (duplicate): China-Linked GopherWhisper Infects 12 Mongolian Government Systems with Go Backdoors [The Hacker News]
+2026-04-25 14:49:36,945 - INFO - SKIPPED (duplicate): Vercel Finds More Compromised Accounts in Context.ai-Linked Breach [The Hacker News]
+2026-04-25 14:49:36,946 - INFO - SKIPPED (duplicate): Apple Fixes iOS Flaw That Let FBI Recover Deleted Signal Messages [The Hacker News]
+2026-04-25 14:49:36,946 - INFO - SKIPPED (duplicate): Malicious KICS Docker Images and VS Code Extensions Hit Checkmarx Supply Chain [The Hacker News]
+2026-04-25 14:49:36,947 - INFO - SKIPPED (duplicate): Self-Propagating Supply Chain Worm Hijacks npm Packages to Steal Developer Tokens [The Hacker News]
+2026-04-25 14:49:36,948 - INFO - SKIPPED (duplicate): Harvester Deploys Linux GoGra Backdoor in South Asia Using Microsoft Graph API [The Hacker News]
+2026-04-25 14:49:36,949 - INFO - SKIPPED (duplicate): Lotus Wiper Malware Targets Venezuelan Energy Systems in Destructive Attack [The Hacker News]
+2026-04-25 14:49:36,949 - INFO - SKIPPED (duplicate): Toxic Combinations: When Cross-App Permissions Stack into Risk [The Hacker News]
+2026-04-25 14:49:36,950 - INFO - SKIPPED (duplicate): Microsoft Patches Critical ASP.NET Core CVE-2026-40372 Privilege Escalation Bug [The Hacker News]
+2026-04-25 14:51:29,868 - INFO - Successfully generated AI summary.
+2026-04-25 14:51:30,699 - INFO - SAVED: Mustang Panda’s New LOTUSLITE Variant Targets India Banks, South Korea Policy Circles [The Hacker News]
+2026-04-25 14:52:26,304 - INFO - Successfully generated AI summary.
+2026-04-25 14:52:26,435 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /search?q=Terrarium&format=json&limit=1
+2026-04-25 14:52:26,874 - INFO - Geocoded: Terrarium -> {'lat': 50.1164159, 'lon': 14.4079473}
+2026-04-25 14:52:26,911 - INFO - SAVED: Cohere AI Terrarium Sandbox Flaw Enables Root Code Execution, Container Escape [The Hacker News]
+2026-04-25 14:53:15,282 - INFO - Successfully generated AI summary.
+2026-04-25 14:53:15,369 - INFO - SAVED: SystemBC C2 Server Reveals 1,570+ Victims in The Gentlemen Ransomware Operation [The Hacker News]
+2026-04-25 14:54:04,276 - INFO - Successfully generated AI summary.
+2026-04-25 14:54:04,511 - INFO - Geocoded: Lantronix -> {'lat': 50.6905827, 'lon': 10.93173}
+2026-04-25 14:54:04,538 - INFO - SAVED: 22 BRIDGE:BREAK Flaws Expose Thousands of Lantronix and Silex Serial-to-IP Converters [The Hacker News]
+2026-04-25 14:54:51,636 - INFO - Successfully generated AI summary.
+2026-04-25 14:54:51,722 - INFO - SAVED: Ransomware Negotiator Pleads Guilty to Aiding BlackCat Attacks in 2023 [The Hacker News]
+2026-04-25 14:54:51,726 - INFO - Reached limit of 5 saved articles. Stopping feed processing.
+2026-04-25 14:54:51,728 - INFO - Scraping finished. Total saved: 5, Total skipped: 22
+2026-04-25 19:41:23,243 - INFO - Dash is running on http://127.0.0.1:8050/
+
+2026-04-25 20:30:55,139 - INFO - STARTING PARALLEL SCRAPE: 7 sources, ~2 per source.
+2026-04-25 20:30:55,143 - INFO - THREAD START: Fetching The Hacker News
+2026-04-25 20:30:55,146 - INFO - THREAD START: Fetching CSO Online
+2026-04-25 20:30:55,150 - INFO - THREAD START: Fetching ThreatPost
+2026-04-25 20:30:55,163 - INFO - THREAD START: Fetching Dark Reading
+2026-04-25 20:30:55,331 - INFO - THREAD START: Fetching Krebs on Security
+2026-04-25 20:30:55,371 - INFO - THREAD START: Fetching BleepingComputer
+2026-04-25 20:30:55,501 - INFO - THREAD START: Fetching Schneier on Security
+2026-04-25 20:30:59,397 - INFO - Spacy model 'en_core_web_sm' loaded successfully.
+2026-04-25 20:30:59,401 - INFO - Spacy model 'en_core_web_sm' loaded successfully.
+2026-04-25 20:31:00,644 - INFO - Spacy model 'en_core_web_sm' loaded successfully.
+2026-04-25 20:31:10,183 - INFO - STARTING PARALLEL SCRAPE: 7 sources, ~2 per source.
+2026-04-25 20:31:10,185 - INFO - THREAD START: Fetching The Hacker News
+2026-04-25 20:31:10,187 - INFO - THREAD START: Fetching CSO Online
+2026-04-25 20:31:10,219 - INFO - THREAD START: Fetching ThreatPost
+2026-04-25 20:31:10,283 - INFO - THREAD START: Fetching Dark Reading
+2026-04-25 20:31:10,334 - INFO - THREAD START: Fetching Krebs on Security
+2026-04-25 20:31:10,397 - INFO - THREAD START: Fetching BleepingComputer
+2026-04-25 20:31:10,433 - INFO - THREAD START: Fetching Schneier on Security
+2026-04-25 20:32:08,362 - INFO - Successfully generated AI summary.
+2026-04-25 20:32:08,562 - INFO - THREAD SAVE: [BleepingComputer] Microsoft rolls out revamped Windows Insider Progr...
+2026-04-25 20:33:43,333 - INFO - Successfully generated AI summary.
+2026-04-25 20:33:44,262 - INFO - Geocoded: Lean -> {'lat': 36.657773, 'lon': 110.9856677}
+2026-04-25 20:33:49,836 - ERROR - THREAD ERROR in CSO Online: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO entities (name, type) VALUES (?, ?)]
+[parameters: ('name', 'type')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-04-25 20:34:02,664 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=180)
+2026-04-25 20:34:02,801 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=180)
+2026-04-25 20:34:02,854 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=180)
+2026-04-25 20:34:02,955 - INFO - THREAD SAVE: [Schneier on Security] Friday Squid Blogging: How Squid Survived Extincti...
+2026-04-25 20:34:03,458 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=180)
+2026-04-25 20:34:08,237 - ERROR - THREAD ERROR in The Hacker News: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO entities (name, type) VALUES (?, ?)]
+[parameters: ('name', 'type')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-04-25 20:34:09,111 - ERROR - THREAD ERROR in Dark Reading: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO entities (name, type) VALUES (?, ?)]
+[parameters: ('name', 'type')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-04-25 20:34:09,338 - ERROR - THREAD ERROR in Krebs on Security: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO entities (name, type) VALUES (?, ?)]
+[parameters: ('name', 'type')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-04-25 20:34:14,276 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=180)
+2026-04-25 20:34:14,502 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=180)
+2026-04-25 20:34:14,611 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=180)
+2026-04-25 20:34:14,631 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=180)
+2026-04-25 20:34:14,654 - INFO - THREAD SAVE: [Schneier on Security] Friday Squid Blogging: How Squid Survived Extincti...
+2026-04-25 20:34:15,339 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=180)
+2026-04-25 20:34:15,358 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=180)
+2026-04-25 20:34:19,777 - ERROR - THREAD ERROR in BleepingComputer: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO entities (name, type) VALUES (?, ?)]
+[parameters: ('name', 'type')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-04-25 20:34:20,089 - ERROR - THREAD ERROR in The Hacker News: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO entities (name, type) VALUES (?, ?)]
+[parameters: ('name', 'type')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-04-25 20:34:20,212 - ERROR - THREAD ERROR in Dark Reading: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO entities (name, type) VALUES (?, ?)]
+[parameters: ('name', 'type')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-04-25 20:34:21,289 - ERROR - THREAD ERROR in CSO Online: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO entities (name, type) VALUES (?, ?)]
+[parameters: ('name', 'type')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-04-25 20:34:21,298 - ERROR - THREAD ERROR in Krebs on Security: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO entities (name, type) VALUES (?, ?)]
+[parameters: ('name', 'type')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-04-25 20:35:10,899 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=180)
+2026-04-25 20:35:10,945 - INFO - THREAD SAVE: [BleepingComputer] Threat actor uses Microsoft Teams to deploy new “S...
+2026-04-25 20:36:15,844 - INFO - Successfully generated AI summary.
+2026-04-25 20:36:15,943 - INFO - THREAD SAVE: [Schneier on Security] Hiding Bluetooth Trackers in Mail...
+2026-04-25 20:36:15,999 - INFO - PARALLEL SCRAPE COMPLETE: Total 4 articles saved.
+2026-04-25 20:36:33,395 - INFO - Successfully generated AI summary.
+2026-04-25 20:36:33,481 - INFO - THREAD SAVE: [Schneier on Security] Hiding Bluetooth Trackers in Mail...
+2026-04-25 20:36:33,488 - ERROR - THREAD ERROR in Schneier on Security: (sqlite3.IntegrityError) UNIQUE constraint failed: news.url
+[SQL: INSERT INTO news (title, date, category, url, content, source, sentiment, ai_summary, latitude, longitude, location_name) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING id]
+[parameters: ('Friday Squid Blogging: How Squid Survived Extinction Events', '2026-04-24', np.str_('Malware'), 'https://www.schneier.com/blog/archives/2026/04/friday-squid-blogging-how-squid-survived-extinction-events.html', 'Science news : Scientists have finally cracked a long-standing mystery about squid and cuttlefish evolution by analyzing newly sequenced genomes alon ... (389 characters truncated) ... r habitats. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.', 'Schneier on Security', 'Neutral', 'Science news : Scientists have finally cracked a long-standing mystery about squid and cuttlefish evolution by analyzing newly sequenced genomes alongside global datasets. The research reveals that th...', None, None, None)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-04-25 20:36:33,508 - INFO - PARALLEL SCRAPE COMPLETE: Total 2 articles saved.
+2026-04-25 22:53:17,685 - INFO - STARTING PARALLEL SCRAPE: 7 sources, ~2 per source.
+2026-04-25 22:53:17,690 - INFO - THREAD START: Fetching The Hacker News
+2026-04-25 22:53:17,693 - INFO - THREAD START: Fetching CSO Online
+2026-04-25 22:53:17,695 - INFO - THREAD START: Fetching ThreatPost
+2026-04-25 22:53:17,698 - INFO - THREAD START: Fetching Dark Reading
+2026-04-25 22:53:17,700 - INFO - THREAD START: Fetching Krebs on Security
+2026-04-25 22:53:17,703 - INFO - THREAD START: Fetching BleepingComputer
+2026-04-25 22:53:17,707 - INFO - THREAD START: Fetching Schneier on Security
+2026-04-25 22:53:25,730 - INFO - Spacy model 'en_core_web_sm' loaded successfully.
+2026-04-25 22:53:25,751 - INFO - Spacy model 'en_core_web_sm' loaded successfully.
+2026-04-25 22:53:25,798 - INFO - Spacy model 'en_core_web_sm' loaded successfully.
+2026-04-25 22:53:26,110 - INFO - Spacy model 'en_core_web_sm' loaded successfully.
+2026-04-25 22:53:26,180 - INFO - Spacy model 'en_core_web_sm' loaded successfully.
+2026-04-25 22:53:26,186 - INFO - Spacy model 'en_core_web_sm' loaded successfully.
+2026-04-25 22:54:30,853 - INFO - Successfully generated AI summary.
+2026-04-25 22:54:31,468 - INFO - THREAD SAVE: [Dark Reading] US Busts Myanmar Ring Targeting US Citizens in Fin...
+2026-04-25 22:55:34,677 - INFO - Successfully generated AI summary.
+2026-04-25 22:55:35,140 - INFO - THREAD SAVE: [BleepingComputer] ADT confirms data breach after ShinyHunters leak t...
+2026-04-25 22:56:33,148 - INFO - Successfully generated AI summary.
+2026-04-25 22:56:33,280 - INFO - THREAD SAVE: [The Hacker News] 5 Places where Mature SOCs Keep MTTR Fast and Othe...
+2026-04-25 22:58:05,196 - INFO - Successfully generated AI summary.
+2026-04-25 22:58:05,719 - INFO - THREAD SAVE: [Schneier on Security] FBI Extracts Deleted Signal Messages from iPhone N...
+2026-04-25 23:00:00,463 - INFO - Successfully generated AI summary.
+2026-04-25 23:00:01,387 - INFO - THREAD SAVE: [CSO Online] 3 practical ways AI threat detection improves ente...
+2026-04-25 23:01:57,784 - INFO - Successfully generated AI summary.
+2026-04-25 23:01:58,301 - INFO - THREAD SAVE: [Krebs on Security] ‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty...
+2026-04-25 23:02:27,008 - INFO - Successfully generated AI summary.
+2026-04-25 23:02:27,062 - INFO - THREAD SAVE: [Dark Reading] Glasswing Secured the Code. The Rest of Your Stack...
+2026-04-25 23:03:20,114 - INFO - Successfully generated AI summary.
+2026-04-25 23:03:20,235 - INFO - THREAD SAVE: [BleepingComputer] Firestarter malware survives Cisco firewall update...
+2026-04-25 23:04:06,124 - INFO - Successfully generated AI summary.
+2026-04-25 23:04:06,546 - INFO - Geocoded: Brazil -> {'lat': -10.3333333, 'lon': -53.2}
+2026-04-25 23:04:06,594 - INFO - THREAD SAVE: [The Hacker News] NGate Campaign Targets Brazil, Trojanizes HandyPay...
+2026-04-25 23:04:34,678 - INFO - Successfully generated AI summary.
+2026-04-25 23:04:34,715 - INFO - THREAD SAVE: [Schneier on Security] ICE Uses Graphite Spyware...
+2026-04-25 23:07:33,010 - INFO - Successfully generated AI summary.
+2026-04-25 23:07:34,550 - INFO - THREAD SAVE: [CSO Online] The curious case of Sean Plankey’s derailed CISA n...
+2026-04-25 23:10:20,671 - INFO - Successfully generated AI summary.
+2026-04-25 23:10:21,171 - INFO - THREAD SAVE: [Krebs on Security] Patch Tuesday, April 2026 Edition...
+2026-04-25 23:10:21,241 - INFO - PARALLEL SCRAPE COMPLETE: Total 12 articles saved.
+2026-04-25 23:38:33,308 - INFO - STARTING PARALLEL SCRAPE: 7 sources, ~2 per source.
+2026-04-25 23:38:33,319 - INFO - THREAD START: Fetching The Hacker News
+2026-04-25 23:38:33,321 - INFO - THREAD START: Fetching CSO Online
+2026-04-25 23:38:33,325 - INFO - THREAD START: Fetching ThreatPost
+2026-04-25 23:38:33,327 - INFO - THREAD START: Fetching Dark Reading
+2026-04-25 23:38:33,328 - INFO - THREAD START: Fetching Krebs on Security
+2026-04-25 23:38:33,330 - INFO - THREAD START: Fetching BleepingComputer
+2026-04-25 23:38:33,332 - INFO - THREAD START: Fetching Schneier on Security
+2026-04-25 23:40:00,907 - INFO - Successfully generated AI summary.
+2026-04-25 23:40:01,518 - INFO - THREAD SAVE: [Schneier on Security] Mexican Surveillance Company...
+2026-04-25 23:40:32,794 - INFO - Successfully generated AI summary.
+2026-04-25 23:40:32,948 - INFO - THREAD SAVE: [BleepingComputer] Windows Update gets new controls to reduce forced ...
+2026-04-25 23:41:02,005 - INFO - Successfully generated AI summary.
+2026-04-25 23:41:02,077 - INFO - THREAD SAVE: [Dark Reading] AI Phishing Is No. 1 With a Bullet for Cyberattack...
+2026-04-25 23:41:41,441 - INFO - Successfully generated AI summary.
+2026-04-25 23:41:41,595 - INFO - THREAD SAVE: [The Hacker News] No Exploit Needed: How Attackers Walk Through the ...
+2026-04-25 23:43:30,870 - INFO - Successfully generated AI summary.
+2026-04-25 23:43:31,455 - INFO - THREAD SAVE: [Krebs on Security] Russia Hacked Routers to Steal Microsoft Office To...
+2026-04-25 23:45:32,959 - INFO - Successfully generated AI summary.
+2026-04-25 23:45:33,765 - INFO - THREAD SAVE: [CSO Online] Offer customers passkeys by default, UK’s NCSC tel...
+2026-04-25 23:47:12,705 - INFO - Successfully generated AI summary.
+2026-04-25 23:47:12,816 - INFO - THREAD SAVE: [Schneier on Security] Is “Satoshi Nakamoto” Really Adam Back?...
+2026-04-25 23:47:45,486 - INFO - Successfully generated AI summary.
+2026-04-25 23:47:45,604 - INFO - THREAD SAVE: [BleepingComputer] New BlackFile extortion group linked to surge of v...
+2026-04-25 23:48:28,841 - INFO - Successfully generated AI summary.
+2026-04-25 23:48:28,917 - INFO - THREAD SAVE: [Dark Reading] North Korea's Lazarus Targets macOS Users via Clic...
+2026-04-25 23:49:13,648 - INFO - Successfully generated AI summary.
+2026-04-25 23:49:13,765 - INFO - THREAD SAVE: [The Hacker News] Google Patches Antigravity IDE Flaw Enabling Promp...
+2026-04-25 23:52:15,782 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=180)
+2026-04-25 23:52:17,290 - INFO - THREAD SAVE: [Krebs on Security] Germany Doxes “UNKN,” Head of RU Ransomware Gangs ...
+2026-04-25 23:55:18,161 - ERROR - Error during AI summarization: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=180)
+2026-04-25 23:55:18,495 - INFO - THREAD SAVE: [CSO Online] Google drafts AI agents to secure systems against ...
+2026-04-25 23:55:18,564 - INFO - PARALLEL SCRAPE COMPLETE: Total 12 articles saved.

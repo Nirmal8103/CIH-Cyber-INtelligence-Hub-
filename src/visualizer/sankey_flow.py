@@ -13,10 +13,7 @@ def create_sankey_flow(df):
     # Use full filtered dataset for accurate flow representation (cap at 200 for readability)
     sample_df = df.head(200).copy()
     
-    # Nodes: Sources, Categories, Entities, Sentiments
-    sources = sample_df['source'].unique().tolist()
-    categories = sample_df['category'].unique().tolist()
-    sentiments = sample_df['sentiment'].unique().tolist()
+    from collections import Counter
     
     # For entities, pick top ones
     all_ents = []
@@ -26,59 +23,53 @@ def create_sankey_flow(df):
         elif hasattr(ents, '__iter__'):
             all_ents.extend([ent_obj.name for ent_obj in ents])
     
-    top_entities = sorted(list(set(all_ents)))[:15] # Limit for readability
+    top_entities = [e for e, c in Counter(all_ents).most_common(15)]
+    if not top_entities:
+        top_entities = ['No Entities']
+        
+    top_entities.append('Other Entities')
+
+    # Nodes: Sources, Categories, Entities, Sentiments
+    sources = sample_df['source'].unique().tolist()
+    categories = sample_df['category'].unique().tolist()
+    sentiments = sample_df['sentiment'].unique().tolist()
 
     # Map labels to indices
     labels = sources + categories + top_entities + sentiments
     label_map = {l: i for i, l in enumerate(labels)}
     
-    source_indices = []
-    target_indices = []
-    values = []
-    
-    # 1. Source -> Category
-    for s in sources:
-        for c in categories:
-            count = len(sample_df[(sample_df['source'] == s) & (sample_df['category'] == c)])
-            if count > 0:
-                source_indices.append(label_map[s])
-                target_indices.append(label_map[c])
-                values.append(count)
-                
-    # 2. Category -> Entity
-    for c in categories:
-        for ent in top_entities:
-            # Count articles in category c that have entity ent
-            count = 0
-            for _, row in sample_df[sample_df['category'] == c].iterrows():
-                row_ents = []
-                if isinstance(row['entities'], str):
-                    row_ents = [e.strip() for e in row['entities'].split(',')]
-                elif hasattr(row['entities'], '__iter__'):
-                    row_ents = [ent_obj.name for ent_obj in row['entities']]
-                if ent in row_ents:
-                    count += 1
-            if count > 0:
-                source_indices.append(label_map[c])
-                target_indices.append(label_map[ent])
-                values.append(count)
+    link_counts = {}
 
-    # 3. Entity -> Sentiment
-    for ent in top_entities:
-        for sent in sentiments:
-            count = 0
-            for _, row in sample_df[sample_df['sentiment'] == sent].iterrows():
-                row_ents = []
-                if isinstance(row['entities'], str):
-                    row_ents = [e.strip() for e in row['entities'].split(',')]
-                elif hasattr(row['entities'], '__iter__'):
-                    row_ents = [ent_obj.name for ent_obj in row['entities']]
-                if ent in row_ents:
-                    count += 1
-            if count > 0:
-                source_indices.append(label_map[ent])
-                target_indices.append(label_map[sent])
-                values.append(count)
+    def add_link(src_label, tgt_label):
+        if src_label not in label_map or tgt_label not in label_map:
+            return
+        pair = (label_map[src_label], label_map[tgt_label])
+        link_counts[pair] = link_counts.get(pair, 0) + 1
+
+    # Build continuous paths per article
+    for _, row in sample_df.iterrows():
+        src = row['source']
+        cat = row['category']
+        sent = row['sentiment']
+        
+        row_ents = []
+        if isinstance(row['entities'], str):
+            row_ents = [e.strip() for e in row['entities'].split(',') if e.strip()]
+        elif hasattr(row['entities'], '__iter__'):
+            row_ents = [ent_obj.name for ent_obj in row['entities']]
+            
+        valid_ents = [e for e in row_ents if e in top_entities]
+        if not valid_ents:
+            valid_ents = ['Other Entities']
+            
+        for ent in valid_ents:
+            add_link(src, cat)
+            add_link(cat, ent)
+            add_link(ent, sent)
+
+    source_indices = [pair[0] for pair in link_counts.keys()]
+    target_indices = [pair[1] for pair in link_counts.keys()]
+    values = list(link_counts.values())
 
     fig = go.Figure(data=[go.Sankey(
         node = dict(

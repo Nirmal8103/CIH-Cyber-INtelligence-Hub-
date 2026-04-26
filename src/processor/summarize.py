@@ -2,6 +2,9 @@
 import requests
 import json
 import logging
+import threading
+
+ai_lock = threading.Lock()
 
 # -----------------------------
 # Logging setup
@@ -35,7 +38,8 @@ def summarize_article(text):
     }
 
     try:
-        response = requests.post(OLLAMA_API_URL, json=payload, timeout=60)
+        with ai_lock:
+            response = requests.post(OLLAMA_API_URL, json=payload, timeout=180)
         response.raise_for_status()
         result = response.json()
         summary = result.get("response", "").strip()

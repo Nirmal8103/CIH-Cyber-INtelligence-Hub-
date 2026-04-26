@@ -54,6 +54,7 @@ def calculate_metrics_from_df(df):
     if df.empty:
         return {"metrics": {"total_intelligence_nodes": 0, "avg_entity_density": 0, "compression_efficiency": "0%", "ner_coverage": "0%"}}
     
+    df = df.copy()
     total_articles = len(df)
     
     # Estimate entity count from the entities string column
